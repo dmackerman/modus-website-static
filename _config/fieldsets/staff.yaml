@@ -1,4 +1,4 @@
-title: staff
+title: Staff
 
 fields:
   position:
@@ -16,3 +16,6 @@ fields:
   content:
     type: textarea
     display: Short Bio
+
+# hides it from new page options
+hide: true

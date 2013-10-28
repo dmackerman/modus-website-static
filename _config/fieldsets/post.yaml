@@ -2,9 +2,17 @@ fields:
   categories:
     display: Categories
     required: false
-    default:
     type: tags
+  picture:
+    display: Featured Image
+    instructions: Ideal size is large we'll resize it. This will span all the way across the top of the post.
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img/blog/   # make sure your folder is writable
   content:
-    type: redactor
+    display: Page Content
+    instructions: Write all content using Markdown. If you need to use a code block, use the fenced syntax of ~~~ ...code here... ~~~ (those are tildes) 
+    type: markitup
+    image_dir: assets/img/blog/
 
 hide: true

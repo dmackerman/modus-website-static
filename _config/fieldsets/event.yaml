@@ -26,8 +26,17 @@ fields:
     display: Event Link
     instructions: The event link on either EventBrite, Meetup, or one of the other services. Not required. 
     # required: true
+  _template: # note the prefixed _underscore
+    display: Template
+    type: templates
+    instructions: This should remain as "single event" unless it's a very special case
+    default: single-event
+    required: true
   content:
     display: Content
     type: redactor
     required: true
     image_dir: assets/events/img/
+
+# hides it from new page options
+hide: true
