@@ -19,3 +19,4 @@ ERROR|Mon, 28 Oct 2013 12:38:32 -0400|page|content|/_themes/modus/js/modus.js|::
 ERROR|Mon, 28 Oct 2013 12:57:36 -0400|page|content|/calendar|::1|dev|404 - Page not found. There is a bad link on <a href="/about-me">/about-me</a>.
 ERROR|Mon, 28 Oct 2013 12:57:37 -0400|page|content|/calendar|::1|dev|404 - Page not found. There is a bad link on <a href="/about-me">/about-me</a>.
 ERROR|Mon, 28 Oct 2013 13:02:22 -0400|visitor|content|/about|::1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 28 Oct 2013 13:45:11 -0400|visitor|content|/./admin/themes/ascent/layouts/default.html|::1|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

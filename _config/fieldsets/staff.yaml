@@ -1,0 +1,18 @@
+title: staff
+
+fields:
+  position:
+    required: true
+  twitter:
+    required: true
+    instructions: Include the '@' symbol
+    default: @
+  picture:
+    display: Picture
+    instructions: Ideal size is 600x600 and we'll resize it. 
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img/staff/   # make sure your folder is writable
+  content:
+    type: textarea
+    display: Short Bio

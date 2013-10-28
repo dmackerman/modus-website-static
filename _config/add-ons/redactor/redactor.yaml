@@ -71,7 +71,7 @@ plugins:
   - fullscreen
 
 # Set a minimum height (in pixels)
-minHeight: 150
+minHeight: 250
 
 # Turn on/off paragraph formatting
 paragraphy: true

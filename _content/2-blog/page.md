@@ -1,4 +1,4 @@
 ---
-title: Journal
+title: Blog
 _fieldset: page
 ---

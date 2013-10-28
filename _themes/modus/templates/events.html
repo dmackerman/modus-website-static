@@ -1,0 +1,15 @@
+<h1>{{ title }}</h1>
+<p>{{ content }}</p>
+<hr>
+
+{{ entries:listing folder="events" limit="10" }}
+  <h2>{{ title }}</h2>
+  <ul>
+    <li>{{ date }}</li>
+    <li>{{ startTime }} - {{ endTime }}</li>
+    <li><em>{{ location }}</em></li>
+  </ul>
+  <p>{{ content }}</p>
+  
+  <hr />
+{{ /entries:listing }}
