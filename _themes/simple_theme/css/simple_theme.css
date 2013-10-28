@@ -1,0 +1,7 @@
+/* This is where all our styles go change the name of this file yo the name of your theme. */
+
+body { font-family: 'Helvetica Neue'; max-width: 36em; margin: 0 auto; }
+h1 { text-align: center; }
+h2 { color: red; text-align: center; }
+article { border-bottom: 1px solid #eee; padding: 1em 0; }
+.pagination { padding: 1em 0; }

@@ -1,0 +1,18 @@
+ERROR|Mon, 28 Oct 2013 12:27:55 -0400|page|content|/_themes/minimal/css/minimal.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+INFO|Mon, 28 Oct 2013 12:27:55 -0400|site|favicon|/favicon.ico|::1|dev|The site favicon could not be found.
+ERROR|Mon, 28 Oct 2013 12:27:56 -0400|page|content|/_themes/minimal/css/minimal.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:28:16 -0400|page|content|/_themes/minimal/css/minimal.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:28:17 -0400|page|content|/_themes/minimal/css/minimal.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:28:23 -0400|page|content|/_themes/minimal/css/minimal.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+FATAL|Mon, 28 Oct 2013 12:30:00 -0400|template||/|::1|dev|Can't find the specified theme
+ERROR|Mon, 28 Oct 2013 12:33:37 -0400|page|content|/_themes/modus/css/modus.css|::1|dev|404 - Page not found. There is a bad link on <a href="/blog?page=1">/blog?page=1</a>.
+ERROR|Mon, 28 Oct 2013 12:33:37 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/blog?page=1">/blog?page=1</a>.
+ERROR|Mon, 28 Oct 2013 12:33:40 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/blog?page=2">/blog?page=2</a>.
+ERROR|Mon, 28 Oct 2013 12:33:40 -0400|page|content|/_themes/modus/css/modus.css|::1|dev|404 - Page not found. There is a bad link on <a href="/blog?page=2">/blog?page=2</a>.
+ERROR|Mon, 28 Oct 2013 12:33:45 -0400|page|content|/_themes/modus/css/modus.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:33:45 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:38:18 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:38:18 -0400|page|content|/_themes/modus/css/modus.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:38:19 -0400|page|content|/_themes/modus/css/modus.css|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:38:19 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Mon, 28 Oct 2013 12:38:32 -0400|page|content|/_themes/modus/js/modus.js|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
