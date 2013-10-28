@@ -1,9 +1,14 @@
 title: Event
 
 fields:
-  title:
-    display: Name of the event
-    required: true
+  meta_section:
+    type: section
+    display: Event Details
+    instructions: Add details about the staff member here.
+  featured:
+    display: Featured Event
+    type: checkbox
+    instructions: Is this event featured? If it is, it will show up in cool places and stuff. 
   date:
     display: Event Date
     required: true
@@ -19,7 +24,7 @@ fields:
   location:
     display: Event Location
     required: true
-  speaker:
+  speakers:
     display: Speaker Name
     required: true
   eventLink:
@@ -34,9 +39,8 @@ fields:
     required: true
   content:
     display: Content
-    type: redactor
+    type: markitup
     required: true
-    image_dir: assets/events/img/
 
 # hides it from new page options
 hide: true

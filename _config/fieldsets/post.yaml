@@ -1,4 +1,7 @@
 fields:
+  author:
+    display: Author
+    type: users
   categories:
     display: Categories
     required: false

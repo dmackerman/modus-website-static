@@ -1,6 +1,10 @@
 title: Staff
 
 fields:
+  meta_section:
+    type: section
+    display: Staff Details
+    instructions: Add details about the staff member here.
   position:
     required: true
   twitter:
