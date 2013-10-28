@@ -30,8 +30,8 @@ _content_root: _content
 _site_url: http://statamic.com
 
 # Folder name of your desired theme
-_theme: denali
-# _theme: modus
+# _theme: denali
+_theme: modus
 
 # Entries should include timestamp YYYY-MM-DD-HHII
 _entry_timestamps: false

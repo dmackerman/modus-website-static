@@ -1,11 +1,12 @@
 ---
 title: About Me
-_template: page
-_fieldset: kitchen_sink
+_template: about
 ---
 ### I'm nobody. I live in the wilderness, living off the land, existing on my survival skills. I often write in Latin.
 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum lobortis porta. Mauris faucibus hendrerit pulvinar. Pellentesque sagittis, enim eu ornare dapibus, ligula nibh fermentum mauris, nec interdum lorem ante vel nunc. Nam vestibulum eleifend lorem, ullamcorper fermentum nulla ultrices in. Vivamus luctus iaculis quam. Nulla arcu eros, iaculis at elementum dignissim, rhoncus rutrum felis. Etiam convallis felis at dui laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec et nunc erat. In hac habitasse platea dictumst. Suspendisse et ante eget arcu pellentesque fermentum nec eu est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sit amet risus sed magna varius commodo ac eget sapien. In lectus ante, pretium sed ultrices ut, bibendum nec eros.
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum lobortis porta. Mauris faucibus hendrerit pulvinar. Pellentesque sagittis, enim eu ornare dapibus, ligula nibh fermentum mauris, nec interdum lorem ante vel nunc. Nam vestibulum eleifend lorem, ullamcorper fermentum nulla ultrices in. Vivamus luctus iaculis quam. Nulla arcu eros, iaculis at elementum dignissim, rhoncus rutrum felis. Etiam convallis felis at dui laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec et nunc erat. In hac habitasse platea dictumst. Suspendisse et ante eget arcu pellentesque fermentum nec eu est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sit amet risus sed magna varius commodo ac eget sapien. In lectus ante, pretium sed ultrices ut, bibendum nec eros.
+```
 
 Nunc placerat felis et sem viverra elementum. Ut ultricies varius tortor bibendum facilisis. Maecenas non sodales felis. Morbi adipiscing, nibh eu dignissim consectetur, lectus augue lacinia purus, at semper mi libero at lacus. Nunc iaculis congue mi nec congue. Suspendisse at dignissim elit. Nunc rutrum tristique lacus a tristique. Phasellus feugiat magna sit amet lacus faucibus elementum. Cras pulvinar pretium mauris et blandit. Donec ultricies mattis nisi, vitae sagittis metus consectetur at. Cras suscipit sapien ac risus mollis in congue lacus eleifend. Sed porttitor nulla non sapien blandit vitae tempus ante auctor. Cras ut tortor nibh, sit amet pharetra mi.
 

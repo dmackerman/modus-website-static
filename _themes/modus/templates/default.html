@@ -1,0 +1,11 @@
+{{ entries:listing folder="blog" limit="10" }}
+ <div class="block entry">
+    <header>
+      <h2><a href="{{ url }}">{{ title }}</a></h2>
+      <date>{{ datestamp format="F jS, Y" }}</date>
+    </header>
+
+    {{ content }}
+
+  </div>
+{{ /entries:listing }}

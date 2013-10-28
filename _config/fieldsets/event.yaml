@@ -1,0 +1,33 @@
+title: Event
+
+fields:
+  title:
+    display: Name of the event
+    required: true
+  date:
+    display: Event Date
+    required: true
+    type: date
+  startTime:
+    display: Start Time
+    required: true
+    type: time
+  endTime:
+    display: End Time
+    required: true
+    type: time
+  location:
+    display: Event Location
+    required: true
+  speaker:
+    display: Speaker Name
+    required: true
+  eventLink:
+    display: Event Link
+    instructions: The event link on either EventBrite, Meetup, or one of the other services. Not required. 
+    # required: true
+  content:
+    display: Content
+    type: redactor
+    required: true
+    image_dir: assets/events/img/
