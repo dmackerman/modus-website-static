@@ -1,9 +1,15 @@
 module.exports = function(grunt) {
+
+  var config = {
+    theme: '_themes/modus'
+  };
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    config: config,
     watch: {
       sass: {
-        files: ['sass/**/*.{scss,sass}','sass/_partials/**/*.{scss,sass}'],
+        files: ['<%= config.theme %>/scss/**/*.{scss,sass}'],
         tasks: ['sass:dist']
       },
       livereload: {
@@ -16,7 +22,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/styles.css': 'sass/styles.scss'
+          '<%= config.theme %>/css/modus.css': '<%= config.theme %>/scss/modus.scss'
         }
       }
     }

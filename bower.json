@@ -1,0 +1,23 @@
+{
+  "name": "modus-website-static",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ModusCreateOrg/moduscreateweb-static",
+  "authors": [
+    "Dave Ackerman <dave@moduscreate.com>"
+  ],
+  "description": "moduscreate.com recreated with Statamic.",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "jquery": "~2.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_themes/modus/bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,1 +1,24 @@
-{{ content }}
+<div class="row">
+  <div class="col-md-8">
+    {{ content }}
+  </div>
+  <div class="col-md-4">
+    <div class="panel">
+      <h3>Upcoming Events</h3>
+      <ul>
+        {{ entries:listing folder="events" limit="10" }}
+          <li><a href="{{ url }}">{{ title }}</a></li>
+        {{ /entries:listing }}
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Latest Blog Posts</h3>
+      <ul>
+      {{ entries:listing folder="blog" limit="10" }}
+        <li><a href="{{ url }}">{{ title }}</a></li>
+      {{ /entries:listing }}
+      </ul>
+    </div>
+  </div>
+</div>
+

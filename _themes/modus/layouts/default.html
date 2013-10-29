@@ -7,11 +7,13 @@
 </head>
 <body>
 
-  <header>
-    {{ theme:partial src="nav" }}
-  </header>
+  <div class="container">
+    <header>
+      {{ theme:partial src="nav" }}
+    </header>
+    {{ layout_content }}
+  </div>
   
-  {{ layout_content }}
   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="{{ theme:js }}"></script>
