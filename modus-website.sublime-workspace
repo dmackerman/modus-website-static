@@ -1,0 +1,2082 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"topcoat-navigation-bar__",
+				"topcoat-navigation-bar__item"
+			],
+			[
+				"playerTw",
+				"playerTwoTally"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-rad",
+				"border-top-left-radius"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"event",
+				"events"
+			],
+			[
+				"yeo",
+				"yeomanConfig"
+			],
+			[
+				"existing",
+				"existingConnections"
+			],
+			[
+				"direct",
+				"directive	AngularJS"
+			],
+			[
+				"mg",
+				"margin-bottom"
+			],
+			[
+				"direc",
+				"directive	AngularJS"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"for",
+				"angular.forEach	AngularJS"
+			],
+			[
+				"defer",
+				"deferred"
+			],
+			[
+				"readonly",
+				"ng-readonly	AngularJS"
+			],
+			[
+				"connect",
+				"connectionModel"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"connec",
+				"connectionsAlreadyAdded"
+			],
+			[
+				"getCon",
+				"getConnections"
+			],
+			[
+				"get",
+				"getConnectionByEmail"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"Events",
+				"EventsService"
+			],
+			[
+				"user",
+				"userIsAuthenticated"
+			],
+			[
+				"set",
+				"AuthService.setLoginStatus"
+			],
+			[
+				"$root",
+				"$rootScope"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"tal",
+				"ta-l	text-align: left;"
+			],
+			[
+				"window",
+				"window.scrollY"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bi",
+				"angular: bind"
+			],
+			[
+				"route",
+				"angular: $route"
+			],
+			[
+				"repeat",
+				"ng-repeat	angular repeat"
+			],
+			[
+				"cons",
+				"console.	console.dir()"
+			],
+			[
+				"mb",
+				"mb-a	margin-bottom: auto;"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"edit",
+				"editMode"
+			],
+			[
+				"robus",
+				"robusStorage"
+			],
+			[
+				"work",
+				"workoutName"
+			],
+			[
+				"white",
+				"whitePlayerScoreEl"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"exer",
+				"exercisesInWorkout"
+			],
+			[
+				"number",
+				"numberOfWorkouts"
+			],
+			[
+				"exerC",
+				"exerciseView"
+			],
+			[
+				"addE",
+				"addExerciseView"
+			],
+			[
+				"AddExer",
+				"addExerciseView"
+			],
+			[
+				"onClickButton",
+				"onClickButtonAdd"
+			],
+			[
+				"addW",
+				"addWorkoutView"
+			],
+			[
+				"Add",
+				"addWorkoutView"
+			],
+			[
+				"x-",
+				"x-handlebars-template"
+			],
+			[
+				"workouts",
+				"workoutsCollection"
+			],
+			[
+				"WO",
+				"WorkoutsCollection"
+			],
+			[
+				"Workout",
+				"WorkoutsCollection"
+			],
+			[
+				"Piza",
+				"PizzaHut"
+			],
+			[
+				"OFf",
+				"OffersCollection"
+			],
+			[
+				"flip",
+				"flip-over"
+			],
+			[
+				"Su",
+				"Supreme"
+			],
+			[
+				"training",
+				"trainingSignupPage"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"backo",
+				"background-position"
+			],
+			[
+				"bp",
+				"background-position"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"check",
+				"check_progress"
+			],
+			[
+				"pro",
+				"progressBar"
+			],
+			[
+				"vi",
+				"video_name"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"cu",
+				"customPageTitle"
+			],
+			[
+				"q",
+				"queryStrings"
+			],
+			[
+				"utm_",
+				"utm_content"
+			],
+			[
+				"utm",
+				"utm_term"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_content/2-blog/2012-09-14-my-dear-friend-westin.md",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_content/2-blog/2012-11-29-code-hightlight-thing.md",
+			"settings":
+			{
+				"buffer_size": 855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_themes/modus/templates/blog.html",
+			"settings":
+			{
+				"buffer_size": 1363,
+				"line_ending": "Unix",
+				"name": "blog.html"
+			}
+		},
+		{
+			"file": "_themes/modus/templates/post.html",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_themes/modus/scss/foundation/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 36728,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_themes/modus/partials/nav.html",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_themes/modus/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_content/1-about/page.md",
+			"settings":
+			{
+				"buffer_size": 3045,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_themes/modus/layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_themes/modus/partials/footer.html",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix",
+				"name": "footer.html"
+			}
+		},
+		{
+			"file": "_themes/modus/scss/modus.scss",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pakacge",
+				"Package Control: Install Package"
+			],
+			[
+				"stylus",
+				"Set Syntax: Stylus"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"form",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"bach",
+				"Set Syntax: Batch File"
+			],
+			[
+				"java",
+				"Format: Javascript"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"fopr",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packge",
+				"Package Control: List Packages"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"multi",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"htmlk",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"slower",
+				"Snippet: |lowercase"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"gst",
+				"Gist: Create Private Gist"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"angular",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"jslint",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"pakage",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"orgmode",
+				"Set Syntax: orgmode"
+			],
+			[
+				"Pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"jva",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"foir",
+				"Format: Javascript"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"mark	",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git",
+				"Git: Pop Stash"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"hml",
+				"Set Syntax: HTML"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"handleb",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"fpt",
+				"Format: Javascript"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"jav",
+				"Format: Javascript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"titlec",
+				"Convert Case: Title Case"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"beatu",
+				"BeautifyRuby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"apach",
+				"Set Syntax: Apache Conf"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dave/.config/fish/config.fish",
+		"/Users/dave/Sites/modus-website-static/_content/2-blog/page.md",
+		"/Users/dave/Sites/modus-website-static/_content/2-blog/2013-10-29-this-is-a-new-entry.md",
+		"/Users/dave/Sites/modus-website-static/_themes/modus/scss/foundation/_variables.scss",
+		"/Users/dave/Sites/lousch/html5/app/controller/ApplicationController.js",
+		"/Users/dave/Sites/modus-website-static/_themes/modus/scss/_bootstrap.scss",
+		"/Users/dave/Sites/modus-website-static/package.json",
+		"/Users/dave/Sites/modus-website-static/_themes/modus/theme.yaml",
+		"/Users/dave/Sites/modus-website-static/_config/fieldsets/event.yaml",
+		"/Users/dave/Sites/modus-website-static/.gitignore",
+		"/Users/dave/Sites/modus-website-static/_config/_globals.yaml",
+		"/Users/dave/Sites/workspace/fifa-touch/app/model/Game.js",
+		"/Users/dave/Sites/workspace/.sencha/workspace/sencha.cfg",
+		"/Users/dave/Sites/fifa-touch/touch/resources/themes/stylesheets/sencha-touch/_cupertino.scss",
+		"/Users/dave/Sites/marginpoint/cordova/platforms/android/local.properties",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Home.js",
+		"/Users/dave/Sites/marginpoint/resources/sass/_base.scss",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Issue.js",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Return.js",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Receive.js",
+		"/Users/dave/Sites/marginpoint/app/view/phone/ScanItem.js",
+		"/Users/dave/Sites/marginpoint/app.js",
+		"/private/etc/php.ini.default",
+		"/private/etc/php.ini",
+		"/private/etc/php",
+		"/Users/dave/Sites/fifa-cordova/app/jade/partials/main.jade",
+		"/Users/dave/Sites/fifa-cordova/app/Gruntfile.js",
+		"/Users/dave/Sites/fifa-cordova/app/jade/index.jade",
+		"/Users/dave/Sites/fifa-cordova/app/js/controllers/ticker.js",
+		"/Users/dave/Sites/fifa-cordova/app/js/app.js",
+		"/Users/dave/Sites/fifa-cordova/app/bower.json",
+		"/Users/dave/Sites/fifa-cordova/app/bower_components/angular-fire/angularFire.js",
+		"/Users/dave/Sites/fifa-cordova/app/.bowerrc",
+		"/Users/dave/Sites/fifa-cordova/app/js/controllers/main.js",
+		"/Users/dave/Sites/fifa-cordova/app/stylus/main.styl",
+		"/Users/dave/Sites/fifa-cordova/app/views/main.html",
+		"/Users/dave/Sites/fifa-cordova/app/package.json",
+		"/Users/dave/Sites/fifa-cordova/app/jade/partials/ticker.jade",
+		"/Users/dave/Sites/fifa-cordova/www/index.html",
+		"/Users/dave/Sites/fifa-heroku/public/css/topcoat-mobile-dark.css",
+		"/Users/dave/Sites/marginpoint/app/view/Login.js",
+		"/Users/dave/Sites/marginpoint/resources/sass/_buttons.scss",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Batch.js",
+		"/Users/dave/Sites/marginpoint/.gitignore",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/views/location.html",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/index.html",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/views/main.html",
+		"/Users/dave/Sites/playground/angularCordova/platforms/ios/Angular Cordova/config.xml",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/scripts/controllers/Location.js",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/scripts/controllers/Camera.js",
+		"/Users/dave/Sites/playground/angularCordova/www/scripts/controllers/main.js",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/scripts/services/phoneGap.js",
+		"/Users/dave/Sites/playground/angularCordova/www/index.html",
+		"/Users/dave/Sites/playground/angularCordova/plugins/org.apache.cordova.camera/test/main.js",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/bower_components/angular-touch/angular-touch.js",
+		"/Users/dave/Sites/playground/angularCordova/yeoman/app/styles/main.css",
+		"/Users/dave/Sites/marginpoint/resources/css/mp.css",
+		"/Users/dave/Sites/marginpoint/app/view/Issue.js",
+		"/Users/dave/Sites/angular-mobile-components/src/views/page-two.html",
+		"/Users/dave/Sites/angular-mobile-components/src/stylus/main.styl",
+		"/Users/dave/Sites/playground/ratchet/dist/ratchet.css",
+		"/Users/dave/Sites/playground/ratchet/dist/template.html",
+		"/Users/dave/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dave/Sites/angular-mobile-components/src/css/ratchet.css",
+		"/Users/dave/Sites/playground/ratchet/dist/ratchet-theme.css",
+		"/Users/dave/Sites/angular-mobile-components/README.md",
+		"/Users/dave/Sites/angular-mobile-components/src/css/ratchet-theme.css",
+		"/Users/dave/Sites/angular-mobile-components/.gitignore",
+		"/Users/dave/Sites/angular-mobile-components/src/stylus/ratchet.styl",
+		"/Users/dave/Sites/angular-mobile-components/src/js/controllers/main.js",
+		"/Users/dave/Sites/angular-mobile-components/src/css/style.css",
+		"/Users/dave/Sites/angular-mobile-components/package.json",
+		"/Users/dave/Sites/angular-mobile-components/src/app.js",
+		"/Users/dave/Sites/marginpoint/app/controller/Home.js",
+		"/Users/dave/Sites/modus-dashboard/Gemfile.lock",
+		"/Users/dave/Sites/modus-dashboard/widgets/text/text.coffee",
+		"/Users/dave/Sites/fifa-heroku/README.md",
+		"/Users/dave/Sites/fifa-heroku/public/bower_components/angular-fire/angularFire.js",
+		"/Users/dave/Sites/fifa-heroku/public/stylus/main.styl",
+		"/Users/dave/Sites/fifa-heroku/public/stylus/poo.styl",
+		"/Users/dave/Sites/fifa-heroku/public/css/foundation.css",
+		"/Users/dave/Sites/fifa-heroku/package.json",
+		"/Users/dave/Sites/fifa-heroku/public/sass/_base.scss",
+		"/Users/dave/Sites/fifa-heroku/views/layout.jade",
+		"/Users/dave/Sites/fifa-heroku/.bowerrc",
+		"/Users/dave/Sites/fifa-heroku/views/partials/first.jade",
+		"/Users/dave/Sites/fifa-heroku/bower.json",
+		"/Users/dave/Sites/fifa-tracker/app/styles/stylus/foundation.styl",
+		"/Users/dave/Sites/fifa-tracker/app/styles/stylus/foundation.css",
+		"/Users/dave/Sites/marginpoint/resources/sass/_icons.scss",
+		"/Users/dave/Sites/marginpoint/app/controller/ScanItem.js",
+		"/Users/dave/Sites/marginpoint/app/controller/Issue.js",
+		"/Users/dave/Sites/marginpoint/app/view/phone/BusyIndicator.js",
+		"/Users/dave/Sites/marginpoint/resources/sass/_list.scss",
+		"/Users/dave/Sites/fifa-tracker/app/bower_components/angular-fire/angularfire.min.js",
+		"/Users/dave/Sites/fifa-tracker/app/scripts/services/Games.js",
+		"/Users/dave/Sites/fifa-tracker/app/scripts/services/mongolabResource.js",
+		"/Users/dave/Sites/fifa-tracker/app/index.html",
+		"/Users/dave/Sites/marginpoint/app/view/phone/Main.js",
+		"/Users/dave/Sites/playground/angular-preso/app/scripts/directives/car.js",
+		"/Users/dave/Sites/playground/angular-preso/app/scripts/services/cars.js",
+		"/Users/dave/Sites/playground/angular-preso/app/styles/foundation.css",
+		"/Users/dave/Downloads/foundation-4.3.2/css/foundation.min.css",
+		"/Users/dave/Sites/angular-better-placeholders/app/views/main.html",
+		"/Users/dave/Sites/angular-better-placeholders/.gitignore",
+		"/Users/dave/Sites/angular-better-placeholders/README.md",
+		"/Users/dave/Sites/angular-better-placeholders/app/scripts",
+		"/Users/dave/Sites/modus-dashboard/dashboards/layout.jade",
+		"/Users/dave/Sites/fifa-2/app/scripts/controllers/main.js",
+		"/Users/dave/Sites/fifa-2/app/styles/ratchet.styl",
+		"/Users/dave/Sites/fifa-2/app/views/new.html",
+		"/Users/dave/Sites/fifa-2/app/views/main.html",
+		"/Users/dave/Sites/fifa-2/app/styles/main.styl",
+		"/Users/dave/Sites/fifa-2/app/scripts/controllers/NewGame.js",
+		"/Users/dave/Sites/fifa-2/app/scripts/app.js",
+		"/Users/dave/bin/Sencha/Cmd/4.0.0.203/extensions/cmd-cordova-packager/templates/App/.sencha/app/cordova-impl.xml",
+		"/Users/dave/Sites/marginpoint/cordova.local.properties",
+		"/Users/dave/Sites/marginpoint/index.html",
+		"/Users/dave/Sites/marginpoint/touch/resources/sass/config.rb",
+		"/Users/dave/Sites/marginpoint/app.json",
+		"/Users/dave/Sites/marginpoint/touch/resources/sass/base.scss",
+		"/Users/dave/Sites/marginpoint/resources/css/app.css",
+		"/Users/dave/Sites/marginpoint/Gemfile",
+		"/Users/dave/Sites/lousch/html5/app/view/CompanyDetailView.js",
+		"/Users/dave/Sites/lousch/html5/app/view/CompanyContactDetailView.js",
+		"/Users/dave/Sites/lousch/html5/resources/sass/includes/_companyDetail.scss",
+		"/Users/dave/Sites/lousch/html5/app/view/CompanyCommitmentsTableView.js",
+		"/Users/dave/Sites/lousch/html5/app/view/CompanyContactListAttributesView.js"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 175.0,
+		"where_history":
+		[
+			"/Users/dave/Sites/marginpoint/resources/sass",
+			"/Users/dave/Sites/marginpoint/app/view/phone",
+			"/Users/dave/Sites/marginpoint/resources/sass",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/modus-website-static/_themes",
+			"/Users/dave/Sites/marginpoint/app/view",
+			"/Users/dave/Sites/marginpoint/app/controller",
+			"/Users/dave/Sites/marginpoint/app/view/phone",
+			"/Users/dave/Sites/marginpoint/resources/sass",
+			"/Users/dave/Sites/marginpoint/app/controller",
+			"/Users/dave/Sites/marginpoint/app/view",
+			"/Users/dave/Sites/marginpoint/app/view/phone",
+			"/Users/dave/Sites/marginpoint/app/view",
+			"/Users/dave/Sites/marginpoint/resources/sass",
+			"/Users/dave/Sites/marginpoint/app",
+			"/Users/dave/Sites/playground/angularCordova/yeoman/app",
+			"/Users/dave/Sites/marginpoint/app",
+			"/Users/dave/Sites/marginpoint",
+			"/Users/dave/Sites/angular-mobile-components/src",
+			"/Users/dave/Sites/lousch/html5/resources/sass",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/marginpoint/app",
+			"/Users/dave/Sites/marginpoint/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/touch/resources",
+			"/Users/dave/Sites/lousch/html5",
+			"/Users/dave/Sites/marginpoint/app/view/phone",
+			"/Users/dave/Sites/marginpoint/app/controller",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/lousch/html5/resources/sass",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/jobnavs/app/scripts",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass/includes",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass",
+			"/Users/dave/Sites/lousch/html5/app",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/lousch/html5/resources/sass",
+			"/Users/dave/Sites/lousch/html5/app/view",
+			"/Users/dave/Sites/jobnavs/app",
+			"/Users/dave/Sites/jobnavs/app/styles/sass",
+			"/Users/dave/Sites/jobnavs/app",
+			"/Users/dave/Sites/jobnavs/app/bower_components",
+			"/Users/dave/Sites/jobnavs/app/styles/sass",
+			"/Users/dave/Sites/JobNavs/app",
+			"/Users/dave/Sites/JobNavs/node",
+			"/Users/dave/Sites/JobNavs",
+			"/Users/dave/Sites/JobNavs/node",
+			"/Users/dave/Sites/JobNavs/app",
+			"/Users/dave/Sites/JobNavs/app/scripts",
+			"/Users/dave/Sites/JobNavs/app/views",
+			"/Users/dave/Sites/JobNavs/app/scripts",
+			"/Users/dave/Sites/JobNavs/app",
+			"/Users/dave/Sites/JobNavs/app/scripts",
+			"/Users/dave/Sites/JobNavs",
+			"/Users/dave/Sites/wiat-angular/web/src/main/webapp/sass",
+			"/Users/dave/Sites/wiat-angular/web/src/main/webapp/views",
+			"/Users/dave/Sites/wiat-angular/web/src/main/webapp",
+			"/Users/dave/Sites/modus-labs",
+			"/Users/dave/Sites/robus-angular/app/js",
+			"/Users/dave/Sites/robus-angular",
+			"/Users/dave/Sites/robus/js/views",
+			"/Users/dave/Sites/rvrsitPhone/html5/app",
+			"/Users/dave/Sites/rvrsitPhone/html5",
+			"/Users/dave/Sites/rvrsitPhone/server",
+			"/Users/dave/Sites/rvrsitPhone/html5/app/view",
+			"/Users/dave/Sites/rvrsitPhone/html5",
+			"/Users/dave/Sites/rvrsitPhone/html5/app",
+			"/Users/dave/Sites/rvrsitPhone/html5/app/view",
+			"/Users/dave/Sites/rvrsitPhone/html5/app",
+			"/Users/dave/Sites/rvrsitPhone/html5",
+			"/Users/dave/Sites/rvrsitPhone/html5/app/view",
+			"/Users/dave/Sites/plp/docroot",
+			"/Users/dave/Sites/rvrsitPhone/html5/lib",
+			"/Users/dave/Sites/rvrsitPhone/html5/lib/impact",
+			"/Users/dave/Sites/rvrsitPhone/html5",
+			"/Users/dave/Sites/wiat-angular",
+			"/Users/dave/Sites/rvrsitPhone",
+			"/Users/dave/Sites/robus/js",
+			"/Users/dave/Sites/robus",
+			"/Users/dave/Sites/playground/backbone",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/sass",
+			"/Users/dave/Sites/emn-pizzahut-prototype/resources/sass",
+			"/Users/dave/Sites/emn-pizzahut-prototype/resources",
+			"/Users/dave/Sites/emn-pizzahut-prototype/app",
+			"/Users/dave/Sites/emn-pizzahut-prototype",
+			"/Users/dave/Sites/emn-pizzahut-prototype/app",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/sass",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/sass",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/sass",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web/sass",
+			"/Users/dave/Sites/modus-website",
+			"/Users/dave/Sites/modus-website/wp-content/themes/moduscreate-web"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line-",
+			"header",
+			"alert",
+			"item-quantity-field",
+			"quantity",
+			"labelWidth",
+			"quantity",
+			"padding-left",
+			"padding-left:10px",
+			"padding-left",
+			"padding-left:10px",
+			"padding-left",
+			"padding",
+			"labelWidth",
+			"Quantity",
+			"Review Item",
+			"Go",
+			"scroll",
+			"settings-fieldset",
+			"logo",
+			"kkr-logo",
+			"logo",
+			"sencha",
+			"search",
+			"Search Companies",
+			"Search",
+			"filter",
+			"x-field-select",
+			"sep",
+			"btnCompanySegmented",
+			"kkr-top-tabs",
+			"btnCompanyActive",
+			"kkr-logo",
+			"Company ID",
+			"search",
+			"Search Companies",
+			"p",
+			"current",
+			"filter: alpha",
+			"filter",
+			"filter: alpha",
+			"opacity",
+			"disqus",
+			"open",
+			"Due",
+			"Received",
+			"action received",
+			"Open",
+			".action",
+			"action",
+			"action received",
+			"Received!",
+			"Requisition #",
+			"Recieved",
+			"top",
+			"!important",
+			".content {",
+			"enter",
+			"0.35s",
+			"-webkit-",
+			".content",
+			"blur",
+			"fifa-touch",
+			"workspace",
+			"base",
+			"maxHeight",
+			"flex: 1",
+			"cupertino",
+			"base",
+			"default",
+			"base",
+			"theme",
+			"base",
+			"cupertino",
+			"default",
+			"touch",
+			"default",
+			"each",
+			"Each",
+			"padding",
+			"Open",
+			"Open Qty",
+			"Each",
+			"items to re",
+			"to Receive",
+			"to Issue",
+			"Issue",
+			"icon-search",
+			"icon-barcode",
+			"                        margin : '10 0 10 0',\n                        flex   : 1",
+			"10 0 10 0",
+			"margin : '10 0 10 0'",
+			"flex   : 1",
+			"                        maxHeight: 120,\n                        flex: 1",
+			"height",
+			"max",
+			"http://www.newurl",
+			"http://www.oldurl",
+			";",
+			"angularFire",
+			"route",
+			"66px",
+			"./",
+			"bower_components",
+			"copy",
+			"main",
+			";",
+			"One",
+			"class='topcoat-text-input'",
+			"meta",
+			"ng-click",
+			"font-family",
+			"icon",
+			"font",
+			"fonts",
+			"right",
+			"full",
+			"input",
+			";",
+			"}",
+			"{",
+			"theme",
+			"remember",
+			"remember me",
+			"action",
+			"version",
+			"Username and Password",
+			"issue to batch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"icon-uniE02B",
+			"icon-uniE02A",
+			"icon-uniE030",
+			"icon-uniE008",
+			"icon-uniE021",
+			"icon-uniE016",
+			"../images",
+			"$modal",
+			"ng-if",
+			"UserService",
+			"font-family: inherit;",
+			"robus",
+			"http://www.elmstreetmanagement.com",
+			"Zepto",
+			"var app = app || {};",
+			"globals",
+			"80%",
+			".main-nav",
+			"menu-expanded",
+			".container",
+			"$secondary-color",
+			"$main-color",
+			"large-12 columns",
+			"large-11 columns",
+			"large-10 columns",
+			"large-9 columns",
+			"large-8 columns",
+			"large-7 columns",
+			"large-6 columns",
+			"large-5 columns",
+			"large-4 columns",
+			"large-3 columns",
+			"large-2 columns",
+			"$('button[type=submit]').prop('disabled', true).text('Sending...');",
+			"$('button[type=submit]').propr('disabled', true).text('Sending...');",
+			"name"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/dave/Sites/modus-website-static"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_content/2-blog/2012-09-14-my-dear-friend-westin.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_content/2-blog/2012-11-29-code-hightlight-thing.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_themes/modus/templates/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"auto_name": "blog.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_themes/modus/templates/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_themes/modus/scss/foundation/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_themes/modus/partials/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_themes/modus/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_content/1-about/page.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_themes/modus/layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_themes/modus/partials/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"auto_name": "footer.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_themes/modus/scss/modus.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 170.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nav.html",
+				"_themes/modus/partials/nav.html"
+			],
+			[
+				"_button",
+				"resources/sass/_buttons.scss"
+			],
+			[
+				"default.html",
+				"_themes/modus/layouts/default.html"
+			],
+			[
+				"_buttons",
+				"resources/sass/_buttons.scss"
+			],
+			[
+				"main.jade",
+				"app/jade/partials/main.jade"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"home.js",
+				"app/view/phone/Home.js"
+			],
+			[
+				"gruntfi",
+				"app/Gruntfile.js"
+			],
+			[
+				"_base.scss",
+				"resources/sass/_base.scss"
+			],
+			[
+				"login",
+				"app/view/Login.js"
+			],
+			[
+				"home.",
+				"app/view/phone/Home.js"
+			],
+			[
+				"buttons.scss",
+				"resources/sass/_buttons.scss"
+			],
+			[
+				"batch",
+				"app/view/phone/Batch.js"
+			],
+			[
+				"main.js",
+				"www/scripts/controllers/main.js"
+			],
+			[
+				"index.html",
+				"www/index.html"
+			],
+			[
+				"gruntf",
+				"yeoman/Gruntfile.js"
+			],
+			[
+				"app.scss",
+				"resources/sass/app.scss"
+			],
+			[
+				".css",
+				"resources/css/mp.css"
+			],
+			[
+				"issue.js",
+				"app/view/phone/Issue.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"main.html",
+				"app/views/main.html"
+			],
+			[
+				"bower.json",
+				"bower.json"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"new",
+				"app/views/new.html"
+			],
+			[
+				"_icons",
+				"resources/sass/_icons.scss"
+			],
+			[
+				"_base",
+				"resources/sass/_base.scss"
+			],
+			[
+				"base.scss",
+				"touch/resources/sass/base.scss"
+			],
+			[
+				"app.json",
+				"app.json"
+			],
+			[
+				"config.rb",
+				"touch/resources/sass/config.rb"
+			],
+			[
+				"_comp",
+				"html5/resources/sass/includes/_companyContacts.scss"
+			],
+			[
+				"store.js",
+				"app/scripts/controllers/Store.js"
+			],
+			[
+				"store.html",
+				"app/views/stores.html"
+			],
+			[
+				"redbox",
+				"app/scripts/services/Redbox.js"
+			],
+			[
+				"rotten.js",
+				"app/scripts/services/Rotten.js"
+			],
+			[
+				"movie.html",
+				"app/views/movie.html"
+			],
+			[
+				".igtig",
+				".gitignore"
+			],
+			[
+				"npm-",
+				"npm-debug.log"
+			],
+			[
+				"companymeetings",
+				"html5/app/view/CompanyMeetingTableView.js"
+			],
+			[
+				"commitments",
+				"html5/app/view/CompanyCommitmentsTableView.js"
+			],
+			[
+				"leg",
+				"html5/resources/sass/includes/_legacy.scss"
+			],
+			[
+				"sass/",
+				"html5/resources/sass/app.scss"
+			],
+			[
+				"roten",
+				"app/scripts/services/Rotten.js"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"companyccont",
+				"html5/app/view/CompanyContactInformationView.js"
+			],
+			[
+				"companycon",
+				"html5/resources/sass/includes/_companyContacts.scss"
+			],
+			[
+				"filter",
+				"html5/touch/src/log/filter/Filter.js"
+			],
+			[
+				"notes.scss",
+				"html5/resources/sass/includes/_companyNotes.scss"
+			],
+			[
+				"notes",
+				"html5/app/view/CompanyNotesTableView.js"
+			],
+			[
+				"profile.html",
+				"app/views/profile.html"
+			],
+			[
+				"profile.js",
+				"app/scripts/controllers/profile.js"
+			],
+			[
+				"appjs",
+				"app/scripts/app.js"
+			],
+			[
+				"facebooks",
+				"app/scripts/services/FacebookService.js"
+			],
+			[
+				"loginview",
+				"html5/app/view/LoginView.js"
+			],
+			[
+				"login.scss",
+				"html5/resources/sass/includes/_login.scss"
+			],
+			[
+				"legacy",
+				"html5/resources/sass/includes/_legacy.scss"
+			],
+			[
+				"contactinf",
+				"html5/app/view/ContactInformationView.js"
+			],
+			[
+				"company",
+				"html5/app/view/CompanyView.js"
+			],
+			[
+				"contacts",
+				"html5/app/view/ContactView.js"
+			],
+			[
+				"_notes.scss",
+				"html5/resources/sass/includes/_companyNotes.scss"
+			],
+			[
+				"icons.scss",
+				"html5/resources/sass/includes/_icons.scss"
+			],
+			[
+				"base.scs",
+				"html5/resources/sass/includes/_base.scss"
+			],
+			[
+				"mainv",
+				"html5/app/view/MainView.js"
+			],
+			[
+				"_buttons.scss",
+				"html5/resources/sass/includes/_buttons.scss"
+			],
+			[
+				"legacy.scss",
+				"html5/resources/sass/includes/_legacy.scss"
+			],
+			[
+				"register.html",
+				"app/views/register.html"
+			],
+			[
+				"samea",
+				"app/scripts/directives/sameAs.js"
+			],
+			[
+				"main.scss",
+				"app/styles/sass/_main.scss"
+			],
+			[
+				"profile.htm",
+				"app/views/profile.html"
+			],
+			[
+				"profile.scss",
+				"app/styles/sass/_profile.scss"
+			],
+			[
+				"_comments",
+				"app/styles/sass/_comments.scss"
+			],
+			[
+				"mentor",
+				"app/scripts/controllers/mentor.js"
+			],
+			[
+				"mentor-view",
+				"app/views/mentor-view.html"
+			],
+			[
+				"sass/man",
+				"app/styles/sass/_manageConnections.scss"
+			],
+			[
+				"manageevent",
+				"app/scripts/controllers/modals/manageConnectionsEvent.js"
+			],
+			[
+				"remove-event",
+				"app/views/modals/remove-event-modal.html"
+			],
+			[
+				"eventseer",
+				"app/scripts/services/EventsService.js"
+			],
+			[
+				"_an",
+				"app/styles/sass/_animations.scss"
+			],
+			[
+				"index.hmtl",
+				"app/index.html"
+			],
+			[
+				"eventsser",
+				"app/scripts/services/EventsService.js"
+			],
+			[
+				"gruntfie",
+				"Gruntfile.js"
+			],
+			[
+				"manageconnec",
+				"app/scripts/controllers/modals/manageConnections.js"
+			],
+			[
+				"managecon",
+				"app/scripts/controllers/modals/manageConnectionsEvent.js"
+			],
+			[
+				"commentse",
+				"app/scripts/services/CommentsService.js"
+			],
+			[
+				"add-connec",
+				"app/views/modals/add-connections-to-event.html"
+			],
+			[
+				"profile.",
+				"app/views/profile.html"
+			],
+			[
+				"bower.jso",
+				"bower.json"
+			],
+			[
+				"angular-masonry",
+				"app/bower_components/angular-masonry/angular-masonry.js"
+			],
+			[
+				"fontawe",
+				"app/styles/sass/_fontAwesome.scss"
+			],
+			[
+				"rpcs",
+				"app/scripts/services/RPCService.js"
+			],
+			[
+				"node/app.js",
+				"node/app.js"
+			],
+			[
+				"grunfile",
+				"Gruntfile.js"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"app/index",
+				"app/index.html"
+			],
+			[
+				"dist/index.html",
+				"dist/index.html"
+			],
+			[
+				"dist/index",
+				"dist/index.html"
+			],
+			[
+				"animations.scss",
+				"app/styles/sass/_animations.scss"
+			],
+			[
+				"fontawesome",
+				"app/styles/sass/_fontAwesome.scss"
+			],
+			[
+				"uib-oot",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-bo",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"fontawes",
+				"app/styles/sass/_fontAwesome.scss"
+			],
+			[
+				"pp.js",
+				"node/app.js"
+			],
+			[
+				"eventlinkss",
+				"app/scripts/services/EventLinksService.js"
+			],
+			[
+				"bootstrap.scss",
+				"app/styles/sass/_bootstrap.scss"
+			],
+			[
+				"rpc",
+				"app/scripts/services/RPCService.js"
+			],
+			[
+				"mentorserv",
+				"app/scripts/services/MentorService.js"
+			],
+			[
+				"mentor.scss",
+				"app/styles/sass/_mentor.scss"
+			],
+			[
+				"mentor-vi",
+				"app/views/mentor-view.html"
+			],
+			[
+				"mentor.js",
+				"app/scripts/controllers/mentor.js"
+			],
+			[
+				"manageeventc",
+				"app/bower_components/angular/docs/partials/api/ngMobile.directive:ngClick.html"
+			],
+			[
+				"ui-b",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"modal/manage",
+				"app/views/modals/manage-connections.html"
+			],
+			[
+				"manageconnection",
+				"app/scripts/controllers/modals/manageConnections.js"
+			],
+			[
+				"profie",
+				"app/views/profile.html"
+			],
+			[
+				"mentorser",
+				"app/scripts/services/MentorService.js"
+			],
+			[
+				"mentor-v",
+				"app/views/mentor-view.html"
+			],
+			[
+				"loadingse",
+				"app/scripts/services/LoadingService.js"
+			],
+			[
+				"bootstrap-",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"events",
+				"app/scripts/services/EventsService.js"
+			],
+			[
+				"profile.hmtl",
+				"app/views/profile.html"
+			],
+			[
+				"mentors",
+				"node/controllers/MentorsService.js"
+			],
+			[
+				"_settings.scss",
+				"app/styles/sass/_settings.scss"
+			],
+			[
+				"profile",
+				"app/views/profile.html"
+			],
+			[
+				"userse",
+				"app/scripts/services/UserService.js"
+			],
+			[
+				"form",
+				"app/styles/sass/_forms.scss"
+			],
+			[
+				"bootstrap-ui",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"ui-boot",
+				"app/bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
+			],
+			[
+				"masonry.",
+				"app/bower_components/angular-masonry/angular-masonry.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 404.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

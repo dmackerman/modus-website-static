@@ -1,10 +1,14 @@
-<nav>
-  <ul class="nav nav-pills">
-    <li {{ if !segment_1 }} class="active"{{ endif }}><a href="{{ homepage }}">Home</a></li>
-    {{# include our nav here, but exclude some things. #}}
-    {{ nav from="/" max_depth="2" exclude="services|capabilities"}}
-      <li {{ if is_current || is_parent }} class="active"{{ endif }}><a href="{{ url }}">{{ title }}</a>
-    </li>
-    {{ /nav }}
-  </ul>
-</nav>
+<div class="row">
+  <nav>
+    <div class="small-12 columns">
+      <ul class="inline-list">
+        <li {{ if !segment_1 }} class="active"{{ endif }}><a href="{{ homepage }}">Home</a></li>
+        {{# include our nav here, but exclude some things. #}}
+        {{ nav from="/" max_depth="2" exclude="services|capabilities|publications|careers|staff|events" }}
+          <li {{ if is_current || is_parent }} class="active"{{ endif }}><a href="{{ url }}">{{ title }}</a>
+        </li>
+        {{ /nav }}
+      </ul>
+    </div>
+  </nav>
+</div>

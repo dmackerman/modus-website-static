@@ -1,5 +1,5 @@
 ---
-_layout: feed
+_
 _template: feed
 _type: rss
 folder: blog

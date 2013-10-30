@@ -1,0 +1,11 @@
+title: Publication
+
+fields:
+  meta_section:
+    type: section
+    display: Publication Detauls
+    instructions: Add details about the publication here.
+  
+
+# hides it from new page options
+hide: true

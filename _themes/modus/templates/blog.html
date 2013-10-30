@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="small-12 columns">
+    <div class="alert-box">
+      I am the blog.html template
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="small-8 columns">
+    {{ entries:listing folder="blog" limit="10" paginate="true" }}
+     <article>
+        <h4><a href="{{ url }}">{{ title }}</a></h4>
+        <date>{{ datestamp format="F jS, Y" }}</date>
+      </article>
+    {{ /entries:listing }}
+
+  <ul class="pagination">
+    {{ entries:pagination }}
+        {{ if previous_page }}
+            <a class="button small" href="{{ previous_page }}">Previous Page</a>
+        {{ endif }}
+        {{ if next_page }}
+            <a class="button small" href="{{ next_page }}">Next Page</a>
+        {{ endif }}
+    {{ /entries:pagination }}
+  </ul>
+
+  </div>
+  <div class="small-4 columns">
+    <div class="panel">
+      <h3>Recent Blog Posts</h3>
+      <ul>
+        {{ entries:listing folder="blog" limit="4" }}
+          <li>
+            <a href="{{ url }}">{{ title }}</a>
+            <p>{{ date }}</p>
+          </li>
+        {{ /entries:listing }}
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Upcoming Events</h3>
+      <ul>
+        {{ entries:listing folder="events" limit="10" }}
+          <li>
+            <a href="{{ url }}">{{ title }}</a>
+            <p>
+              {{ date }} <br />
+              {{ location }}
+            </p>
+          </li>
+        {{ /entries:listing }}
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Categories</h3>
+        <ul>
+          {{ taxonomy:listing type="categories" }}
+              <li><a href="{{ url }}">{{ name|title }}</a></li>     
+          {{ /taxonomy:listing }}
+        </ul>
+    </div>
+  </div>
+</div>
