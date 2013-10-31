@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="small-12 columns">
+    <h1>{{ taxonomy_name }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="small-8 columns">
+    {{ entries:listing folder="blog" taxonomy="true" }}
+      <article>
+         <h4><a href="{{ url }}">{{ title }}</a></h4>
+         <date>{{ datestamp format="F jS, Y" }}</date>
+       </article>
+    {{ /entries:listing }}
+  </div>
+</div>

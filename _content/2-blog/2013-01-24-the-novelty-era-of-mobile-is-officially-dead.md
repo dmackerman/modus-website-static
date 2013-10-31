@@ -10,7 +10,7 @@ categories:
   - Industry
 ---
 
-# Meet Your Phone
+### Meet Your Phone
 
 
 
@@ -22,7 +22,7 @@ Remember the early iPhone commercial where the user double taps the New York Tim
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/Screen-Shot-2013-01-22-at-11.47.59-PM2.png)
+![](../assets/uploads//2013/01/Screen-Shot-2013-01-22-at-11.47.59-PM2.png)
 
 
 
@@ -34,7 +34,7 @@ Double-tap and pinch to zoom interactions seemed groundbreaking just a few years
 
 
 
-# Going Back to the Future
+### Going Back to the Future
 
 
 
@@ -46,7 +46,7 @@ Games made perfect sense for first generation mobile apps. They were self-contai
 
 
 
-[![](http://moduscreate.com/wp-content/uploads/2013/01/win31games2-466x350.png)](http://moduscreate.com/the-novelty-era-of-mobile-is-officially-dead/win31games/)
+[![](../assets/uploads//2013/01/win31games2-466x350.png)](http://moduscreate.com/the-novelty-era-of-mobile-is-officially-dead/win31games/)
 
 
 
@@ -70,13 +70,13 @@ Consumers expect content to be formatted for mobile delivery. Responsive design 
 
 
 
-# The Tivo Versus DVR Problem
+### The Tivo Versus DVR Problem
 
 
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/tivo-dvr2.jpg)
+![](../assets/uploads//2013/01/tivo-dvr2.jpg)
 
 
 
@@ -94,7 +94,7 @@ In the transition from _Status Icon_ to _Commodity,_ all products travel the lif
 
 
 
-# Apps to the Rescue (again)
+### Apps to the Rescue (again)
 
 
 
@@ -106,13 +106,13 @@ The beauty of the smartphone is that the software it can run is virtually limitl
 
 
 
-# Integration to the Rescue
+### Integration to the Rescue
 
 
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/dsc048962-527x350.jpg)
+![](../assets/uploads//2013/01/dsc048962-527x350.jpg)
 
 
 

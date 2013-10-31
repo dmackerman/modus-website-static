@@ -34,7 +34,7 @@ There is a simple "hack" though that you can employ to get your status bar tinte
 
 
 
-### Tinting your StatusBar in a Cordova project
+######### Tinting your StatusBar in a Cordova project
 
 
 
@@ -46,7 +46,7 @@ There is a simple "hack" though that you can employ to get your status bar tinte
 
 
   2. Drag a NavigationBar to your view 
-[![](http://moduscreate.com/wp-content/uploads/2012/09/navigationbar2-300x256.jpeg)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/navigationbar/)
+[![](../assets/uploads//2012/09/navigationbar2-300x256.jpeg)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/navigationbar/)
 
 
 
@@ -54,7 +54,7 @@ There is a simple "hack" though that you can employ to get your status bar tinte
 
 
     * Set the tint (color) of the navigation bar 
-[![](http://moduscreate.com/wp-content/uploads/2012/09/tint2-300x111.jpeg)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/tint/)
+[![](../assets/uploads//2012/09/tint2-300x111.jpeg)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/tint/)
 
 
 
@@ -62,7 +62,7 @@ There is a simple "hack" though that you can employ to get your status bar tinte
 
 
       * Set the position of the UINavigationBar to y: -43px; 
-[![](http://moduscreate.com/wp-content/uploads/2012/09/d5za2-300x189.png)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/d5za/)
+[![](../assets/uploads//2012/09/d5za2-300x189.png)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/d5za/)
 
 
 
@@ -73,7 +73,7 @@ Now you're all set. You should see something like this
 
 
 
-[![](http://moduscreate.com/wp-content/uploads/2012/09/m09s2-300x36.png)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/m09s/)
+[![](../assets/uploads//2012/09/m09s2-300x36.png)](http://moduscreate.com/tinting-your-status-bar-in-ios6-and-phonegap/m09s/)
 
 
 

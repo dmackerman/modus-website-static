@@ -11,7 +11,7 @@ categories:
   - Meetups
 ---
 
-# Thank you!
+### Thank you!
 
 
 Our [Ext JS meetup](http://moduscreate.com/219/three-pillar-global-plays-host-to-an-extjs-gathering) on 1/19/2010 at [Three Pillar Global](http://threepillarglobal.com) was rather successful!  We had over 30 developers show up with less than three weeks notice of the event.  This caused an overflow of visitors, where they had to sit outside of the room. 
@@ -19,33 +19,33 @@ Our [Ext JS meetup](http://moduscreate.com/219/three-pillar-global-plays-host-to
 
 
 
-# Some photos
+### Some photos
 
 
 
 
-## Pat Sheridan:
+###### Pat Sheridan:
 
 
 ![](http://moduscreate.com/img/screencasts/2010-01-19_1932.png)  
 
 
 
-## Shea Frederick
+###### Shea Frederick
 
 
 ![](http://moduscreate.com/img/screencasts/2010-01-19_1932-1.png)  
 
 
 
-## Jonathan Julian
+###### Jonathan Julian
 
 
 ![](http://moduscreate.com/img/screencasts/2010-01-19_1941.png)  
 
 
 
-## The Audience
+###### The Audience
 
 
 ![](http://moduscreate.com/img/screencasts/2010-01-20_0207.png)  
@@ -53,7 +53,7 @@ Our [Ext JS meetup](http://moduscreate.com/219/three-pillar-global-plays-host-to
 
 
 
-# Videos: ****More to follow after the other presenters approve their presentation videos**
+### Videos: ****More to follow after the other presenters approve their presentation videos**
 
 
 

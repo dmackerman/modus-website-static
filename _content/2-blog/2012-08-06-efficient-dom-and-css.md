@@ -16,7 +16,7 @@ Eventually, the output of our web applications end up displayed as a part of use
 
 
 
-### CSS Selectors CSS selectors are often the method of choice for querying through DOM hierarchy. Working with CSS in most cases provides for the fastest way of manipulating views. No wonder Sencha Touch 2 no longer employs JavaScript-powered rendering techniques in favor of CSS-based painting. There are multitude of ways to find DOM nodes using CSS queries. Not all are equal in terms of performance, either. A good thing is that a rule of thumb that ensures the major performance hop actually exists.
+######### CSS Selectors CSS selectors are often the method of choice for querying through DOM hierarchy. Working with CSS in most cases provides for the fastest way of manipulating views. No wonder Sencha Touch 2 no longer employs JavaScript-powered rendering techniques in favor of CSS-based painting. There are multitude of ways to find DOM nodes using CSS queries. Not all are equal in terms of performance, either. A good thing is that a rule of thumb that ensures the major performance hop actually exists.
 
 
 
@@ -28,7 +28,7 @@ Eventually, the output of our web applications end up displayed as a part of use
 
 
     
-    div#nav ul.menu > li.menuitem
+    div###nav ul.menu > li.menuitem
 
 
 
@@ -66,7 +66,7 @@ The first selector will have to work in the following fashion:
   4. Narrow down to those which CSS .menu class belongs to  a UL element
 
 
-  5. Narrow down to those items that fall under element of ID #nav
+  5. Narrow down to those items that fall under element of ID ###nav
 
 
   6. Finally, narrow the above to those elements with ID nav that are indeed DIV elements
@@ -120,13 +120,13 @@ Now let's see how selectors stack up. Note that the values in the chart represen
 
 
 
-**higher is better**. [![CSS Selector Comparison](http://moduscreate.com/wp-content/uploads/2012/07/css-selectors-comparison.png)](http://moduscreate.com/efficient-dom-and-css/css-selectors-comparison/) This CSS selector comparison chart clearly shows how browsers reward careful optimisation with performance. Virtually in every case did querying by ID yield fastest response. Then comes querying by node type, CSS class names to follow. In effect, the better you describe the selection, the more you're having a browser work. A good thing to remember.
+**higher is better**. [![CSS Selector Comparison](../assets/uploads//2012/07/css-selectors-comparison.png)](http://moduscreate.com/efficient-dom-and-css/css-selectors-comparison/) This CSS selector comparison chart clearly shows how browsers reward careful optimisation with performance. Virtually in every case did querying by ID yield fastest response. Then comes querying by node type, CSS class names to follow. In effect, the better you describe the selection, the more you're having a browser work. A good thing to remember.
 
 
 
 
 
-### Dynamically Updating CSS Styles Not always are we in liberty to simply assign a CSS class to a DOM node. This specifically holds true in advanced user interfaces such as those controlled by complex frameworks. Although developers often find it disgusting, fiddling with the style attribute is the only way out. Again, there is more than one way to assign a style to an element. If you are about to set a single style, e.g. width, you are usually best of setting
+######### Dynamically Updating CSS Styles Not always are we in liberty to simply assign a CSS class to a DOM node. This specifically holds true in advanced user interfaces such as those controlled by complex frameworks. Although developers often find it disgusting, fiddling with the style attribute is the only way out. Again, there is more than one way to assign a style to an element. If you are about to set a single style, e.g. width, you are usually best of setting
 
 
 
@@ -140,8 +140,8 @@ Now let's see how selectors stack up. Note that the values in the chart represen
     
     target.style.width      = '400px';
     target.style.margin     = '10px';
-    target.style.color      = '#336699';
-    target.style.background = '#996633';
+    target.style.color      = '###336699';
+    target.style.background = '###996633';
     target.style.border     = '1px solid red';
     target.style.padding    = '1px';
 
@@ -158,8 +158,8 @@ As an outcome, you are telling the browser to restyle the element as many as six
     target.style.cssText = ''.concat(
         'width      : 400px;',
         'margin     : 10px;',
-        'color      : #336699;',
-        'background : #996644;',
+        'color      : ###336699;',
+        'background : ###996644;',
         'border     : 1px solid red;',
         'padding    : 1px;',
     );
@@ -174,13 +174,13 @@ Not only that it's faster, but it's also cleaner and prettier. Let's compare the
 
 
 
-[![Setting multiple CSS styles through cssText property](http://moduscreate.com/wp-content/uploads/2012/07/csstext.png)](http://moduscreate.com/efficient-dom-and-css/csstext/) Again higher is better, proving that sending a single command to a browser will be quicker than having JavaScript talk to the browser many times.
+[![Setting multiple CSS styles through cssText property](../assets/uploads//2012/07/csstext.png)](http://moduscreate.com/efficient-dom-and-css/csstext/) Again higher is better, proving that sending a single command to a browser will be quicker than having JavaScript talk to the browser many times.
 
 
 
 
 
-### Appending Elements to DOM Dynamic DOM manipulation is the pivotal point of virtually all web application and a vast majority of modern web sites. Appending DOM nodes seems to be one of the most expensive operations, which is why it deserves a good look at. We are about to add a div element with 1000 nested span nodes. Completely programatically through JavaScript, the code would like this:
+######### Appending Elements to DOM Dynamic DOM manipulation is the pivotal point of virtually all web application and a vast majority of modern web sites. Appending DOM nodes seems to be one of the most expensive operations, which is why it deserves a good look at. We are about to add a div element with 1000 nested span nodes. Completely programatically through JavaScript, the code would like this:
 
 
 
@@ -308,7 +308,7 @@ You'll notice similarity between the last two examples. They both use node cloni
 
 
 
-[![DOM Child Manipulation Comparison](http://moduscreate.com/wp-content/uploads/2012/07/dom.png)](http://moduscreate.com/efficient-dom-and-css/dom/) What an interesting chart! It's true that the last two snippets nail the performance big time. DocumentFragment wins with Chrome, loses by a small margin in Safari and Opera, while they rank similarly in other browsers. iOS 5.1 Safari on iPhone 4S proved that DocumentFragment was by a single op/sec slower than the DOM/cloneNode example. The examples provided may not reflect all real life  combination, but they illustrate how carefully chosen technique can dramatically improve performance. I am confident many of you have similar tips and tricks on performance to share, so please post your comments below.
+[![DOM Child Manipulation Comparison](../assets/uploads//2012/07/dom.png)](http://moduscreate.com/efficient-dom-and-css/dom/) What an interesting chart! It's true that the last two snippets nail the performance big time. DocumentFragment wins with Chrome, loses by a small margin in Safari and Opera, while they rank similarly in other browsers. iOS 5.1 Safari on iPhone 4S proved that DocumentFragment was by a single op/sec slower than the DOM/cloneNode example. The examples provided may not reflect all real life  combination, but they illustrate how carefully chosen technique can dramatically improve performance. I am confident many of you have similar tips and tricks on performance to share, so please post your comments below.
 
 
 

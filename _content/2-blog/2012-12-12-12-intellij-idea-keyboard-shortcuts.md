@@ -31,7 +31,7 @@ Visiting other options opened my eyes for new features to look for. Features tha
 
 
 
-#### 1. (Un)Comment line: Cmd + L
+############ 1. (Un)Comment line: Cmd + L
 
 
 
@@ -43,13 +43,13 @@ Transforming the current line into comment is essential in bug tracking. Inste
 
 
 
-[![Line comment](http://moduscreate.com/wp-content/uploads/2012/12/line-comment2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/line-comment/)
+[![Line comment](../assets/uploads//2012/12/line-comment2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/line-comment/)
 
 
 
 
 
-#### 2. (Un)Comment selection: Shift + Control + /
+############ 2. (Un)Comment selection: Shift + Control + /
 
 
 
@@ -61,13 +61,13 @@ Similar to line commenting, this shortcut will surround the current selection. W
 
 
 
-[![Selection comment](http://moduscreate.com/wp-content/uploads/2012/12/selection-comment2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/selection-comment/)
+[![Selection comment](../assets/uploads//2012/12/selection-comment2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/selection-comment/)
 
 
 
 
 
-#### 3. Documentation comment block: /** + Enter
+############ 3. Documentation comment block: /** + Enter
 
 
 
@@ -91,13 +91,13 @@ I don't think I can stress the importance of documentation in code. Please use l
 
 
 
-[![Documentation block](http://moduscreate.com/wp-content/uploads/2012/12/documentation-block2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/documentation-block/)
+[![Documentation block](../assets/uploads//2012/12/documentation-block2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/documentation-block/)
 
 
 
 
 
-#### 4. Delete line: Cmd + Y
+############ 4. Delete line: Cmd + Y
 
 
 
@@ -115,7 +115,7 @@ Here's how I remember that it's Y and not another key, D for example. You know h
 
 
 
-#### 5. Argument documentation for method calls: Cmd + P
+############ 5. Argument documentation for method calls: Cmd + P
 
 
 
@@ -127,13 +127,13 @@ Useful when you need to remember argument options when calling a method, this sh
 
 
 
-[![Parameter callout](http://moduscreate.com/wp-content/uploads/2012/12/param-callout2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/param-callout/)
+[![Parameter callout](../assets/uploads//2012/12/param-callout2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/param-callout/)
 
 
 
 
 
-#### 6. Incremental selection: Cmd + W
+############ 6. Incremental selection: Cmd + W
 
 
 
@@ -145,13 +145,13 @@ Although Cmd + W defaults to close tab/window in most applications (and so it di
 
 
 
-[![Incremental selection](http://moduscreate.com/wp-content/uploads/2012/12/incremental-selection12.gif)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/incremental-selection-2/)
+[![Incremental selection](../assets/uploads//2012/12/incremental-selection12.gif)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/incremental-selection-2/)
 
 
 
 
 
-#### 7. Reformat code: Option + Cmd + L
+############ 7. Reformat code: Option + Cmd + L
 
 
 
@@ -175,7 +175,7 @@ In some situations, you may need to omit parts of code (e.g. when concatenating
 
 
 
-#### 8. Cycle through the history of most recent changes: Cmd + Shift + Backspace
+############ 8. Cycle through the history of most recent changes: Cmd + Shift + Backspace
 
 
 
@@ -187,7 +187,7 @@ When editing huge files, and I mean many at the same time, it can get difficult 
 
 
 
-#### 9. Paste from five previous copies - Cmd + Shift + V
+############ 9. Paste from five previous copies - Cmd + Shift + V
 
 
 
@@ -199,13 +199,13 @@ Does the OS default one slot in memory for copy-paste satisfy you? IDEA tracks y
 
 
 
-[![Paste history](http://moduscreate.com/wp-content/uploads/2012/12/paste-history12.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/paste-history-2/)
+[![Paste history](../assets/uploads//2012/12/paste-history12.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/paste-history-2/)
 
 
 
 
 
-#### 10. Find members in current file: Cmd + F12
+############ 10. Find members in current file: Cmd + F12
 
 
 
@@ -223,7 +223,7 @@ As an added bonus, press the shortcut twice to show the inherited members.
 
 
 
-[![Find members](http://moduscreate.com/wp-content/uploads/2012/12/find-members2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/find-members/)
+[![Find members](../assets/uploads//2012/12/find-members2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/find-members/)
 
 
 
@@ -235,13 +235,13 @@ If you can't reproduce this on a Mac, make sure F12 (Fn + F12) is not registered
 
 
 
-[![Disable F12 in Mission Control](http://moduscreate.com/wp-content/uploads/2012/12/disable-f12-mission-control2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/disable-f12-mission-control/)
+[![Disable F12 in Mission Control](../assets/uploads//2012/12/disable-f12-mission-control2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/disable-f12-mission-control/)
 
 
 
 
 
-#### 11. Find members in current project: Cmd + Alt + Shift + N
+############ 11. Find members in current project: Cmd + Alt + Shift + N
 
 
 
@@ -253,13 +253,13 @@ Finding members in a file is quick and easy. Alternatively, if you want to find 
 
 
 
-[![Find members in a project](http://moduscreate.com/wp-content/uploads/2012/12/find-project-members2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/find-project-members/)
+[![Find members in a project](../assets/uploads//2012/12/find-project-members2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/find-project-members/)
 
 
 
 
 
-#### 12. Show recently changed files: Cmd + Shift + E
+############ 12. Show recently changed files: Cmd + Shift + E
 
 
 
@@ -271,7 +271,7 @@ IDEA will automatically manage your tabs so that you don't have too many to clut
 
 
 
-[![Recent Edits](http://moduscreate.com/wp-content/uploads/2012/12/recent-edits2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/recent-edits/)
+[![Recent Edits](../assets/uploads//2012/12/recent-edits2.png)](http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/recent-edits/)
 
 
 

@@ -4,7 +4,7 @@ comments: true
 
 
 
-title: 'Ext JS Sceencast #002, Ext.extend explained'
+title: 'Ext JS Sceencast ###002, Ext.extend explained'
 
 ---
 

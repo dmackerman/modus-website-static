@@ -29,7 +29,7 @@ Recently, Modus Create released the [Diablo 3 Mobile Companion](http://moduscrea
 
 
 
-### Hello Metro
+######### Hello Metro
 
 
 
@@ -89,7 +89,7 @@ Here's a video of the application in action inside of a Windows Phone Emulator.
 
 
 
-### Our experience with HTML5 development on WP8 using Sencha Touch 2 & Cordova
+######### Our experience with HTML5 development on WP8 using Sencha Touch 2 & Cordova
 
 
 

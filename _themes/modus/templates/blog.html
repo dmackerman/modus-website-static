@@ -1,11 +1,4 @@
 <div class="row">
-  <div class="small-12 columns">
-    <div class="alert-box">
-      I am the blog.html template
-    </div>
-  </div>
-</div>
-<div class="row">
   <div class="small-8 columns">
     {{ entries:listing folder="blog" limit="10" paginate="true" }}
      <article>
@@ -55,9 +48,19 @@
     <div class="panel">
       <h3>Categories</h3>
         <ul>
-          {{ taxonomy:listing type="categories" }}
+          {{ taxonomy:listing type="categories" limit="4" }}
               <li><a href="{{ url }}">{{ name|title }}</a></li>     
           {{ /taxonomy:listing }}
+            <li>...</li>
+        </ul>
+    </div>
+    <div class="panel">
+      <h3>Authors</h3>
+        <ul>
+          {{ taxonomy:listing type="authors" limit="4" }}
+              <li><a href="{{ url }}">{{ name|title }}</a></li>     
+          {{ /taxonomy:listing }}
+            <li>...</li>
         </ul>
     </div>
   </div>

@@ -7,7 +7,7 @@ categories:
     - Sencha Touch
 ---
 
-Recently, I came across a requirement where I needed to know when a [Sencha Touch 2.0](http://www.sencha.com/products/touch) [Carousel Item](http://docs.sencha.com/touch/2-0/#!/api/Ext.carousel.Item) is shown to the user (active item 0) to render an advertisement and when an item is hidden, to remove that advertisement from view. What I've learned is that the Carousel currently does not fire show or hide events for child items. If you were to listen to the Item's `painted` event, you'd see that it will fire that event before it's actually visible to the user, which does not fulfill my requirement. To make this happen, we have to extend the carousel to fire the show event at two distinct times (see code below). This is somewhat of a hack, but the one of the cleanest ways to make this happen.
+Recently, I came across a requirement where I needed to know when a [Sencha Touch 2.0](http://www.sencha.com/products/touch) [Carousel Item](http://docs.sencha.com/touch/2-0/###!/api/Ext.carousel.Item) is shown to the user (active item 0) to render an advertisement and when an item is hidden, to remove that advertisement from view. What I've learned is that the Carousel currently does not fire show or hide events for child items. If you were to listen to the Item's `painted` event, you'd see that it will fire that event before it's actually visible to the user, which does not fulfill my requirement. To make this happen, we have to extend the carousel to fire the show event at two distinct times (see code below). This is somewhat of a hack, but the one of the cleanest ways to make this happen.
 
 
 

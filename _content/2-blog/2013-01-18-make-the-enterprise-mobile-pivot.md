@@ -10,7 +10,7 @@ categories:
   - Industry
 ---
 
-## Learn Internally and Scale Externally
+###### Learn Internally and Scale Externally
 
 
 
@@ -29,7 +29,7 @@ We continue to see a huge client demand for “Man-in-the-field” apps as well 
 
 
 
-## Borrow Strength: Study The ‘First Wave CIOs & CTOs’
+###### Borrow Strength: Study The ‘First Wave CIOs & CTOs’
 
 
 
@@ -59,7 +59,7 @@ Also recognize that some of the best insights are to be found right under your n
 
 
 
-## Know When to Pull the Trigger
+###### Know When to Pull the Trigger
 
 
 

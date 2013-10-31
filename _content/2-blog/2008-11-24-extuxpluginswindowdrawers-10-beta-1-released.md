@@ -8,7 +8,7 @@ title: Ext.ux.plugins.WindowDrawers 1.0 Beta 1 released!
 
 ---
 
-With help from [Mystix](http://extjs.com/forum/member.php?u=1459) at the [Ext forums](http://extjs.com/forum/showthread.php?p=246569#post246569), the Window Drawer class is finally ready for beta1!
+With help from [Mystix](http://extjs.com/forum/member.php?u=1459) at the [Ext forums](http://extjs.com/forum/showthread.php?p=246569###post246569), the Window Drawer class is finally ready for beta1!
 
 Changes:
 

@@ -13,4 +13,4 @@ Yesterday,  [JSMag](http://jsmag.com/) team released the November 2009 edition o
 The first 10 people to use coupon code "3z2u8hh" to get this month's edition for free.
 
 Click on the image below or visit [http://jsmag.com/latest](http://jsmag.com/latest) to get your copy.
-[![jsmag_11-2009](http://moduscreate.com/wp-content/uploads/2009/11/jsmag_11-2009.jpg)](http://jsmag.com/latest)
+[![jsmag_11-2009](../assets/uploads//2009/11/jsmag_11-2009.jpg)](http://jsmag.com/latest)

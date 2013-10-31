@@ -22,7 +22,7 @@ We at Modus Create are always experimenting with emerging HTML5 Technologies. Re
 
 
 
-# Overview
+### Overview
 
 
 
@@ -34,7 +34,7 @@ Wuberizer is an audio synthesizer and step sequencer in one. It works off a 16 x
 
 
 
-# Background
+### Background
 
 
 
@@ -48,7 +48,7 @@ The app was inspired by a musical instrument released by Yamaha in 2005 called t
 
 
 
-# Technology
+### Technology
 
 
 
@@ -72,7 +72,7 @@ The Web Audio API allows you to generate and manipulate sounds in a variety of m
 
 
 
-To render the 16x16 grid we leveraged the HTML5 Canvas element. The canvas element is used to render shapes, images, graphs, or text dynamically. The element exposes a JavaScript API that allows for drawing paths, basic shapes, images and text. We leveraged the canvas with the help of [EaselJS](http://createjs.com/#!/EaselJS). EaselJS is a fantastic abstraction layer over the Canvas element. It provides helper classes for drawing, buffered rendering, user interaction support and many more.
+To render the 16x16 grid we leveraged the HTML5 Canvas element. The canvas element is used to render shapes, images, graphs, or text dynamically. The element exposes a JavaScript API that allows for drawing paths, basic shapes, images and text. We leveraged the canvas with the help of [EaselJS](http://createjs.com/###!/EaselJS). EaselJS is a fantastic abstraction layer over the Canvas element. It provides helper classes for drawing, buffered rendering, user interaction support and many more.
 
 
 
@@ -90,7 +90,7 @@ The application itself, as well as the surrounding UI is written in [Sencha Touc
 
 
 
-# More Info
+### More Info
 
 
 

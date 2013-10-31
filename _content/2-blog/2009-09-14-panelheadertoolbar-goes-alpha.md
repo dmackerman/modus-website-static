@@ -30,4 +30,4 @@ Also, I have another example here using the border
 
 Click [here](http://moduscreate.com/js/examples/ext3/plugins/panelheader/plugins.TDGi.PanelHeaderToolbar.js) to download the source.
 
-![](http://moduscreate.com/wp-content/uploads/2009/06/headertoolbarpreview.jpg)
+![](../assets/uploads//2009/06/headertoolbarpreview.jpg)

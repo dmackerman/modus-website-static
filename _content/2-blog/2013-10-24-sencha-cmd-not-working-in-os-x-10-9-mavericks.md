@@ -1,11 +1,16 @@
 ---
 author: admin
 comments: true
-title: Sencha Cmd Not Working in OS X 10.9 Mavericks
+title: >
+  Sencha Cmd Not Working in OS X 10.9
+  Mavericks
 picture: ""
 categories:
   - Design
   - Development
+authors:
+  - steve
+  - jay
 ---
 
 We've been seeing reports of Sencha Cmd not working after upgrading to Mavericks. This is due to Mavericks shipping with ruby 2.0, while Sencha Cmd depends upon ruby 1.9.3.

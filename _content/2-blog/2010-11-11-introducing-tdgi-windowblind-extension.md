@@ -17,7 +17,7 @@ In 2008, [Sean McDaniel](http://mcdconsultingllc.com/blinds) created a Blind sol
 
 
 
-###  Abstract 
+#########  Abstract 
 
 
 
@@ -46,7 +46,7 @@ Firefox displays typical alert/prompt dialogues using the blinds.
 
 
 
-### Enter WindowBlinds for Ext JS 3.x 
+######### Enter WindowBlinds for Ext JS 3.x 
 
 
 
@@ -65,7 +65,7 @@ Here's a screenshot:
 
 
 
-### Download information
+######### Download information
 
 
 

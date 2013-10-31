@@ -29,13 +29,13 @@ Let’s take a look at why.
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/html5-is-ready-banner2.png)
+![](../assets/uploads//2013/01/html5-is-ready-banner2.png)
 
 
 
 
 
-## The old, tired arguments against HTML5 don’t hold up anymore
+###### The old, tired arguments against HTML5 don’t hold up anymore
 
 
 
@@ -60,7 +60,7 @@ While HTML5 gets a lot of buzz related to mobile, don't forget the desktop web. 
 
 
 
-## We’ve Reached the ‘Inflection Point'
+###### We’ve Reached the ‘Inflection Point'
 
 
 
@@ -87,33 +87,33 @@ Android device performance has drastically improved and better Webkit builds on 
 
 
 
-[![](http://moduscreate.com/wp-content/uploads/2013/01/amazon-kindle-store2.png)](http://moduscreate.com/html5-is-ready/amazon-kindle-store/)
+[![](../assets/uploads//2013/01/amazon-kindle-store2.png)](http://moduscreate.com/html5-is-ready/amazon-kindle-store/)
 
 
 
 
 
 **_HTML5 Frameworks are Ready_**  
-Version 2.x of HTML5 frameworks show drastic performance improvements. There are light-weight [MVC frameworks](http://backbonejs.org/), [content-focused responsive design frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419#slide10), and [app focused UI frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419#slide11) and [server side JS frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419#slide16) all making web developers and engineers more apt to explore mobile development through tools and languages with which they are already familiar.
+Version 2.x of HTML5 frameworks show drastic performance improvements. There are light-weight [MVC frameworks](http://backbonejs.org/), [content-focused responsive design frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419###slide10), and [app focused UI frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419###slide11) and [server side JS frameworks](http://www.infoworld.com/slideshow/80986/infoworlds-2013-technology-of-the-year-award-winners-210419###slide16) all making web developers and engineers more apt to explore mobile development through tools and languages with which they are already familiar.
 
 
 
 
 
 **_People are Ready_**  
-Engineers are no longer wary of front end development. New career paths are being defined for creative techies and the talent land-grab is happening. HTML5 is the #1 job trend [according to indeed.com](http://www.indeed.com/jobtrends).
+Engineers are no longer wary of front end development. New career paths are being defined for creative techies and the talent land-grab is happening. HTML5 is the ###1 job trend [according to indeed.com](http://www.indeed.com/jobtrends).
 
 
 
 
 
-[![indeed.com job trends](http://moduscreate.com/wp-content/uploads/2013/01/indeed-com-job-trends2.png)](http://moduscreate.com/html5-is-ready/indeed-com-job-trends/)
+[![indeed.com job trends](../assets/uploads//2013/01/indeed-com-job-trends2.png)](http://moduscreate.com/html5-is-ready/indeed-com-job-trends/)
 
 
 
 
 
-## All the Big Players are in the Game
+###### All the Big Players are in the Game
 
 
 

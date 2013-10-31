@@ -31,7 +31,7 @@ Blizzard has recently released an API for accessing player data and thus as huge
 
 
 
-## Features
+###### Features
 
 
 
@@ -57,7 +57,7 @@ Blizzard has recently released an API for accessing player data and thus as huge
 
 
 
-## Technology
+###### Technology
 
 
 
@@ -74,7 +74,7 @@ Blizzard has recently released an API for accessing player data and thus as huge
 
 
 
-## Development
+###### Development
 
 
 
@@ -112,7 +112,7 @@ As with most projects we were able to develop some new tricks as seen by our rec
 
 
 
-## Design & Styling
+###### Design & Styling
 
 
 
@@ -124,7 +124,7 @@ Overall design for the app is following fairy standard mobile design paradigms. 
 
 
 
-[caption id="attachment_3261" align="aligncenter" width="319"]![Diablo 3 Companion Tabs](http://moduscreate.com/wp-content/uploads/2012/09/tabs2.png) We switch the "Heroes" text to the currently selected hero's name to give the user context if they switch away from the tab.[/caption]
+[caption id="attachment_3261" align="aligncenter" width="319"]![Diablo 3 Companion Tabs](../assets/uploads//2012/09/tabs2.png) We switch the "Heroes" text to the currently selected hero's name to give the user context if they switch away from the tab.[/caption]
 
 
 
@@ -136,7 +136,7 @@ The Diablo API gives us some very good looking icon assets for items and skills.
 
 
 
-[caption id="attachment_3266" align="aligncenter" width="323"]![D3 List](http://moduscreate.com/wp-content/uploads/2012/09/list2.png) We implemented a custom list by using `webkit-box` layout versus floats. Top toolbars remain static to keep the user acclimated to what data they are looking at.[/caption]
+[caption id="attachment_3266" align="aligncenter" width="323"]![D3 List](../assets/uploads//2012/09/list2.png) We implemented a custom list by using `webkit-box` layout versus floats. Top toolbars remain static to keep the user acclimated to what data they are looking at.[/caption]
 
 
 
@@ -148,13 +148,13 @@ To truly give the app the Diablo look and feel, we precisely copied the colors u
 
 
 
-[caption id="attachment_3268" align="aligncenter" width="304"]![D3 Skills](http://moduscreate.com/wp-content/uploads/2012/09/skills2.png) The OSX Color Picker became our best friend in determining which colors to used for Diablo related elements. Doing this really keeps the app looking consistent to the game.[/caption]
+[caption id="attachment_3268" align="aligncenter" width="304"]![D3 Skills](../assets/uploads//2012/09/skills2.png) The OSX Color Picker became our best friend in determining which colors to used for Diablo related elements. Doing this really keeps the app looking consistent to the game.[/caption]
 
 
 
 
 
-## Available on the iOS App Store and Google Play
+###### Available on the iOS App Store and Google Play
 
 
 
@@ -166,7 +166,7 @@ D3 Mobile Companion is now available, for free, on the iOS App Store and Google 
 
 
 
-[caption id="attachment_3299" align="aligncenter"][[![Diablo 3 Companion - on the app store](http://moduscreate.com/wp-content/uploads/2012/09/app-store2.png)](http://itunes.apple.com/us/app/diablo-3-mobile-companion/id565829323?ls=1&mt=8)][4](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/)[/caption]
+[caption id="attachment_3299" align="aligncenter"][[![Diablo 3 Companion - on the app store](../assets/uploads//2012/09/app-store2.png)](http://itunes.apple.com/us/app/diablo-3-mobile-companion/id565829323?ls=1&mt=8)][4](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/)[/caption]
 
 
 
@@ -180,7 +180,7 @@ D3 Mobile Companion is now available, for free, on the iOS App Store and Google 
 
 
 
-## Source Code
+###### Source Code
 
 
 
@@ -198,7 +198,7 @@ We have open sourced our iOS and Android versions of Diablo 3 Mobile Companion u
 
 
 
-## Authors
+###### Authors
 
 
 

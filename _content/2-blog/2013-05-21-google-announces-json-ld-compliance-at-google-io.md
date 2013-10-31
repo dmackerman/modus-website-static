@@ -168,7 +168,7 @@ Google has supported Microdata based Schemas for about a year. Microdata Schemas
 
 
 
-  ![Screen Shot 2013-05-21 at 12.46.20 PM](http://moduscreate.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-21-at-12.46.20-PM.png)
+  ![Screen Shot 2013-05-21 at 12.46.20 PM](../assets/uploads//2013/05/Screen-Shot-2013-05-21-at-12.46.20-PM.png)
 
 
 
@@ -216,7 +216,7 @@ Google has supported Microdata based Schemas for about a year. Microdata Schemas
 
 
 
-  ![Screen Shot 2013-05-21 at 12.46.31 PM](http://moduscreate.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-21-at-12.46.31-PM.png)
+  ![Screen Shot 2013-05-21 at 12.46.31 PM](../assets/uploads//2013/05/Screen-Shot-2013-05-21-at-12.46.31-PM.png)
 
 
 

@@ -28,7 +28,7 @@ Here's how I got on the wrong track to begin with.
 
 
 
-## From fit to fat in 16 years!
+###### From fit to fat in 16 years!
 
 
 
@@ -102,7 +102,7 @@ Today, I fully realize that I **need** to be healthy to be successful at my job.
 
 
 
-# Inspiration slapped me in the face (many times over)
+### Inspiration slapped me in the face (many times over)
 
 
 
@@ -174,7 +174,7 @@ In late October of 2011, Mark flew from California to Washington D.C. to run in 
 
 
 
-# The discovery of Strength Training
+### The discovery of Strength Training
 
 
 
@@ -271,7 +271,7 @@ I'm now determined to work out hard and change my life. The exercises that Schul
 
 
 
-# Training for education
+### Training for education
 
 
 
@@ -312,7 +312,7 @@ After my first workout with Brandon, I realized that this was a huge opportunity
 
 
 
-# My first fitness goal: Tough Mudder
+### My first fitness goal: Tough Mudder
 
 
 
@@ -372,7 +372,7 @@ Andy's video inspired me to make a video of my own that documented my training f
 
 
 
-# My first Tough Mudder
+### My first Tough Mudder
 
 
 
@@ -412,7 +412,7 @@ This week, I will complete a regimen of 5 to 6 days of rigorous training for thi
 
 
 
-# Some thoughts about nutrition
+### Some thoughts about nutrition
 
 
 
@@ -448,7 +448,7 @@ Another post-workout routine I use to reduce muscle soreness is to consume cocon
 
 
 
-# Looking to the future
+### Looking to the future
 
 
 

@@ -40,7 +40,7 @@ Add the following line anywhere in the document. Don't forget trailing `,` if ne
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2012/07/99zw.png)
+![](../assets/uploads//2012/07/99zw.png)
 **Boom!**
 
 

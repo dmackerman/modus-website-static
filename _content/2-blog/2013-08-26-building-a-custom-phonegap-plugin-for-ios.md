@@ -34,7 +34,7 @@ This article is designed as a step-by-step process, but if you just want to read
 
 
 
-# What you'll need
+### What you'll need
 
 
 
@@ -54,7 +54,7 @@ Before we can break ground, you're going to need a few things.
   2. Download & install [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12&ei=BE8BUs6hI4bS9gSBhYCgCQ&usg=AFQjCNGrxKmVtXUdvUU3MhqZhP4MHT6Gtg&bvm=bv.50310824,d.eWU)
 
 
-  3. Download and extract [PhoneGap](http://phonegap.com/install/) [(docs)](http://docs.phonegap.com/en/2.9.0/guide_plugin-development_index.md.html#Plugin%20Development%20Guide)
+  3. Download and extract [PhoneGap](http://phonegap.com/install/) [(docs)](http://docs.phonegap.com/en/2.9.0/guide_plugin-development_index.md.html###Plugin%20Development%20Guide)
 
 
   4. [Configure Safari to allow remote debugging](http://moduscreate.com/enable-remote-web-inspector-in-ios-6/).
@@ -69,7 +69,7 @@ With those things out of the way, we can get down to business.
 
 
 
-# Steps we'll take
+### Steps we'll take
 
 
 
@@ -101,7 +101,7 @@ This seems simple enough, right? The first step entails dropping down to a comma
 
 
 
-# 1. Create the PhoneGap project
+### 1. Create the PhoneGap project
 
 
 
@@ -119,7 +119,7 @@ Here's the syntax for the `create` command.
 
 
     
-    #Change dir to your project directory
+    ###Change dir to your project directory
     Usage: ~/Downloads/phonegap-2.9.0/lib/ios/bin/create [--shared] [--arc] <path_to_new_project> <package_name> <project_name>
         --shared (optional): Link directly against the shared copy of the CordovaLib instead of a copy of it.
         --arc (optional): Enable ARC.
@@ -138,12 +138,12 @@ To make things easy, I've listed the steps below:
 
 
     
-    #Change dir to your project directory
+    ###Change dir to your project directory
     cd /www/pgplugin
     
-    # Create the PhoneGap project:
-    # I've typed out the path to the PhoneGap extracted files 
-    # and use the iOS project binaries 
+    ### Create the PhoneGap project:
+    ### I've typed out the path to the PhoneGap extracted files 
+    ### and use the iOS project binaries 
     ~/Downloads/phonegap-2.9.0/lib/ios/bin/create . CustomPlugin CustomPlugin
     
 
@@ -157,7 +157,7 @@ You won't get any output from PhoneGap's `create` method, so in order to see wha
 
 
     
-    #Look at the directory contents
+    ###Look at the directory contents
     ls -l
     total 0
     drwxr-xr-x   7 jgarcia  wheel  238 Aug  8 10:51 CordovaLib
@@ -171,7 +171,7 @@ You won't get any output from PhoneGap's `create` method, so in order to see wha
 
 
 
-# Launching the project for the first time
+### Launching the project for the first time
 
 
 
@@ -183,13 +183,13 @@ In order to launch the project, you're going to need to open the project with XC
 
 
 
-![xcode_first_time](http://moduscreate.com/wp-content/uploads/2013/08/xcode_first_time-603x350.jpg)
+![xcode_first_time](../assets/uploads//2013/08/xcode_first_time-603x350.jpg)
 
 
 
 
 
-At this point, you're going to want to run the project, but the scheme might be set as "iPad 5.0" by default. ![run_button](http://moduscreate.com/wp-content/uploads/2013/08/run_button.jpg)
+At this point, you're going to want to run the project, but the scheme might be set as "iPad 5.0" by default. ![run_button](../assets/uploads//2013/08/run_button.jpg)
 
 
 
@@ -201,7 +201,7 @@ The iPad simulator can take up a ton of space and get in our way for this projec
 
 
 
-![set active scheme](http://moduscreate.com/wp-content/uploads/2013/08/set-active-scheme.jpg)
+![set active scheme](../assets/uploads//2013/08/set-active-scheme.jpg)
 
 
 
@@ -213,7 +213,7 @@ The iPad simulator can take up a ton of space and get in our way for this projec
 
 
 
-![set_active_scheme_2](http://moduscreate.com/wp-content/uploads/2013/08/set_active_scheme_2.jpg)
+![set_active_scheme_2](../assets/uploads//2013/08/set_active_scheme_2.jpg)
 
 
 
@@ -225,7 +225,7 @@ From here, you can hit the "Run" button, or hit `⌘R` on your keyboard and you'
 
 
 
-![cordova_first_time-2](http://moduscreate.com/wp-content/uploads/2013/08/cordova_first_time-2-179x350.jpg)
+![cordova_first_time-2](../assets/uploads//2013/08/cordova_first_time-2-179x350.jpg)
 
 
 
@@ -243,7 +243,7 @@ Our project is now setup and we're ready to roll into phase two: **Building the 
 
 
 
-# 2. Adding the plugin structure to the project
+### 2. Adding the plugin structure to the project
 
 
 
@@ -255,7 +255,7 @@ We're going to build the plugin from the bottom up. That is, we're going to writ
 
 
 
-The first step is to open XCode and click on the _Show the Project Navigator_ button: ![show_project_nav_btn](http://moduscreate.com/wp-content/uploads/2013/08/show_project_nav_btn.jpg)
+The first step is to open XCode and click on the _Show the Project Navigator_ button: ![show_project_nav_btn](../assets/uploads//2013/08/show_project_nav_btn.jpg)
 
 
 
@@ -267,7 +267,7 @@ Next, expand the _CustomPlugin_ project and click on "config.xml". This is going
 
 
 
-![features1](http://moduscreate.com/wp-content/uploads/2013/08/features1.jpg)
+![features1](../assets/uploads//2013/08/features1.jpg)
 
 
 
@@ -279,7 +279,7 @@ Next, scroll down in the editor to the end of the file and add a new line at lin
 
 
 
-![features2](http://moduscreate.com/wp-content/uploads/2013/08/features2.jpg)
+![features2](../assets/uploads//2013/08/features2.jpg)
 
 
 
@@ -301,7 +301,7 @@ Inject the following XML...
 
 
 
-... So that config.xml now looks like the following: ![features3](http://moduscreate.com/wp-content/uploads/2013/08/features3.jpg)
+... So that config.xml now looks like the following: ![features3](../assets/uploads//2013/08/features3.jpg)
 
 
 
@@ -313,7 +313,7 @@ Next, we'll create the class that will be responsible to listening to the calls 
 
 
 
-![new_file](http://moduscreate.com/wp-content/uploads/2013/08/new_file.jpg)
+![new_file](../assets/uploads//2013/08/new_file.jpg)
 
 
 
@@ -325,19 +325,19 @@ From there, a window drawer will appear, requesting what type of file you'd like
 
 
 
-![new_file2](http://moduscreate.com/wp-content/uploads/2013/08/new_file2-518x350.jpg)
+![new_file2](../assets/uploads//2013/08/new_file2-518x350.jpg)
 
 
 
 
 
-From there, focus on the `Class` name input field, enter `FileWriter` and press next. Then select the `Subclass of` input field and enter `CDVPlugin`. ![new_file3](http://moduscreate.com/wp-content/uploads/2013/08/new_file3-518x350.jpg)
+From there, focus on the `Class` name input field, enter `FileWriter` and press next. Then select the `Subclass of` input field and enter `CDVPlugin`. ![new_file3](../assets/uploads//2013/08/new_file3-518x350.jpg)
 
 
 
 
 
-Click on `Create` to actually create the your class's header and class file. ![new_file4](http://moduscreate.com/wp-content/uploads/2013/08/new_file4-405x350.jpg)
+Click on `Create` to actually create the your class's header and class file. ![new_file4](../assets/uploads//2013/08/new_file4-405x350.jpg)
 
 
 
@@ -345,7 +345,7 @@ Click on `Create` to actually create the your class's header and class file. ![n
 
 You should be able to see that the `FileWriter.h` and `FileWriter.m` files in the file explorer.  
 
-![new_file5](http://moduscreate.com/wp-content/uploads/2013/08/new_file5-620x251.jpg)
+![new_file5](../assets/uploads//2013/08/new_file5-620x251.jpg)
 
 
 
@@ -363,7 +363,7 @@ All right. We're ready to start writing some Objective-C!
 
 
 
-# Creating the plugin code
+### Creating the plugin code
 
 
 
@@ -375,7 +375,7 @@ The first step is to edit the `FileWriter.h` header file and replace the entire 
 
 
     
-    #import <Cordova/CDV.h>
+    ###import <Cordova/CDV.h>
     
     @interface FileWriter : CDVPlugin
     
@@ -385,7 +385,7 @@ The first step is to edit the `FileWriter.h` header file and replace the entire 
     // This will accept a String and call setFileContents to persist the String on to disk
     - (void) cordovaSetFileContents:(CDVInvokedUrlCommand *)command;
     
-    #pragma mark - Util_Methods
+    ###pragma mark - Util_Methods
     
     // Pure native code to persist data
     - (void) setFileContents;
@@ -471,7 +471,7 @@ The next step is to fill in the code for `FileWriter.m`. I've added comments to 
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
     }
     
-    #pragma mark - Util_Methods
+    ###pragma mark - Util_Methods
     // Dives into the file system and writes the file contents.
     // Notice fileContents as the first argument, which is of type NSString
     - (void) setFileContents:(NSString *)fileContents {
@@ -535,7 +535,7 @@ In the last bit, we'll have to write some HTML and JavaScript to allow us to int
 
 
 
-# 3. Adding the supporting HTML
+### 3. Adding the supporting HTML
 
 
 
@@ -589,7 +589,7 @@ What that's going to do is allow us to have two buttons to tap on providing mean
 
 
 
-![edit_html](http://moduscreate.com/wp-content/uploads/2013/08/edit_html.jpg)
+![edit_html](../assets/uploads//2013/08/edit_html.jpg)
 
 
 
@@ -601,7 +601,7 @@ Lastly, we'll have to inject the JavaScript that will tie the buttons in with th
 
 
 
-# Writing the JavaScript
+### Writing the JavaScript
 
 
 
@@ -709,7 +709,7 @@ Run the project by hitting `⌘R` on your keyboard. You'll be greeted by the pro
 
 
 
-![run_project](http://moduscreate.com/wp-content/uploads/2013/08/run_project.jpg)
+![run_project](../assets/uploads//2013/08/run_project.jpg)
 
 
 
@@ -721,7 +721,7 @@ From there, click `SET file contents` and then `GET file contents`. What you'll 
 
 
 
-![run_project2](http://moduscreate.com/wp-content/uploads/2013/08/run_project2.jpg)
+![run_project2](../assets/uploads//2013/08/run_project2.jpg)
 
 
 
@@ -733,7 +733,7 @@ But in order to _really_ see if something is on disk, we're going to have to go 
 
 
 
-![app_log](http://moduscreate.com/wp-content/uploads/2013/08/app_log.jpg)
+![app_log](../assets/uploads//2013/08/app_log.jpg)
 
 
 
@@ -745,13 +745,13 @@ The two lines that are most important in this case are `Finishing load of:...` a
 
 
 
-If you expand the Documents directory, you'll see `myTextFile.txt`. ![docs dir](http://moduscreate.com/wp-content/uploads/2013/08/docs-dir.jpg)
+If you expand the Documents directory, you'll see `myTextFile.txt`. ![docs dir](../assets/uploads//2013/08/docs-dir.jpg)
 
 
 
 
 
-Go ahead and edit that file. You'll see that it contains the JSON date value. ![file_contents1](http://moduscreate.com/wp-content/uploads/2013/08/file_contents1.jpg)
+Go ahead and edit that file. You'll see that it contains the JSON date value. ![file_contents1](../assets/uploads//2013/08/file_contents1.jpg)
 
 
 
@@ -763,7 +763,7 @@ Change the file and save your edits. Then press `GET file contents` in your app.
 
 
 
-![file_contents2](http://moduscreate.com/wp-content/uploads/2013/08/file_contents2.jpg)
+![file_contents2](../assets/uploads//2013/08/file_contents2.jpg)
 
 
 
@@ -775,7 +775,7 @@ There you go! Everything works as designed.
 
 
 
-# A quick word about app security
+### A quick word about app security
 
 
 
@@ -787,7 +787,7 @@ In case you're worried about app security, don't fret. What we did was purely fo
 
 
 
-# Closing
+### Closing
 
 
 
@@ -799,19 +799,19 @@ We spent a lot of time going over how to create a simple PhoneGap iOS plugin tha
 
 
 
-# See it live
+### See it live
 
 
 
 
 
-This post is a summary of my [ModUX](http://moduxcon.com/) talk on [Building Custom PhoneGap Plugins for iOS](http://moduxcon.com/speakers.html#phonegap). If you can be in Amsterdam on September 20th 2013, then I'd love to hear about your PhoneGap experiences.
+This post is a summary of my [ModUX](http://moduxcon.com/) talk on [Building Custom PhoneGap Plugins for iOS](http://moduxcon.com/speakers.html###phonegap). If you can be in Amsterdam on September 20th 2013, then I'd love to hear about your PhoneGap experiences.
 
 
 
 
 
-# Please share
+### Please share
 
 
 

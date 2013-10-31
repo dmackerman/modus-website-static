@@ -255,11 +255,11 @@ Now let’s define the header template, we can create another html file or we ca
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="brand" href="#">Battleship</a>
+                <a class="brand" href="###">Battleship</a>
                 <div class="nav-collapse collapse">
                   <ul class="nav">
-                    <li class="active"><a href="#">Game</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li class="active"><a href="###">Game</a></li>
+                    <li><a href="###about">About</a></li>
                   </ul>
                   <ul class="nav pull-right">
                     {{> user_info }}
@@ -288,7 +288,7 @@ As you can see we are rendering another template called user_info, so let’s de
 
     
     <template name="user_info">
-        {{#if currentUser}}
+        {{###if currentUser}}
             {{> user_loggedin}}
         {{else}}
             <li>{{> user_loggedout}}</li>
@@ -307,11 +307,11 @@ We can also use conditionals inside our templates; this way we can dynamically r
 
     
     <template name="user_loggedin">
-        {{#if logginIn}}
+        {{###if logginIn}}
             <li>Logging in...</li>
         {{else}}
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <a href="###" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="{{currentUser.profile.avatar_url}}" class="img-rounded" style="width:25px" />
                     {{currentUser.profile.name}}
                     <b class="caret"></b>
@@ -326,7 +326,7 @@ We can also use conditionals inside our templates; this way we can dynamically r
     </template>
     
     <template name="user_loggedout">
-        <a href="#" id="login">Login with Github</a>
+        <a href="###" id="login">Login with Github</a>
     </template>
     
 
@@ -347,7 +347,7 @@ Let’s create a index.js file inside of the public folder, in here we will add 
 
     
     Template.user_loggedout.events({
-        'click #login' : loginFn
+        'click ###login' : loginFn
     });
     
 
@@ -409,7 +409,7 @@ Then we point our browser to http://localhost:300 and we will see the following 
 
 
 
-![meteorblogimage1](http://moduscreate.com/wp-content/uploads/2013/05/meteorblogimage1-300x107.png)
+![meteorblogimage1](../assets/uploads//2013/05/meteorblogimage1-300x107.png)
 
 
 
@@ -421,7 +421,7 @@ After we click in the **Login with Github** link we will be asked by GitHub to a
 
 
 
-![metoerblogimage2](http://moduscreate.com/wp-content/uploads/2013/05/metoerblogimage2-300x107.png)
+![metoerblogimage2](../assets/uploads//2013/05/metoerblogimage2-300x107.png)
 
 
 
@@ -434,7 +434,7 @@ And that’s all! We are using GitHub oAuth to login into our own application, t
 
     
     Template.user_loggedin.events({
-        'click #logout' : function(){
+        'click ###logout' : function(){
             //var username = Meteor.user().profile.login;
             Meteor.logout(function(err){
                 if(err){

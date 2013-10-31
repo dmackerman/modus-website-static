@@ -4,7 +4,7 @@ comments: true
 
 
 
-title: 'Ext JS Screencast #010 - Layouts : vBox and hBox'
+title: 'Ext JS Screencast ###010 - Layouts : vBox and hBox'
 
 ---
 

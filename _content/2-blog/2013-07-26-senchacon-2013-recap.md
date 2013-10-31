@@ -22,7 +22,7 @@ Alas, SenchaCon 2013 has come and went. It was a busy, fun, productive, but very
 
 
 
-# Highlights
+### Highlights
 
 
 
@@ -34,7 +34,7 @@ Expectations were high for some new and exciting announcements. All of Sencha’
 
 
 
-## Sencha Space
+###### Sencha Space
 
 
 
@@ -52,7 +52,7 @@ We're very excited to work with Sencha in changing the BYOD landscape.
 
 
 
-## ExtJS and Touch
+###### ExtJS and Touch
 
 
 
@@ -70,13 +70,13 @@ Of course, ExtJS and Sencha Touch will get their share of new bells and whistles
 
 
 
-![_DSC0029](http://moduscreate.com/wp-content/uploads/2013/07/DSC0029.jpg)
+![_DSC0029](../assets/uploads//2013/07/DSC0029.jpg)
 
 
 
 
 
-## Architect
+###### Architect
 
 
 
@@ -88,7 +88,7 @@ Thanks to Aaron Conran and team, Sencha Architect is no longer a beginner’s to
 
 
 
-## Fastbook
+###### Fastbook
 
 
 
@@ -100,7 +100,7 @@ Jacky Nguyen gave an amazing talk on Fastbook, Sencha’s answer to Facebook’s
 
 
 
-# Modus @ SenchaCon
+### Modus @ SenchaCon
 
 
 
@@ -112,7 +112,7 @@ We came in full force this year. We’ve more than tripled in size since last Se
 
 
 
-![_DSC0101](http://moduscreate.com/wp-content/uploads/2013/07/DSC0101.jpg)
+![_DSC0101](../assets/uploads//2013/07/DSC0101.jpg)
 
 
 
@@ -124,7 +124,7 @@ Many thanks to all the people that stopped by to chat, grab a t-shirt, book or s
 
 
 
-## Getting in Touch With Modus Experts
+###### Getting in Touch With Modus Experts
 
 
 
@@ -136,7 +136,7 @@ We were really humbled by the great interest we received at our Modus lounge in 
 
 
 
-## Creating Custom Components with Sencha Touch
+###### Creating Custom Components with Sencha Touch
 
 
 
@@ -152,7 +152,7 @@ Modus Create CTO, Jay Garcia gave an excellent session on custom components, dra
   
 > 
 > 
-    Standing room only at the talk on Creating Custom Sencha Touch Components by [@ModusJesus](https://twitter.com/ModusJesus) [#SenchaCon](https://twitter.com/search?q=%23SenchaCon&src=hash) [pic.twitter.com/MsZFkDO6QG](http://t.co/MsZFkDO6QG)
+    Standing room only at the talk on Creating Custom Sencha Touch Components by [@ModusJesus](https://twitter.com/ModusJesus) [###SenchaCon](https://twitter.com/search?q=%23SenchaCon&src=hash) [pic.twitter.com/MsZFkDO6QG](http://t.co/MsZFkDO6QG)
   
 > 
 > — R.Bullington-McGuire (@obscurerichard) 
@@ -166,7 +166,7 @@ Modus Create CTO, Jay Garcia gave an excellent session on custom components, dra
 
 
 
-## DJing with Sencha Touch
+###### DJing with Sencha Touch
 
 
 
@@ -182,7 +182,7 @@ Congrats to Modus Create’s Stan Bershadskiy who gave an amazingly educative co
 
 
 
-## Unconference
+###### Unconference
 
 
 
@@ -194,7 +194,7 @@ For the first time ever, the unconference concept emerged to SenchaCon. Modus Cr
 
 
 
-# What’s Next?
+### What’s Next?
 
 
 

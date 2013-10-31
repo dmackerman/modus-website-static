@@ -28,7 +28,7 @@ _Be forwarned, I'm quite new to Grunt in general. Some of the things that are do
 
 
 
-# Why Grunt?
+### Why Grunt?
 
 
 
@@ -40,7 +40,7 @@ Honest answer? Because it seems like everyone under the sun is using it for doin
 
 
 
-# Our goal
+### Our goal
 
 
 
@@ -66,7 +66,7 @@ Let's setup grunt to do the following:
 
 
 
-# The basic grunt setup
+### The basic grunt setup
 
 
 
@@ -108,7 +108,7 @@ We expected that. Let's create a `package.json` and a `Gruntfile.js` in the root
 
 
 
-# package.json
+### package.json
 
 
 
@@ -169,7 +169,7 @@ Fantastic! We've got packages! Unfortunately they don't do anything yet, because
 
 
 
-# Gruntfile.js
+### Gruntfile.js
 
 
 
@@ -376,7 +376,7 @@ Grunt waits patiently for us to change a file, and when we do, we get successful
 
 
 
-# Only the surface
+### Only the surface
 
 
 

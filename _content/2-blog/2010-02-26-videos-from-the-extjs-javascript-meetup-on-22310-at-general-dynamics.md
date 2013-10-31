@@ -19,13 +19,13 @@ We had a great turnout for our [Ext JS Meetup at General Dynamics on 2/23/10](ht
 
 
 
-### We'd like to thank Ext JS for sponsoring the Food and drink and General Dynamics for providing the meeting place
+######### We'd like to thank Ext JS for sponsoring the Food and drink and General Dynamics for providing the meeting place
 
 
 
 
 
-## High Definition of the videos of the Presentations
+###### High Definition of the videos of the Presentations
 
 
 

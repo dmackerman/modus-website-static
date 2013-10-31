@@ -70,25 +70,25 @@ The Reference Card covers the following:
 
 
 
-# Preview
+### Preview
 
 
 
 
 
-[![Sencha Touch Refcard - Component System](http://moduscreate.com/wp-content/uploads/2013/04/rc179-010d-Sencha-Touch-1-3.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/rc179-010d-Sencha-Touch-1-3.jpg)
+[![Sencha Touch Refcard - Component System](../assets/uploads//2013/04/rc179-010d-Sencha-Touch-1-3.jpg)](../assets/uploads//2013/04/rc179-010d-Sencha-Touch-1-3.jpg)
 
 
 
 
 
-[![Sencha Touch Refcard: MVC and Theming](http://moduscreate.com/wp-content/uploads/2013/04/rc179-010d-Sencha-Touch-1-6.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/rc179-010d-Sencha-Touch-1-6.jpg)
+[![Sencha Touch Refcard: MVC and Theming](../assets/uploads//2013/04/rc179-010d-Sencha-Touch-1-6.jpg)](../assets/uploads//2013/04/rc179-010d-Sencha-Touch-1-6.jpg)
 
 
 
 
 
-# About
+### About
 
 
 
@@ -106,7 +106,7 @@ We hope you enjoy it and don't forget to share it with your friends and colleagu
 
 
 
-Get the Sencha Touch Refcard [here](http://refcardz.dzone.com/refcardz/sencha-touch): [![refcard cover](http://moduscreate.com/wp-content/uploads/2013/04/refcard-cover.png)](http://refcardz.dzone.com/refcardz/sencha-touch)
+Get the Sencha Touch Refcard [here](http://refcardz.dzone.com/refcardz/sencha-touch): [![refcard cover](../assets/uploads//2013/04/refcard-cover.png)](http://refcardz.dzone.com/refcardz/sencha-touch)
 
 
 

@@ -13,7 +13,7 @@ categories:
   - Sencha Cmd
 ---
 
-# What Are Packages
+### What Are Packages
 
 
 
@@ -25,7 +25,7 @@ Sencha Cmd 3.1 introduced packages, which are a new way to share code between pr
 
 
 
-# Creating a Package
+### Creating a Package
 
 
 
@@ -125,17 +125,17 @@ This will ultimately make a package called my-package (or whatever you called yo
 
 
     
-    # The name of the package - should match the "name" property in ./package.json
+    ### The name of the package - should match the "name" property in ./package.json
     package.name=my-package
     
-    # The namespace to which this package's SASS corresponds. The default value of
-    # "Ext" means that the files in ./sass/src (and ./sass/var) match classes in
-    # the Ext" root namespace. In other words, "Ext.panel.Panel" maps to
-    # ./sass/src/panel/Panel.scss.
-    # 
-    # To style classes from any namespace, set this to blank. If this is blank,
-    # then to style "Ext.panel.Panel" you would put SASS in
-    # ./sass/src/Ext/panel/Panel.scss.
+    ### The namespace to which this package's SASS corresponds. The default value of
+    ### "Ext" means that the files in ./sass/src (and ./sass/var) match classes in
+    ### the Ext" root namespace. In other words, "Ext.panel.Panel" maps to
+    ### ./sass/src/panel/Panel.scss.
+    ### 
+    ### To style classes from any namespace, set this to blank. If this is blank,
+    ### then to style "Ext.panel.Panel" you would put SASS in
+    ### ./sass/src/Ext/panel/Panel.scss.
     package.sass.namespace=My.package
     
 
@@ -170,7 +170,7 @@ This will ultimately make a package called my-package (or whatever you called yo
 
 
 
-# Implementing a Package
+### Implementing a Package
 
 
 
@@ -227,7 +227,7 @@ This will ultimately make a package called my-package (or whatever you called yo
 
 
 
-# Gotchas
+### Gotchas
 
 
 
@@ -247,7 +247,7 @@ This will ultimately make a package called my-package (or whatever you called yo
 
 
 
-# Opinions
+### Opinions
 
 
 

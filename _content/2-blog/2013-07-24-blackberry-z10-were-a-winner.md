@@ -20,7 +20,7 @@ We developed this application using methodologies that we successfully deploy wi
 
 
 
-# The contest
+### The contest
 
 
 
@@ -32,7 +32,7 @@ A few months ago, [BlackBerry](http://blackberry.com) launched a contest, dubbed
 
 
 
-# About our entry
+### About our entry
 
 
 
@@ -50,7 +50,7 @@ Sencha Touch was chosen because of it's fantastic ability to render user interfa
 
 
 
-![rvrsit1](http://moduscreate.com/wp-content/uploads/2013/07/rvrsit1-179x300.jpg)
+![rvrsit1](../assets/uploads//2013/07/rvrsit1-179x300.jpg)
 
 
 
@@ -62,7 +62,7 @@ It turns out that running a game engine along side with an HTML5 UI framework is
 
 
 
-## The Blackberry Z10 : Our impression
+###### The Blackberry Z10 : Our impression
 
 
 
@@ -80,7 +80,7 @@ Rvrsit's playing field is powered by ImpactJS and renders the gameboard 30 times
 
 
 
-## Take it for a spin
+###### Take it for a spin
 
 
 
@@ -98,7 +98,7 @@ Our goal is to finalize multiplayer and publish Rvrsit to the BlackBerry applica
 
 
 
-## Our thanks to BlackBerry and Sencha!
+###### Our thanks to BlackBerry and Sencha!
 
 
 

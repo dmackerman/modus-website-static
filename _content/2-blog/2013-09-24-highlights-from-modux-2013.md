@@ -17,7 +17,7 @@ We just wrapped up ModUX 2013, our very own developer conference. From September
 
 
 
-# The Future of the Web
+### The Future of the Web
 
 
 
@@ -35,7 +35,7 @@ Furthermore, modern web professionals are often required to go beyond programmin
 
 
 
-# Modus Create Speakers
+### Modus Create Speakers
 
 
 
@@ -49,28 +49,28 @@ It's no secret that Modus Create is successfully built on the principles above. 
 
 
 
-  * Patrick Sheridan, CEO: [5 New Rules for Software Product Development](http://moduxcon.com/speakers.html#5rules)
+  * Patrick Sheridan, CEO: [5 New Rules for Software Product Development](http://moduxcon.com/speakers.html###5rules)
 
 
-  * Jay Garcia, CTO: [Building Custom PhoneGap Plugins for iOS](http://moduxcon.com/speakers.html#phonegap)
+  * Jay Garcia, CTO: [Building Custom PhoneGap Plugins for iOS](http://moduxcon.com/speakers.html###phonegap)
 
 
   * Grgur Grisogono, VP: Opening and Closing Keynote
 
 
-  * Alexandru Lazar, Software Engineer: [Exploring the Possibilities of Sencha and WebRTC](http://moduxcon.com/speakers.html#webrtc)
+  * Alexandru Lazar, Software Engineer: [Exploring the Possibilities of Sencha and WebRTC](http://moduxcon.com/speakers.html###webrtc)
 
 
 
 
 
-[![WebRTC in Sencha Touch](http://moduscreate.com/wp-content/uploads/2013/09/IMG_8035.jpg)](http://moduscreate.com/wp-content/uploads/2013/09/IMG_8035.jpg)
+[![WebRTC in Sencha Touch](../assets/uploads//2013/09/IMG_8035.jpg)](../assets/uploads//2013/09/IMG_8035.jpg)
 
 
 
 
 
-# ModUX in Numbers
+### ModUX in Numbers
 
 
 
@@ -88,13 +88,13 @@ From developers to business leaders, 20 thought leaders shared valuable knowledg
 
 
 
-# Attendee Feedback
+### Attendee Feedback
 
 
 
 
 
-Our feedback survey showed just how well ModUX was received amongst the attendees. [![Survey-web](http://moduscreate.com/wp-content/uploads/2013/09/Survey-web1.png)](http://moduscreate.com/wp-content/uploads/2013/09/Survey-web.png)
+Our feedback survey showed just how well ModUX was received amongst the attendees. [![Survey-web](../assets/uploads//2013/09/Survey-web1.png)](../assets/uploads//2013/09/Survey-web.png)
 
 
 
@@ -148,7 +148,7 @@ The anonymous survey also gave us the insight in how the attendees felt about th
 
 
 
-# Special Thanks
+### Special Thanks
 
 
 
@@ -160,13 +160,13 @@ We greatly appreciate the support of the greater HTML5 developer community, incl
 
 
 
-[![ModUX sponsors](http://moduscreate.com/wp-content/uploads/2013/09/IMG_8062.jpg)](http://moduscreate.com/wp-content/uploads/2013/09/IMG_8062.jpg)
+[![ModUX sponsors](../assets/uploads//2013/09/IMG_8062.jpg)](../assets/uploads//2013/09/IMG_8062.jpg)
 
 
 
 
 
-# Slides, photos, videos
+### Slides, photos, videos
 
 
 

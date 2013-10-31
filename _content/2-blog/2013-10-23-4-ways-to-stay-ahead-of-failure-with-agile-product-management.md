@@ -1,10 +1,14 @@
 ---
-author: steve
+authors:
+  - steve
+  - jay
 comments: true
-title: 4 Ways to Stay Ahead of Failure with Agile Product Management
+title: >
+  4 Ways to Stay Ahead of Failure with
+  Agile Product Management
 categories:
   - Industry
-
+picture: ""
 ---
 
 Any type of software development methodology such as **Agile** or **LEAN** is just that: a methodology. Implementing that into an effective process for a development team in the real world can often be challenging. This article explores four real world challenges that frequently prevent teams from being effective with Agile:
@@ -23,7 +27,7 @@ Staying just enough ahead of the curve in these 4 areas will allow the developme
 
 
 
-# Manage the dependencies between the front-end and the backend.
+### Manage the dependencies between the front-end and the backend.
 
 
 
@@ -41,7 +45,7 @@ Communication is critical to identifying these dependencies and understanding ho
 
 
 
-# UX
+### UX
 
 
 
@@ -59,7 +63,7 @@ Staying ahead will greatly reduce Sprint Planning meeting time and also reduce r
 
 
 
-# Details Still Matter
+### Details Still Matter
 
 
 
@@ -77,7 +81,7 @@ However, if the goal of Agile development is efficiency and velocity then both o
 
 
 
-# Estimates Change. Release Planning is continuous.
+### Estimates Change. Release Planning is continuous.
 
 
 
@@ -95,7 +99,7 @@ There are too many variables that change throughout a project which make estimat
 
 
 
-# Conclusion
+### Conclusion
 
 
 
@@ -107,7 +111,7 @@ Being Agile does not excuse planning. The problem that development teams are att
 
 
 
-Want to learn more about Agile and LEAN best practices? Visit us in San Francisco this December at the Lean Startup Conference 2013, where we will run a workshop on [Using Lean Startup Principles to Add Mobile to Your Enterprise App Portfolio](http://www.leanstartup.co/workshops#turn-the-battleship-use-lean-startup-principles-to-add-mobile-to-your-enterprise-app-portfolio-sponsored-by-modus-create). Is your battleship pointed the right way?
+Want to learn more about Agile and LEAN best practices? Visit us in San Francisco this December at the Lean Startup Conference 2013, where we will run a workshop on [Using Lean Startup Principles to Add Mobile to Your Enterprise App Portfolio](http://www.leanstartup.co/workshops###turn-the-battleship-use-lean-startup-principles-to-add-mobile-to-your-enterprise-app-portfolio-sponsored-by-modus-create). Is your battleship pointed the right way?
 
 
 

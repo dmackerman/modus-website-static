@@ -23,7 +23,7 @@ Often, we work on extensions in our spare time, but rarely release them due to s
 
 
 
-### Introducing Ext.ux.TDGi.HudWindow
+######### Introducing Ext.ux.TDGi.HudWindow
 
 
 Being a fan of OS X, Jay designed the TDGi.HudWindow class is to mimic the OS X "HUD Window", introduced in Leopard. 
@@ -42,13 +42,13 @@ This UX largely consisted of modifying CSS and some modification of the DOM from
 
 
 
-### [Click here to see it in action](http://moduscreate.com/js/examples/ext3/plugins/hudwindow/)
+######### [Click here to see it in action](http://moduscreate.com/js/examples/ext3/plugins/hudwindow/)
 
 
 
 
 
-### [Download via Github](https://github.com/tdgi/Ext.ux.TDGi.HudWindow)
+######### [Download via Github](https://github.com/tdgi/Ext.ux.TDGi.HudWindow)
 
 
 
@@ -68,7 +68,7 @@ Below is an image of the TDGi.HudWindow class with an OS X HUD Window below it.
 
 
 
-### 
+######### 
 Our [WindowDrawer](http://moduscreate.com/54/) extension allows your Ext JS apps to have OS X-like window drawers. If you have not seen it, we suggest checking it out.
 
 

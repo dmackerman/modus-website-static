@@ -22,7 +22,7 @@ Yesterday, I had the pleasure of attending the Facebook Mobile DevCon in New Yor
 
 
 
-[![facebook-devcon-badge](http://moduscreate.com/wp-content/uploads/2013/04/facebook-devcon-badge-199x300.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/facebook-devcon-badge.jpg)
+[![facebook-devcon-badge](../assets/uploads//2013/04/facebook-devcon-badge-199x300.jpg)](../assets/uploads//2013/04/facebook-devcon-badge.jpg)
 
 
 
@@ -34,7 +34,7 @@ Here are some takeaways:
 
 
 
-# Facebook wants to be the one and only social platform
+### Facebook wants to be the one and only social platform
 
 
 
@@ -88,7 +88,7 @@ The ultimate goal with these new features is to promote app discovery and increa
 
 
 
-# Notable Sessions
+### Notable Sessions
 
 
 
@@ -174,43 +174,43 @@ For the Native App Facebook adopted Mozilla's release model for Firefox with the
 
 
 
-# Some Pictures from the Event
+### Some Pictures from the Event
 
 
 
 
 
-[![IMG_0584](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0584-262x350.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0584.jpg)
+[![IMG_0584](../assets/uploads//2013/04/IMG_0584-262x350.jpg)](../assets/uploads//2013/04/IMG_0584.jpg)
 
 
 
 
 
-[![IMG_0588](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0588-225x300.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0588.jpg)
+[![IMG_0588](../assets/uploads//2013/04/IMG_0588-225x300.jpg)](../assets/uploads//2013/04/IMG_0588.jpg)
 
 
 
 
 
-[![IMG_0596](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0596-300x225.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0596.jpg)
+[![IMG_0596](../assets/uploads//2013/04/IMG_0596-300x225.jpg)](../assets/uploads//2013/04/IMG_0596.jpg)
 
 
 
 
 
-[![IMG_0598](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0598-225x300.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0598.jpg)
+[![IMG_0598](../assets/uploads//2013/04/IMG_0598-225x300.jpg)](../assets/uploads//2013/04/IMG_0598.jpg)
 
 
 
 
 
-[![IMG_0601](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0601-225x300.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0601.jpg)
+[![IMG_0601](../assets/uploads//2013/04/IMG_0601-225x300.jpg)](../assets/uploads//2013/04/IMG_0601.jpg)
 
 
 
 
 
-[![IMG_0602](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0602-225x300.jpg)](http://moduscreate.com/wp-content/uploads/2013/04/IMG_0602.jpg)
+[![IMG_0602](../assets/uploads//2013/04/IMG_0602-225x300.jpg)](../assets/uploads//2013/04/IMG_0602.jpg)
 
 
 

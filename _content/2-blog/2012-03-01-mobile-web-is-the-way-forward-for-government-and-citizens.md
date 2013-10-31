@@ -13,7 +13,7 @@ categories:
 - mobile web
 ---
 
-![](http://moduscreate.com/wp-content/uploads/2012/03/govt-iphone-153x300.png)
+![](../assets/uploads//2012/03/govt-iphone-153x300.png)
 
 As a fast growing mobile startup located a stone's throw (and a metro ride) from the nation's capital, I wanted to share some thoughts on the transformative effect mobile web apps will have on citizen engagement and agency missons.
 

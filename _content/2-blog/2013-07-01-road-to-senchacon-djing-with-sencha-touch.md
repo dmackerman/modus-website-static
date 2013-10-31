@@ -14,13 +14,13 @@ categories:
   - web-audio
 ---
 
-Modus Create is honored to not only sponsor [SenchaCon](http://senchacon.com) but to have its team members present during the conference as well. This post previews the work behind the [DJing with Sencha Touch](http://senchacon.com/sessions/#djingwithtouch) session presented by Stan Bershadskiy.
+Modus Create is honored to not only sponsor [SenchaCon](http://senchacon.com) but to have its team members present during the conference as well. This post previews the work behind the [DJing with Sencha Touch](http://senchacon.com/sessions/###djingwithtouch) session presented by Stan Bershadskiy.
 
 
 
 
 
-# DJing with Sencha Touch
+### DJing with Sencha Touch
 
 
 
@@ -38,7 +38,7 @@ The app was written using Sencha Touch 2.2 and uses some external libraries for 
 
 
 
-## Overview
+###### Overview
 
 
 
@@ -117,7 +117,7 @@ Without giving too much away prior to SenchaCon here's a little peek of what the
 
 
 
-[![mosaic1](http://moduscreate.com/wp-content/uploads/2013/06/mosaic11-466x350.jpg)](http://moduscreate.com/wp-content/uploads/2013/06/mosaic11.jpg)
+[![mosaic1](../assets/uploads//2013/06/mosaic11-466x350.jpg)](../assets/uploads//2013/06/mosaic11.jpg)
 
 
 

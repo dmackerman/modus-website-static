@@ -24,7 +24,7 @@ Thanks to our new and existing clients and talented team members who've joined u
 
 
 Here's to amazing things in 2013!
-![Modus Turns 2](http://moduscreate.com/wp-content/uploads/2013/03/Modus-Turns-2fix-blog.png)
+![Modus Turns 2](../assets/uploads//2013/03/Modus-Turns-2fix-blog.png)
 
 
 

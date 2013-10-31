@@ -1,6 +1,6 @@
 fields:
-  author:
-    display: Author
+  authors:
+    display: Authors
     type: users
   categories:
     display: Categories

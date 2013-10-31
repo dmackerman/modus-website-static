@@ -18,13 +18,13 @@ Playing XBox Live allows our distributed team to connect on a personal level and
 
 
 
-# 1 - Know Your Map
+### 1 - Know Your Map
 
 
 
 
 
-![mw3-map-funnels](http://moduscreate.com/wp-content/uploads/2013/03/mw3-map-funnels.png)
+![mw3-map-funnels](../assets/uploads//2013/03/mw3-map-funnels.png)
 
 
 
@@ -43,13 +43,13 @@ Identifying advantageous market conditions matters as much, and sometimes more, 
 
 
 
-# 2 - Conserve Cash and Ammo
+### 2 - Conserve Cash and Ammo
 
 
 
 
 
-![Air support armory](http://moduscreate.com/wp-content/uploads/2013/03/Airsupport-armory-443x371.jpg)
+![Air support armory](../assets/uploads//2013/03/Airsupport-armory-443x371.jpg)
 
 
 
@@ -83,13 +83,13 @@ Revenue is water but cash is air. You can survive without revenue but will die q
 
 
 
-# 3 - Over Communicate
+### 3 - Over Communicate
 
 
 
 
 
-![mw3-revive](http://moduscreate.com/wp-content/uploads/2013/03/mw3-revive-620x325.png)
+![mw3-revive](../assets/uploads//2013/03/mw3-revive-620x325.png)
 
 
 
@@ -116,13 +116,13 @@ Your team cannot read your mind. Add distance with a distributed team, add commu
 
 
 
-# 4 - Pick Perks Wisely
+### 4 - Pick Perks Wisely
 
 
 
 
 
-![mw3-perks](http://moduscreate.com/wp-content/uploads/2013/03/mw3-perks.jpg)
+![mw3-perks](../assets/uploads//2013/03/mw3-perks.jpg)
 
 
 
@@ -142,13 +142,13 @@ Useless optimization kills products and businesses. Build feedback loops with yo
 
 
 
-# 5 - Triple Juggernaut Strategy
+### 5 - Triple Juggernaut Strategy
 
 
 
 
 
-![mw3-juggernaut](http://moduscreate.com/wp-content/uploads/2013/03/mw3-juggernaut.jpg)
+![mw3-juggernaut](../assets/uploads//2013/03/mw3-juggernaut.jpg)
 
 
 

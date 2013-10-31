@@ -12,7 +12,7 @@ categories:
   - ExtJS
 ---
 
-## **General Dynamics to host an Ext JS and JavaScript Meetup**
+###### **General Dynamics to host an Ext JS and JavaScript Meetup**
 
 
 
@@ -24,13 +24,13 @@ After a successful and full meetup [at Three Pillar Global on 1/19/2010](http://
 
 
 
-## About the presentations:
+###### About the presentations:
 
 
 
 
 
-## **Theming Ext JS, Pat Sheridan**
+###### **Theming Ext JS, Pat Sheridan**
 
 
 
@@ -42,7 +42,7 @@ I'll give some practical code walkthrough on understanding the default theme CSS
 
 
 
-## **Using Base Classes, Jay Garcia**
+###### **Using Base Classes, Jay Garcia**
 
 
 
@@ -61,7 +61,7 @@ Food and refreshments to be provided.  We look forward to [seeing you there!](ht
 
 
 
-## Address:
+###### Address:
 
 
 
@@ -78,7 +78,7 @@ Chantilly, VA 20151
 
 
 
-## RSVP Link: [here](http://www.meetup.com/NoVa-Javascript-Ext-JS-Users-Group/calendar/12529642/).
+###### RSVP Link: [here](http://www.meetup.com/NoVa-Javascript-Ext-JS-Users-Group/calendar/12529642/).
 
 
 
@@ -94,7 +94,7 @@ The official ExtJS.com/forum link [here](http://www.extjs.com/forum/showthread.p
 
 
 
-## **About the presenters:**
+###### **About the presenters:**
 
 
 

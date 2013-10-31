@@ -50,7 +50,7 @@ In this folder we will create our Sencha Touch app. We are going to have our dev
 
 
 
-### Creating the Sencha App
+######### Creating the Sencha App
 
 
 
@@ -88,7 +88,7 @@ If we open our browser and go to http://localhost:8000 we will see the default S
 
 
 
-![Default Sencha Touch App](http://moduscreate.com/wp-content/uploads/2013/08/st1.png)
+![Default Sencha Touch App](../assets/uploads//2013/08/st1.png)
 
 
 
@@ -237,7 +237,7 @@ We also need to create the form to add new users, let’s create a new file unde
 
 
 
-### Accessing the camera to take a picture
+######### Accessing the camera to take a picture
 
 
 
@@ -415,7 +415,7 @@ Instead of using tabs we will use a card layout, we will display the list of use
 
 
 
-![The User's List](http://moduscreate.com/wp-content/uploads/2013/08/st2.png)
+![The User's List](../assets/uploads//2013/08/st2.png)
 
 
 
@@ -427,7 +427,7 @@ As you can see there’s an error while getting the users, this is happening bec
 
 
 
-### Adding actions with the controller
+######### Adding actions with the controller
 
 
 
@@ -510,13 +510,13 @@ If we refresh our application in the browser we will be able to see the form, wi
 
 
 
-![User's Form](http://moduscreate.com/wp-content/uploads/2013/08/st3.png)
+![User's Form](../assets/uploads//2013/08/st3.png)
 
 
 
 
 
-### Styling our application with SASS
+######### Styling our application with SASS
 
 
 
@@ -586,7 +586,7 @@ Here’s the list.scss file.
                 margin-right:10px;
             }
             small{
-                color:#666;
+                color:###666;
             }
         }
     }
@@ -603,10 +603,10 @@ Here’s the capturepicture.scss code.
 
     
     <code>.picture-capture{
-        @include background-image(linear-gradient(#1676b9,#10598d));
+        @include background-image(linear-gradient(###1676b9,###10598d));
         @include border-radius(3px);
-        @include box-shadow(inset 0px 1px 1px #1a86d2);
-        border:1px solid #000000;
+        @include box-shadow(inset 0px 1px 1px ###1a86d2);
+        border:1px solid ###000000;
         border-width:1px;
         overflow: hidden;
         margin:20px auto;
@@ -634,13 +634,13 @@ Here’s the capturepicture.scss code.
             position: absolute;
             width: 100%;
             height: 100%;
-            color:#fff;
+            color:###fff;
             text-align: center;
             font-size: 0.8em;
             i{
                 display:block;
                 font-size: 3.5em;;
-                color:#fff;
+                color:###fff;
             }
         }
     }
@@ -657,7 +657,7 @@ And here’s the icons.scss code.
 
     
     <code>@mixin custom-icon($name, $font-family: false) {
-        .icon-#{$name}{
+        .icon-###{$name}{
             $character: icon-character-for-name($name);
     
             &:before {
@@ -671,9 +671,9 @@ And here’s the icons.scss code.
                 }
     
                 @if $character {
-                    content: "#{$character}";
+                    content: "###{$character}";
                 } @else {
-                    content: "#{$name}";
+                    content: "###{$name}";
                 }
             }
         }
@@ -692,7 +692,7 @@ That’s just a custom mixing that allow us to use the pictos icons on any DOM n
 
 
 
-![Styles applyed](http://moduscreate.com/wp-content/uploads/2013/08/st4.png)
+![Styles applyed](../assets/uploads//2013/08/st4.png)
 
 
 
@@ -704,7 +704,7 @@ If you open the app in your iPhone or iPad, you will be able to take a picture a
 
 
 
-### Sending the image to the server
+######### Sending the image to the server
 
 
 
@@ -873,7 +873,7 @@ This controller is very simple, there are many things to improve but it’s enou
 
 
 
-### Deploying the Sencha Touch to Production
+######### Deploying the Sencha Touch to Production
 
 
 
@@ -944,13 +944,13 @@ Here’s a demo of our [final application](http://fierce-mountain-8070.herokuapp
 
 
 
-[![Final app](http://moduscreate.com/wp-content/uploads/2013/08/st5.png)](http://fierce-mountain-8070.herokuapp.com/)
+[![Final app](../assets/uploads//2013/08/st5.png)](http://fierce-mountain-8070.herokuapp.com/)
 
 
 
 
 
-### Browser support
+######### Browser support
 
 
 
@@ -968,7 +968,7 @@ You can get the completed [code from GitHub](https://github.com/crysfel/accessin
 
 
 
-### Your turn
+######### Your turn
 
 
 

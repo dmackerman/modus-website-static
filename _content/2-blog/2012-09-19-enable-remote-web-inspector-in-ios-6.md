@@ -34,7 +34,7 @@ You'll find the Web Inspector toggle there.
 
 
 
-![Web Inspector in Safari Settings](http://moduscreate.com/wp-content/uploads/2012/09/screens2.jpg)
+![Web Inspector in Safari Settings](../assets/uploads//2012/09/screens2.jpg)
 
 
 
@@ -46,7 +46,7 @@ Once enabled, you'll need to physically connect your iPhone or iPad to your Mac.
 
 
 
-![Safari Develop Menu](http://moduscreate.com/wp-content/uploads/2012/09/j2.png)
+![Safari Develop Menu](../assets/uploads//2012/09/j2.png)
 
 
 
@@ -58,7 +58,7 @@ Select the **Develop** menu, and your iDevice should be a menu option. You shoul
 
 
 
-![iPhone Remote Debugging in Action](http://moduscreate.com/wp-content/uploads/2012/09/photo22.jpg)
+![iPhone Remote Debugging in Action](../assets/uploads//2012/09/photo22.jpg)
 
 
 

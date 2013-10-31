@@ -18,7 +18,7 @@ During the [DJing with Sencha Touch](http://moduscreate.com/road-to-senchacon-dj
 
 
 
-# Overview
+### Overview
 
 
 
@@ -112,7 +112,7 @@ The app implements the following features:
 
 
 
-# Demo
+### Demo
 
 
 
@@ -124,31 +124,31 @@ You can check out Touch DJ in (almost) all its glory here: [touchdj.moduscreate.
 
 
 
-# Screenshots
+### Screenshots
 
 
 
 
 
-[![Screenshot_4](http://moduscreate.com/wp-content/uploads/2013/07/Screenshot_4-455x350.png)](http://moduscreate.com/wp-content/uploads/2013/07/Screenshot_4.png)
+[![Screenshot_4](../assets/uploads//2013/07/Screenshot_4-455x350.png)](../assets/uploads//2013/07/Screenshot_4.png)
 
 
 
 
 
-[![iOS Simulator Screen shot Jul 3, 2013 1.09.13 AM](http://moduscreate.com/wp-content/uploads/2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.09.13-AM-466x350.png)](http://moduscreate.com/wp-content/uploads/2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.09.13-AM.png)
+[![iOS Simulator Screen shot Jul 3, 2013 1.09.13 AM](../assets/uploads//2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.09.13-AM-466x350.png)](../assets/uploads//2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.09.13-AM.png)
 
 
 
 
 
-[![iOS Simulator Screen shot Jul 3, 2013 1.21.17 AM](http://moduscreate.com/wp-content/uploads/2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.21.17-AM-466x350.png)](http://moduscreate.com/wp-content/uploads/2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.21.17-AM.png)
+[![iOS Simulator Screen shot Jul 3, 2013 1.21.17 AM](../assets/uploads//2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.21.17-AM-466x350.png)](../assets/uploads//2013/07/iOS-Simulator-Screen-shot-Jul-3-2013-1.21.17-AM.png)
 
 
 
 
 
-# Development
+### Development
 
 
 
@@ -210,13 +210,13 @@ This is what the Audio Routing Graph looks like for the Touch DJ app:
 
 
 
-[![senchacon presentation.024](http://moduscreate.com/wp-content/uploads/2013/07/senchacon-presentation.024.jpg)](http://moduscreate.com/wp-content/uploads/2013/07/senchacon-presentation.024.jpg)
+[![senchacon presentation.024](../assets/uploads//2013/07/senchacon-presentation.024.jpg)](../assets/uploads//2013/07/senchacon-presentation.024.jpg)
 
 
 
 
 
-# More Info
+### More Info
 
 
 
@@ -230,7 +230,7 @@ For more info on Touch DJ, here is the SenchaCon 2013 Presentation on "DJing wit
 
 
 
-# Source
+### Source
 
 
 

@@ -76,7 +76,7 @@ In the video above, I am pressing number keys along with clicking on instances o
 
 
 
-## The big picture
+###### The big picture
 
 
 
@@ -96,7 +96,7 @@ Below is the code that you can use in your application today to include this beh
 
 
 
-# Read more.
+### Read more.
 
 
 
@@ -108,7 +108,7 @@ To understand how inline extensions work, check out our article titled "[how to 
 
 
 
-# Like what you've read today?
+### Like what you've read today?
 
 
 
@@ -120,7 +120,7 @@ Please register and leave a comment.  The best fuel that drives us to write is  
 
 
 
-# Looking for Ext JS or Sencha Touch professional services?
+### Looking for Ext JS or Sencha Touch professional services?
 
 
 

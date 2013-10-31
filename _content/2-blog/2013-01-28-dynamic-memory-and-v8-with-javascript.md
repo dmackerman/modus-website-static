@@ -194,7 +194,7 @@ Online documentation, other than source code, for the V8 engine’s garbage coll
 
 
 
-[https://developers.google.com/v8/design#garb_coll](https://developers.google.com/v8/design#garb_coll)
+[https://developers.google.com/v8/design###garb_coll](https://developers.google.com/v8/design###garb_coll)
 
 
 
@@ -203,7 +203,7 @@ Online documentation, other than source code, for the V8 engine’s garbage coll
 > 
   
 > 
-> # Efficient Garbage Collection
+> ### Efficient Garbage Collection
 > 
 > 
   
@@ -541,7 +541,7 @@ On to the results.
 
 
 
-# run1
+### run1
 
 
 
@@ -565,7 +565,7 @@ The execution time of each loop took longer and longer over time. The ﬁrst few
 
 
 
-# run2
+### run2
 
 
 
@@ -589,7 +589,7 @@ The initial execution times per 1 million instantiations took about 2.6 seconds.
 
 
 
-# run3
+### run3
 
 
 
@@ -613,7 +613,7 @@ The initial execution time per 1 million instantiations took about 7.4 seconds. 
 
 
 
-## Analysis
+###### Analysis
 
 
 
@@ -680,7 +680,7 @@ As far as memory usage goes, I ran an additional test that simply called an empt
 
 
 
-## Conclusion
+###### Conclusion
 
 
 
@@ -692,7 +692,7 @@ In doing the research for this post, I ran across a great email in the v8-dev Go
 
 
 
-[https://groups.google.com/forum/?fromgroups=#!topic/v8-dev/vqaaluoupeA](https://groups.google.com/forum/?fromgroups=#!topic/v8-dev/vqaaluoupeA)
+[https://groups.google.com/forum/?fromgroups=###!topic/v8-dev/vqaaluoupeA](https://groups.google.com/forum/?fromgroups=###!topic/v8-dev/vqaaluoupeA)
 
 
 

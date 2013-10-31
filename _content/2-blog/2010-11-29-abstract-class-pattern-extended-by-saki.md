@@ -48,7 +48,7 @@ To read the article, click : [http://blog.extjs.eu/know-how/factory-functions-in
 
 
 
-### 
+######### 
 Thank you Saki for all of the work that you do, further educating the Ext JS community!
 
 

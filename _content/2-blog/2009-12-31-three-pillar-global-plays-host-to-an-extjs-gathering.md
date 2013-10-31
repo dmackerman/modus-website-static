@@ -8,13 +8,13 @@ title: Three Pillar Global plays host to a an Ext JS gathering
 
 ---
 
-## **Three Pillar Global plays host to a an Ext JS gathering**
+###### **Three Pillar Global plays host to a an Ext JS gathering**
 
 
 At 6:30PM on 1/19/2010, [Three Pillar Global](http://threepillarglobal.com/) (formally Three Pillar software) will be hosting a gathering of industry leading minds in the metro DC area to discuss and share development practices, ideas, tips and tricks revolving around the Ext JS framework.   There will be four presentations that are jam-packed with information that can aid to your success in developing applications with the Ext JS framework
 
 
-## **About the presentations:**
+###### **About the presentations:**
 
 
 Patrick Sheridan will kick off the meeting, where he will explain how analysis-driven development can aid in the success of your application construction, reducing time from conception to production.  Shea Frederick will be guiding us through advanced JavaScript debugging techniques, demonstrating some of the best tricks for the latest and greatest JavaScript development tools.  Jonathan Julian is going to share and elaborate on five areas to improve your Ext JS applications, which range from defining your own components to properly overriding the framework.  Lastly, Jay Garcia will discuss how to build extensible applications using a two-tiered approach with Ext JS.
@@ -23,7 +23,7 @@ Food and refreshments to be provided.  We look forward to [seeing you there!](ht
 
 
 
-## Address: (click to launch google maps)
+###### Address: (click to launch google maps)
 
 
 [4000 Legato Rd  
@@ -36,7 +36,7 @@ RSVP Link: [here](http://www.meetup.com/baltimore-dc-javascript-users/calendar/1
 
 
 
-## **About the presenters:**
+###### **About the presenters:**
 
 
 

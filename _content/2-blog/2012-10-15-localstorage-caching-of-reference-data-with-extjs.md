@@ -10,7 +10,7 @@ categories:
     - Development
 ---
 
-Do you have a ton of reference data that needs to load with your app? Lots of combo boxes with mostly static data? Previously I had used a custom store extension to handle caching of the data in memory. That approach involved flipping between use of a MemoryProxy and a RestProxy depending upon whether the data was cached or not. As I found later on, this breaks down when you need to administer that reference data. Why? Because with a MemoryProxy, there's no way to make remote calls for create, update and destroy operations of course! #facePalm
+Do you have a ton of reference data that needs to load with your app? Lots of combo boxes with mostly static data? Previously I had used a custom store extension to handle caching of the data in memory. That approach involved flipping between use of a MemoryProxy and a RestProxy depending upon whether the data was cached or not. As I found later on, this breaks down when you need to administer that reference data. Why? Because with a MemoryProxy, there's no way to make remote calls for create, update and destroy operations of course! ###facePalm
 
 
 

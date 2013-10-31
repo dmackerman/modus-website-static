@@ -16,7 +16,7 @@ Google Hangouts is an easy-to-use video chat service from Google. I happen to li
 
 
 
-## Google and Mozilla ?
+###### Google and Mozilla ?
 
 
 
@@ -34,7 +34,7 @@ The API is available in [Chrome](http://chrome.google.com/) both desktop and mob
 
 
 
-## What’s in WebRTC ?
+###### What’s in WebRTC ?
 
 
 
@@ -117,7 +117,7 @@ Open standards for real-time video, audio and data communication have already be
 
 
 
-## Now what ?
+###### Now what ?
 
 
 

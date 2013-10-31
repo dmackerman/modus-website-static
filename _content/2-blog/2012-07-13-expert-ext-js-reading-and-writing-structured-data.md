@@ -16,7 +16,7 @@ Often times front-end developers don't have the option to change server-side beh
 
 
 
-## Reading Optional Nested Data
+###### Reading Optional Nested Data
 
 
 
@@ -61,7 +61,7 @@ Your corresponding Model definition would look like so:
 
 
 
-But what if address isn't provided on all read requests? Ext JS's [JsonReader](http://docs.sencha.com/ext-js/4-1/#!/api/Ext.data.reader.Json) chokes. Here's a JsonReader extension that will traverse mappings safely:
+But what if address isn't provided on all read requests? Ext JS's [JsonReader](http://docs.sencha.com/ext-js/4-1/###!/api/Ext.data.reader.Json) chokes. Here's a JsonReader extension that will traverse mappings safely:
 
 
     
@@ -125,11 +125,11 @@ To minimize performance impact, safe mapping traversal is not enabled by default
 
 
 
-## Writing Structured Data
+###### Writing Structured Data
 
 
 
-Let's say you need to write back data using the same format in which it is provided in a read operation. As you may know, the default [JsonWriter](http://docs.sencha.com/ext-js/4-1/#!/api/Ext.data.writer.Json) does not use mappings to structure the data for writes and instead sends only key-value pairs. While it would be tempting to write a simple JsonWriter extension to achieve this. I believe this approach is shortsighted. It makes more sense to place this functionality on the Model prototype so that any obscure boundary cases can be handled with custom code that is easily isolated in the particular Model(s).
+Let's say you need to write back data using the same format in which it is provided in a read operation. As you may know, the default [JsonWriter](http://docs.sencha.com/ext-js/4-1/###!/api/Ext.data.writer.Json) does not use mappings to structure the data for writes and instead sends only key-value pairs. While it would be tempting to write a simple JsonWriter extension to achieve this. I believe this approach is shortsighted. It makes more sense to place this functionality on the Model prototype so that any obscure boundary cases can be handled with custom code that is easily isolated in the particular Model(s).
 
 In order to achieve this, we need two extensions. First, we'll extend Ext.data.Model to take an instance's values and construct the payload:
 
@@ -224,7 +224,7 @@ Next, we'll extend Ext.data.writer.Json to use Model's getWriteData() when write
 
 
 
-## Writing Associated Data
+###### Writing Associated Data
 
 
 
@@ -341,6 +341,6 @@ One oddity I found is that there was no way to write up associated data with the
 
 
 
-One thing I added here was to allow you to specify a forcePersist property on any Field to make sure it is persisted whether it has changed or not. It is also worth noting that if you need to write associated Models with a different key than they are read you simply can use [associationKey](http://docs.sencha.com/ext-js/4-1/#!/api/Ext.data.association.Association-cfg-associationKey)
+One thing I added here was to allow you to specify a forcePersist property on any Field to make sure it is persisted whether it has changed or not. It is also worth noting that if you need to write associated Models with a different key than they are read you simply can use [associationKey](http://docs.sencha.com/ext-js/4-1/###!/api/Ext.data.association.Association-cfg-associationKey)
 
 Next up we'll talk about left/right docked TabBars!

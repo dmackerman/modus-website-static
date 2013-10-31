@@ -12,6 +12,6 @@ Today, the Ext JS team decided to release the blog post that I wrote that detail
 
 [http://www.extjs.com/blog/2009/09/13/5-steps-drag-and-drop-with-ext-js/](http://www.extjs.com/blog/2009/09/13/5-steps-drag-and-drop-with-ext-js/)
 
-[![Extjs.com preview](http://moduscreate.com/wp-content/uploads/2009/09/Extjs.com-preview.jpg)](http://www.extjs.com/blog/2009/09/13/5-steps-drag-and-drop-with-ext-js/)
+[![Extjs.com preview](../assets/uploads//2009/09/Extjs.com-preview.jpg)](http://www.extjs.com/blog/2009/09/13/5-steps-drag-and-drop-with-ext-js/)
 
 Many thanks to [Abe](http://www.extjs.com/company/), [Shea Frederick](http://vinylfox.com/) (author of [Learning Ext JS](http://learningextjs.com/)) and all who have provided feedback for this. I look forward to writing more content for the ExtJS.com blog.

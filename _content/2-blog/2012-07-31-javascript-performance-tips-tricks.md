@@ -13,7 +13,7 @@ From rarely used and almost forbidden code snippets to commonly used methods and
 All tests are measured in **ops/sec (higher is better)**, the widely known jsperf.com benchmarking style. In fact, benchmark.js was used to conduct the tests cross-browser. The tests were conducted on a 2011 MacBook Pro, 2.2 GHz i7 processor with 8GB RAM and a Vertex 3 SSD, all running on a 10.7.4 OS X Lion or Windows XP SP3 through Parallels 7.
 
 
-### Evaluation
+######### Evaluation
 
 
 ****I can hear you saying "Oh but Crockford says eval is evil and I agree with him." I concur, but there are cases when evaluation is important, such as:
@@ -58,12 +58,12 @@ Alternatively, let's do the same thing, but this time we will evaluate using a l
 
 Benchmarking this snippet in the same browser will output **5,256 ops/sec**, a staggering **54.2x (or 5,418%) speed increase**.
 
-[![JavaScript Evaluation vs (new Function())()](http://moduscreate.com/wp-content/uploads/2012/07/evaluation.png)](http://moduscreate.com/javascript-performance-tips-tricks/evaluation/)
+[![JavaScript Evaluation vs (new Function())()](../assets/uploads//2012/07/evaluation.png)](http://moduscreate.com/javascript-performance-tips-tricks/evaluation/)
 
 Google Chrome's V8 engine is to 'blame' for such performance. Unfortunately or luckily, depending on how you look at it, not all browsers use V8. However, all browsers consistently report performance benefits with the latter approach, whether they are by as much as 5400% or 10% (IE6).
 
 
-### String Concatenation
+######### String Concatenation
 
 
 This section is unique because we often use concatenation techniques for code readability and organisation benefits in addition to business logic purposes. In other words, we tend to intentionally sacrifice application performance in favour of prettier code. I'll stick to this notion to demonstrate the speed differences. Common concatenation principles include:
@@ -115,14 +115,14 @@ Let's rewrite that statement, persist the prettiness, and increase the performan
 
 Instead of creating a new array, filling it up with strings and then joining it, I simply created an empty string and used `String.prototype.concat` method to append arguments to it. Visually it doesn't make a huge difference, the code is as pretty as it was. However, the latter performs significantly faster than any other form of concatenation.
 
-[![JavaScript String Concatenation Chart](http://moduscreate.com/wp-content/uploads/2012/07/concatenation.png)](http://moduscreate.com/javascript-performance-tips-tricks/concatenation/)
+[![JavaScript String Concatenation Chart](../assets/uploads//2012/07/concatenation.png)](http://moduscreate.com/javascript-performance-tips-tricks/concatenation/)
 
 Look at the `''.concat()` bars skyrocketing so much that `[].join()` looks incredibly silly. In fact, the benefit is exponential across browsers.
 
 **Up
 
 
-### Loops
+######### Loops
 
 
 When simple iterations are required, in other words repeating an action n times, we will often use a while instead of a for loop.
@@ -144,10 +144,10 @@ vs
 
 Anyone who has to deal with (read: support) Internet Explorers will say that the while loop is faster. That is true for all IE9 and older. New browsers, however, cancel this out in favour of the for loop. Yet, the performance increase in percentage is higher than the one found in IEs.
 
-[![For Loop vs While Loop - JavaScript Performance](http://moduscreate.com/wp-content/uploads/2012/07/loops.png)](http://moduscreate.com/javascript-performance-tips-tricks/loops/)
+[![For Loop vs While Loop - JavaScript Performance](../assets/uploads//2012/07/loops.png)](http://moduscreate.com/javascript-performance-tips-tricks/loops/)
 
 
-### Accessing Object Properties
+######### Accessing Object Properties
 
 
 Repeated access to nested object properties is, logically, going to introduce performance drawbacks. Here is what I mean:
@@ -171,10 +171,10 @@ Instead, let's cache the static part, or the first four steps and see what it br
 
 Not only that the code is shorter in total number of bytes, but it's faster.
 
-[![Nested Object Properties](http://moduscreate.com/wp-content/uploads/2012/07/nested_obj_props.png)](http://moduscreate.com/javascript-performance-tips-tricks/nested_obj_props/)
+[![Nested Object Properties](../assets/uploads//2012/07/nested_obj_props.png)](http://moduscreate.com/javascript-performance-tips-tricks/nested_obj_props/)
 
 
-### Reusing Array References
+######### Reusing Array References
 
 
 Often in our code we work with temporary references that get discarded in time. Arrays in particular can be reused, or should we say recycled, thus saving some of the precious processing time. This is how it's done:
@@ -190,12 +190,12 @@ Often in our code we work with temporary references that get discarded in time. 
 
 The advantage over creating a brand new array instance can be interesting, at least in some browsers.
 
-[![Reusing Arrays for JavaScript Performance](http://moduscreate.com/wp-content/uploads/2012/07/reuse_array.png)](http://moduscreate.com/javascript-performance-tips-tricks/reuse_array/)
+[![Reusing Arrays for JavaScript Performance](../assets/uploads//2012/07/reuse_array.png)](http://moduscreate.com/javascript-performance-tips-tricks/reuse_array/)
 
 Interestingly, Chrome is ridiculously fast with re-creating a new array, and it actually lost a great deal with the suggested approach. All other browsers, however, benefited greatly.
 
 
-### Optimising Events
+######### Optimising Events
 
 
 JavaScript's event-driven nature is one of the major strengths of the language. At the same time, having an enormous number of events can be sub-optimal and degrade application performance significantly. Imagine 1000 nodes each listening for an event, then testing for each one of them in capturing and bubbling phase of event handling. Expensive. Here is what I mean:
@@ -274,7 +274,7 @@ In this example, the menu is rendered from a data set using Ext.XTemplate. A lis
 This approach also gives more power to the developer who can access the panel component directly with the `this` keyword when using proper scoping.
 
 
-### Conclusion
+######### Conclusion
 
 
 In this document, we went over some of the commonly used snippets and demonstrated how they can be improved to yield faster applications. This is especially important for mobile web applications and sites as the numbers of mobile clients has been on a significant rise (and will continue to do so), while mobile devices are not as powerful as desktops, hardware-wise.

@@ -28,7 +28,7 @@ There are a couple of solutions to tackle this issue from a Cordova perspective.
 
 
 
-### Open all URLs externally in Mobile Safari
+######### Open all URLs externally in Mobile Safari
 
 
 
@@ -36,7 +36,7 @@ There are a couple of solutions to tackle this issue from a Cordova perspective.
 
 
 
-  1. In XCode, open the MainViewController.m class.[![](http://moduscreate.com/wp-content/uploads/2012/09/1MainViewController2-300x218.jpeg)](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/1mainviewcontroller/)
+  1. In XCode, open the MainViewController.m class.[![](../assets/uploads//2012/09/1MainViewController2-300x218.jpeg)](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/1mainviewcontroller/)
 
 
   2. Find the method: `shouldStartLoadWithRequest`, it should be commented out by default
@@ -79,13 +79,13 @@ There are a couple of solutions to tackle this issue from a Cordova perspective.
 
 
 
-The [shouldStartLoadWithRequest](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIWebViewDelegate_Protocol/Reference/Reference.html) method gets called before a WebView is about to load a URL. Here we intercept the request and pass it on to [UIApplication](https://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html). UIApplication serves as a global application router. Mobile Safari is registered to handle http hrefs (Mail.app to mailto, other applications to their custom protocols, etc..). So when we call the openURL method, Mobile Safari is invoked. We return NO (false) to the method to tell the WebView that we will not load the frame internally.
+The [shouldStartLoadWithRequest](http://developer.apple.com/library/ios/###documentation/uikit/reference/UIWebViewDelegate_Protocol/Reference/Reference.html) method gets called before a WebView is about to load a URL. Here we intercept the request and pass it on to [UIApplication](https://developer.apple.com/library/ios/###documentation/UIKit/Reference/UIApplication_Class/Reference/Reference.html). UIApplication serves as a global application router. Mobile Safari is registered to handle http hrefs (Mail.app to mailto, other applications to their custom protocols, etc..). So when we call the openURL method, Mobile Safari is invoked. We return NO (false) to the method to tell the WebView that we will not load the frame internally.
 
 
 
 
 
-### ChildBrowser Plugin
+######### ChildBrowser Plugin
 
 
 
@@ -134,8 +134,8 @@ To get it to do what we need, open **ALL** URLs through the ChildBrowser we must
 
 
     
-    #import "MainViewController.h"
-    #include "ChildBrowserViewController.h" // Include ChildBrowserViewController so we can use it later
+    ###import "MainViewController.h"
+    ###include "ChildBrowserViewController.h" // Include ChildBrowserViewController so we can use it later
     
     @implementation MainViewController
     
@@ -182,7 +182,7 @@ Here we take the same approach as the Safari method. However, instead of passing
 
 
 
-### A note on iFrames and YouTube
+######### A note on iFrames and YouTube
 
 
 
@@ -200,13 +200,13 @@ In `Cordova.plist` you can set the following properties to allow inline media pl
 
 
 
-[![](http://moduscreate.com/wp-content/uploads/2012/09/fx6h2-300x85.png)](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/fx6h/)
+[![](../assets/uploads//2012/09/fx6h2-300x85.png)](http://moduscreate.com/opening-all-urls-with-phonegaps-childbrowser-plugin/fx6h/)
 
 
 
 
 
-### References
+######### References
 
 
 

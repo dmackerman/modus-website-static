@@ -20,7 +20,7 @@ Known issues:
 - Shadow for window out of sync.
 - Expand/Collapse animations are not fully functional.
 Click [here](http://moduscreate.com/js/examples/ext3/plugins/panelheader/) for a quick demonstration: [http://moduscreate.com/js/examples/ext3/plugins/panelheader/](http://moduscreate.com/js/examples/ext3/plugins/panelheader/)
-![](http://moduscreate.com/wp-content/uploads/2009/06/headertoolbarpreview.jpg)
+![](../assets/uploads//2009/06/headertoolbarpreview.jpg)
 
 To those of you who question the need or desire for such a plugin, take a quick look at Windows and OSX panels as exhibit the same features.
 

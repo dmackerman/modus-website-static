@@ -28,7 +28,7 @@ Here's a quick snapshot of what we saw.
 
 
 
-![Sencha Touch 1 rotation scaling bug](http://moduscreate.com/wp-content/uploads/2012/09/2012-09-18_16442-620x337.png)
+![Sencha Touch 1 rotation scaling bug](../assets/uploads//2012/09/2012-09-18_16442-620x337.png)
 
 
 

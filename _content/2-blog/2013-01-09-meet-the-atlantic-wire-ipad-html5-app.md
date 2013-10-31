@@ -14,7 +14,7 @@ categories:
     - Sencha Touch
 ---
 
-# Introducing _The Atlantic Wire_ iPad App, Built with HTML5
+### Introducing _The Atlantic Wire_ iPad App, Built with HTML5
 
 
 
@@ -44,7 +44,7 @@ Following on the heels of Sencha’s recent [Fastbook app](http://fb.html5isread
 
 
 
-## The UX and Design
+###### The UX and Design
 
 
 
@@ -62,19 +62,19 @@ Readers consume articles from seven built-in feeds and can curate their own feed
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/awire_prod_22-455x350.png)
+![](../assets/uploads//2013/01/awire_prod_22-455x350.png)
 
 
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/awire_prod_32-455x350.png)
+![](../assets/uploads//2013/01/awire_prod_32-455x350.png)
 
 
 
 
 
-## It’s All About Engagement
+###### It’s All About Engagement
 
 
 
@@ -86,7 +86,7 @@ In addition to the basics of sharing or tweeting a story, readers can save stori
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/awire_prod_42-230x300.png)![](http://moduscreate.com/wp-content/uploads/2013/01/awire_prod_52-230x300.png)
+![](../assets/uploads//2013/01/awire_prod_42-230x300.png)![](../assets/uploads//2013/01/awire_prod_52-230x300.png)
 
 
 
@@ -98,7 +98,7 @@ We’ve talked a lot about design, but we have not discussed the technical detai
 
 
 
-## The Making Of
+###### The Making Of
 
 
 
@@ -142,7 +142,7 @@ For example, here’s a code snippet from what we call the “Skybox” componen
                     xtype  : 'component',
                     itemId : 'logo',
                     width  : 185,
-                    style  : 'padding: 25px 0 0 10px;box-shadow:0px 0px 30px black;border-right: 1px solid #A8A8A8;',
+                    style  : 'padding: 25px 0 0 10px;box-shadow:0px 0px 30px black;border-right: 1px solid ###A8A8A8;',
                     html   : '<img src="resources/images/wire-logo.png" style="width:164px; height: 91px;" />'
                 },
                 {
@@ -203,7 +203,7 @@ Here’s the Skybox rendered.
 
 
 
-![](http://moduscreate.com/wp-content/uploads/2013/01/skybox2.gif)
+![](../assets/uploads//2013/01/skybox2.gif)
 
 
 
@@ -221,7 +221,7 @@ We’ve highlighted just a few of the cool ways we were able to provide a top-no
 
 
 
-## Challenges
+###### Challenges
 
 
 
@@ -252,7 +252,7 @@ WriteCapture essentially works by creating a pseudo DOM structure that provides 
 
 
 
-## Conclusion
+###### Conclusion
 
 
 

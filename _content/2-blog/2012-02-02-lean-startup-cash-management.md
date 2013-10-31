@@ -20,7 +20,7 @@ The good news is that in a lean startup like ours cash management does not have 
 
 The first one is to build a simple daily cashflow model to track all of our cash ins – client payments - and cash outs – payroll, contractor payables, taxes, insurance, rent, legal fees and other expenses.   More importantly, the model also projects forward at least sixty to ninety days so that I can see where things might get tight in the near future.  This model has been a crucial tool in our rapid growth over the last year.  
 
-[caption id="attachment_1405" align="alignnone" width="575" caption="Lean Cash Flow Model. Click to download the blank template in XLS format."][![](http://moduscreate.com/wp-content/uploads/2012/02/Screen-Shot-2012-02-02-at-10.42.35-AM-575x350.png)](http://moduscreate.com/wp-content/uploads/2012/02/Modus-Create-Cashflow-Model.xlsx)[/caption]
+[caption id="attachment_1405" align="alignnone" width="575" caption="Lean Cash Flow Model. Click to download the blank template in XLS format."][![](../assets/uploads//2012/02/Screen-Shot-2012-02-02-at-10.42.35-AM-575x350.png)](../assets/uploads//2012/02/Modus-Create-Cashflow-Model.xlsx)[/caption]
 
 The second is the general approach I take to spending the company’s money – which is, I don’t like to spend money.  All joking aside, we do spend money on things that really matter to the business, but when we travel, for example, we double up on hotel rooms and we use points to buy train tickets.   When we buy computers for our developers, we buy top of the line machines, but we [buy refurbished](http://store.apple.com/us/browse/home/specialdeals/mac) and save a few hundred dollars per machine.  Every dollar matters in the lean startup. 
 

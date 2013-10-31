@@ -30,7 +30,7 @@ We were proud to be a Gold Sponsor for this year's [MobileUX Camp DC](http://lan
   
 > 
 > 
-    Talking Lean UX and Agile [#muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/8z5Q8Ed4eR](http://t.co/8z5Q8Ed4eR)
+    Talking Lean UX and Agile [###muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/8z5Q8Ed4eR](http://t.co/8z5Q8Ed4eR)
   
 > 
 > — noemi (@nlucciola) 
@@ -52,7 +52,7 @@ Jimmy Chandler led an interactive session that required participants to crowdsou
   
 > 
 > 
-    Sketched app for mobile lean/agile reference. [#muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/kYKsTmkJME](http://t.co/kYKsTmkJME)
+    Sketched app for mobile lean/agile reference. [###muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/kYKsTmkJME](http://t.co/kYKsTmkJME)
   
 > 
 > — Dan B. (@brownorama) 
@@ -80,7 +80,7 @@ Participants in the session both learned about Agile and Lean, and got to practi
   
 > 
 > 
-    The experience of watching [@uxcrank](https://twitter.com/uxcrank) talking about the user experience industry. [#muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/VHaUL6gCKW](http://t.co/VHaUL6gCKW)
+    The experience of watching [@uxcrank](https://twitter.com/uxcrank) talking about the user experience industry. [###muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/VHaUL6gCKW](http://t.co/VHaUL6gCKW)
   
 > 
 > — Clarissa Peterson (@clarissa) 
@@ -116,7 +116,7 @@ Chuck spoke about how, as a designer, he has learned to work within a responsive
 
 
 
-Another is the use of Mood Boards; check out his [slide deck starting at Slide #27](https://speakerdeck.com/chuckborowicz/paradigm-rejection-a-visual-designers-journey) for how to create Mood Boards and some examples. Notes on Mood Boards:
+Another is the use of Mood Boards; check out his [slide deck starting at Slide ###27](https://speakerdeck.com/chuckborowicz/paradigm-rejection-a-visual-designers-journey) for how to create Mood Boards and some examples. Notes on Mood Boards:
 
 
 
@@ -192,7 +192,7 @@ _Compress_: Element spreads the entire width of the screen, compresses when the 
   
 > 
 > 
-    [@jmspool](https://twitter.com/jmspool): The difference b/w unintentional & intentional design is in how decisions are being made. [#muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/qwd645wjHF](http://t.co/qwd645wjHF)
+    [@jmspool](https://twitter.com/jmspool): The difference b/w unintentional & intentional design is in how decisions are being made. [###muxdc](https://twitter.com/search?q=%23muxdc&src=hash) [pic.twitter.com/qwd645wjHF](http://t.co/qwd645wjHF)
   
 > 
 > — Karen T. Lin (@karenTL) 
@@ -232,7 +232,7 @@ _Genius Design_ - Predated by several years of activity focused design to identi
   
 > 
 > 
-    How do we make design decisions? [@jmspool](https://twitter.com/jmspool) [#muxdc](https://twitter.com/search?q=%23muxdc&src=hash) 5:00pm [http://t.co/RvlPLI2mgI](http://t.co/RvlPLI2mgI)
+    How do we make design decisions? [@jmspool](https://twitter.com/jmspool) [###muxdc](https://twitter.com/search?q=%23muxdc&src=hash) 5:00pm [http://t.co/RvlPLI2mgI](http://t.co/RvlPLI2mgI)
   
 > 
 > — Veronica Erb (@verbistheword) 

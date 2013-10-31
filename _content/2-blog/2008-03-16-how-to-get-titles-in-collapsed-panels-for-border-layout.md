@@ -8,7 +8,7 @@ title: How to get titles in collapsed panels for ''border'' layout.
 
 ---
 
-In response to [this thread](http://extjs.com/forum/showthread.php?t=25381) at the [Ext forums](http://extjs.com/forum/), I initially [created a simple override](http://extjs.com/forum/showthread.php?p=119887#post119887) (Click [here](http://moduscreate.com/img/screencasts/2008-02-05_1602.swf) to see it action) to the [Ext Border Layout](http://extjs.com/deploy/dev/docs/?class=Ext.layout.BorderLayout).  The solution was a quick one hour deal with no magic or gloss.   There was some posts soon there after that requested more functionality for this override.  These requests include:
+In response to [this thread](http://extjs.com/forum/showthread.php?t=25381) at the [Ext forums](http://extjs.com/forum/), I initially [created a simple override](http://extjs.com/forum/showthread.php?p=119887###post119887) (Click [here](http://moduscreate.com/img/screencasts/2008-02-05_1602.swf) to see it action) to the [Ext Border Layout](http://extjs.com/deploy/dev/docs/?class=Ext.layout.BorderLayout).  The solution was a quick one hour deal with no magic or gloss.   There was some posts soon there after that requested more functionality for this override.  These requests include:
 
 
 

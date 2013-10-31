@@ -11,7 +11,7 @@ categories:
 
 We teamed up with [Geoff Bishop](http://www.twitter.com/gabishop) from PBS to talk responsive design at our [NYC.JS meetup](http://www.meetup.com/New-York-Ext-JS-Meetup/), and how we're helping PBS develop deliver a mobile video portal across a slew of devices.
 
-![](http://moduscreate.com/wp-content/uploads/2012/07/AyCyI59CAAABvFX-468x350.jpg)
+![](../assets/uploads//2012/07/AyCyI59CAAABvFX-468x350.jpg)
 
 
 

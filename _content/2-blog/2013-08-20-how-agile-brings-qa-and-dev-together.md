@@ -17,7 +17,7 @@ If a piece of software is going to rise above the rest and perform well, two gro
 
 
 
-# Waterfall
+### Waterfall
 
 
 
@@ -47,7 +47,7 @@ A couple of years ago, a wonderful thing happened. My CTO at the time, chose mys
 
 
 
-# Migrating to SCRUM
+### Migrating to SCRUM
 
 
 
@@ -77,7 +77,7 @@ In summary, a synergy between the dev group and the QA group is imperative to th
 
 
 
-# Want more Agile?
+### Want more Agile?
 
 
 

@@ -4,7 +4,7 @@ comments: true
 
 
 
-title: 'Ext JS Screencast #011 - Layouts: Table and Card'
+title: 'Ext JS Screencast ###011 - Layouts: Table and Card'
 
 ---
 

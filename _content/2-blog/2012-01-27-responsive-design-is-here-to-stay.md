@@ -18,7 +18,7 @@ Back on May 25th, 2010, Ethan Marcotte wrote an article for A List Apart titled 
 
 
 
-### Old Meets New
+######### Old Meets New
 
 
 
@@ -60,13 +60,13 @@ Certainly some great scenarios, but no great solutions are available for this ty
 
 
 
-[caption id="attachment_1271" align="alignleft" width="186" caption="Modus Create's website on iPhone. Vertical stacking is common for mobile layouts."][![Modus Create Mobile](http://moduscreate.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-27-at-4.24.06-PM-186x350.png)](http://moduscreate.com/responsive-design-is-here-to-stay/screen-shot-2012-01-27-at-4-24-06-pm/)[/caption]
+[caption id="attachment_1271" align="alignleft" width="186" caption="Modus Create's website on iPhone. Vertical stacking is common for mobile layouts."][![Modus Create Mobile](../assets/uploads//2012/01/Screen-Shot-2012-01-27-at-4.24.06-PM-186x350.png)](http://moduscreate.com/responsive-design-is-here-to-stay/screen-shot-2012-01-27-at-4-24-06-pm/)[/caption]
 
 
 
 
 
-### Is it good for our industry?
+######### Is it good for our industry?
 
 
 
@@ -84,7 +84,7 @@ Innovation doesn't come from following, however. Developers need to even know, s
 
 
 
-### Fixed width is not dead
+######### Fixed width is not dead
 
 
 
@@ -96,7 +96,7 @@ Not by a long shot. There will always be a place for a well structured and desig
 
 
 
-### Going big?
+######### Going big?
 
 
 
@@ -108,13 +108,13 @@ When most people think of a fluid and responsive design, they usually think mobi
 
 
 
-[caption id="attachment_1278" align="alignright" width="451" caption="Modus Create's Training page on the iPad. Landscape provided a perfect amount of space for a 960 width grid. "][![](http://moduscreate.com/wp-content/uploads/2012/01/Screen-Shot-2012-01-27-at-4.31.12-PM-451x350.png)](http://moduscreate.com/responsive-design-is-here-to-stay/screen-shot-2012-01-27-at-4-31-12-pm/)[/caption]
+[caption id="attachment_1278" align="alignright" width="451" caption="Modus Create's Training page on the iPad. Landscape provided a perfect amount of space for a 960 width grid. "][![](../assets/uploads//2012/01/Screen-Shot-2012-01-27-at-4.31.12-PM-451x350.png)](http://moduscreate.com/responsive-design-is-here-to-stay/screen-shot-2012-01-27-at-4-31-12-pm/)[/caption]
 
 
 
 
 
-### Closing thoughts
+######### Closing thoughts
 
 
 

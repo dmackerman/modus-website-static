@@ -10,7 +10,7 @@ categories:
     - Development
 ---
 
-![monit](http://moduscreate.com/wp-content/uploads/2012/08/monit2.png)
+![monit](../assets/uploads//2012/08/monit2.png)
 
 
 
@@ -46,7 +46,7 @@ Great!  So how do we use it?  I was setting up monit on a CentOS box, so these
 
 
 
-### Step 1: Enable [EPEL](http://fedoraproject.org/wiki/EPEL)
+######### Step 1: Enable [EPEL](http://fedoraproject.org/wiki/EPEL)
 
 
 
@@ -58,7 +58,7 @@ Great!  So how do we use it?  I was setting up monit on a CentOS box, so these
 
 
 
-### Step 2: Install monit
+######### Step 2: Install monit
 
 
 
@@ -70,7 +70,7 @@ Great!  So how do we use it?  I was setting up monit on a CentOS box, so these
 
 
 
-### Step 3: Turn monit on at startup:
+######### Step 3: Turn monit on at startup:
 
 
 
@@ -83,7 +83,7 @@ Great!  So how do we use it?  I was setting up monit on a CentOS box, so these
 
 
 
-### Step 4: Edit the monit config file to include the delayed_job.monitrc file
+######### Step 4: Edit the monit config file to include the delayed_job.monitrc file
 
 
 
@@ -102,7 +102,7 @@ include the monitrc file
 
 
     
-    # include the delayed_job restart script
+    ### include the delayed_job restart script
     include /<strong><path></strong>/delayed_job.monitrc
 
 
@@ -139,7 +139,7 @@ You’ll also, likely, want to send email when monit detects a problem:
 
 
     
-    set mailserver localhost,               # primary mailserver
+    set mailserver localhost,               ### primary mailserver
     
 
 
@@ -152,7 +152,7 @@ Don’t forget to specify an email address to send alerts:
 
 
     
-    set alert <strong><email></strong>                 # receive all alerts
+    set alert <strong><email></strong>                 ### receive all alerts
     
 
 
@@ -165,8 +165,8 @@ That is it.  Four easy steps to bring up monit and begin reactive monitoring. �
 
 
     
-    # set daemon mode timeout to 2 minute
-    # monit will stomp on restarted delayed_job unless this is set to 2 mins
+    ### set daemon mode timeout to 2 minute
+    ### monit will stomp on restarted delayed_job unless this is set to 2 mins
     set daemon 120
     
 
@@ -174,16 +174,16 @@ That is it.  Four easy steps to bring up monit and begin reactive monitoring. �
 
 
 
-### **Extras: ** I also enabled web access so that the customer could check on the state of delayed_job (in monit.conf):
+######### **Extras: ** I also enabled web access so that the customer could check on the state of delayed_job (in monit.conf):
 
 
 
 
     
     set httpd port 2812 and
-       use address localhost  # only accept connection from localhost
-       allow localhost        # allow localhost to connect to the server and
-       allow <strong><username></strong>:<strong><password></strong>      # require user '<strong><user></strong>' with password '<strong><password></strong>’
+       use address localhost  ### only accept connection from localhost
+       allow localhost        ### allow localhost to connect to the server and
+       allow <strong><username></strong>:<strong><password></strong>      ### require user '<strong><user></strong>' with password '<strong><password></strong>’
     
 
 

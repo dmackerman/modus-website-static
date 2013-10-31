@@ -11,8 +11,8 @@ title: Updates to the tab panel scroller menu released earlier today
 Updated with the following items:
 Tab scroller menu now accepts a config parameter:
 
-+ maxText // elipsis, thanks [mystix](http://extjs.com/forum/showthread.php?p=274744#post274744)
-+ pageSize // custom page size , thanks [condor](http://extjs.com/forum/showthread.php?p=274649#post274649)
++ maxText // elipsis, thanks [mystix](http://extjs.com/forum/showthread.php?p=274744###post274744)
++ pageSize // custom page size , thanks [condor](http://extjs.com/forum/showthread.php?p=274649###post274649)
 
 New features/bug fixes:
 + iconCls now transferred from tab to menu
