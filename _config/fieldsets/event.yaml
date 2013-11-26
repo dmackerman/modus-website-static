@@ -8,7 +8,8 @@ fields:
   featured:
     display: Featured Event
     type: checkbox
-    instructions: Is this event featured? If it is, it will show up in cool places and stuff. 
+    instructions: >
+      Is this event featured? If it is, it will show up in cool places and stuff. 
   date:
     display: Event Date
     required: true
@@ -23,6 +24,7 @@ fields:
     type: time
   location:
     display: Event Location
+    type: location
     required: true
   speakers:
     display: Speaker Name

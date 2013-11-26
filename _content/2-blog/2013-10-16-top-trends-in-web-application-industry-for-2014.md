@@ -11,7 +11,7 @@ At the [opening keynote](http://lanyrd.com/2013/moduxconf/scpmzb/) of ModUX 2013
 
 
 
-###### Mobile Devices in the Enterprise
+### Mobile Devices in the Enterprise
 
 
 
@@ -29,7 +29,7 @@ Wonderful solutions that help ease the problems already exist. Nonetheless, this
 
 
 
-###### HTML5 and JavaScript Standardization
+### HTML5 and JavaScript Standardization
 
 
 
@@ -53,7 +53,7 @@ The vast variety of devices require optimizations that further increase complexi
 
 
 
-###### Connected Devices
+### Connected Devices
 
 
 
@@ -88,7 +88,7 @@ The four models don't just apply to the 'things', but also to people, data, and 
 
 
 
-###### Cloud Stack
+### Cloud Stack
 
 
 
@@ -106,7 +106,7 @@ The cloud is getting in charge. It's absolutely necessary for BYOD and BYOA envi
 
 
 
-###### Managing Teams
+### Managing Teams
 
 
 
@@ -118,7 +118,7 @@ Developer productivity is the new black. Software product development has always
 
 
 
-###### Conclusion
+### Conclusion
 
 
 

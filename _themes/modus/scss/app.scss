@@ -1,0 +1,22 @@
+/* Kindling SCSS -------------- */
+
+@import "settings";
+@import "normalize";
+@import "foundation";
+
+nav {
+  font-size: 20px;
+}
+
+header {
+  background: #eee;
+  padding: 70px 0;
+  color: white;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #eee;
+  padding: 70px 0;
+  color: white;
+}

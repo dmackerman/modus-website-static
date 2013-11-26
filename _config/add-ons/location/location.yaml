@@ -41,7 +41,7 @@ cloudmade_api_key: 336304a90a064433aee8146c4d6668f5
 cloudmade_tile_set_id: 997
 
 # detects high-density displays and will double the tiles displayed
-detect_retina: false
+detect_retina: true
 
 # lets you provide a list of common locations for users to easily choose from
 # each location should be formatted like this:
