@@ -1,0 +1,14 @@
+[03-Dec-2013 16:11:41 America/New_York] PHP Fatal error:  Call to undefined method Plugin_entries::next() in /Users/dave/Sites/modus-website-static/_app/core/view.php on line 212
+[03-Dec-2013 16:40:58 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:40:59 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:41:00 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:41:00 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:24 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:24 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:24 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:24 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:25 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:26 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:26 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:43:27 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 15
+[03-Dec-2013 16:46:38 America/New_York] PHP Parse error:  parse error in /Users/dave/Sites/modus-website-static/_app/vendor/Lex/Parser.php(1309) : eval()'d code on line 10

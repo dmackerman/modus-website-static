@@ -1,3 +1,4 @@
+{{ theme:partial src="hero" hero-title="Blog" hero-tagline="Tightly knit. Awesome" }}
 <div class="row">
   <div class="small-8 columns">
     {{ entries:listing folder="blog" limit="10" paginate="true" }}
@@ -7,17 +8,16 @@
       </article>
     {{ /entries:listing }}
 
-  <ul class="pagination">
-    {{ entries:pagination }}
-        {{ if previous_page }}
-            <a class="button small" href="{{ previous_page }}">Previous Page</a>
-        {{ endif }}
-        {{ if next_page }}
-            <a class="button small" href="{{ next_page }}">Next Page</a>
-        {{ endif }}
-    {{ /entries:pagination }}
-  </ul>
-
+    <ul class="pagination">
+      {{ entries:pagination }}
+          {{ if previous_page }}
+              <a class="button small" href="{{ previous_page }}">Previous Page</a>
+          {{ endif }}
+          {{ if next_page }}
+              <a class="button small" href="{{ next_page }}">Next Page</a>
+          {{ endif }}
+      {{ /entries:pagination }}
+    </ul>
   </div>
   <div class="small-4 columns">
     <div class="panel">

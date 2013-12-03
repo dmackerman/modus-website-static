@@ -5,8 +5,9 @@ roles:
   - admin
 email: dave@moduscreate.com
 password: ""
-salt: g0WSs64kxPsdTKYsDh6Wcg8MH9QXSkmj
-encrypted_password: 5865e78a63d964657dc461f0c58ba6e308242f6e
+username: admin
+salt: M08qNGH1bDNWdRMqDd0ZmfdwBmqvYtFQ
+encrypted_password: b4f145d1cc37bacdf5464f04d481c898e98e68ac
 ---
 The username is the name of the yaml file. In this case it is "admin".
 

@@ -1,12 +1,13 @@
+{{ theme:partial src="hero" hero-title="About Modus" hero-tagline="Tightly knit. Awesome" hero-class="event" }}
 <div class="row">
   <div class="small-8 columns">
-    <h1>{{ title }}</h1>
+    {{ gist:7776572 }}
     {{ content }}
   </div>
   <div class="small-4 columns">
     <p>Let's pull in the staff here:</p>
     {{ entries:listing folder="staff" limit="10" }}
-      <p><img src="{{ picture }}" alt=""></p>
+      <p><img src="{{ transform src="{ picture }" width="150" flip="h" }}" alt=""></p>
       <p>{{ title }}</p>
       <p>{{ position }}</p>
       <p><a href="http://www.twitter.com/{{ twitter }}">{{ twitter }}</a></p>

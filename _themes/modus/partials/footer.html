@@ -1,9 +1,18 @@
 <div class="row">
   <div class="small-4 columns">
-    <p>I am in the footer</p>
+    <h4>Connect</h4>
+    <ul>
+      <li>Twitter</li>
+      <li>GitHub</li>
+    </ul>
   </div>
   <div class="small-4 columns">
-    <p>I am in the footer</p>
+    <h4>Case Studies</h4>
+    <ul>
+      {{ entries:listing folder="case-studies" limit="5" }}
+        <li>{{ title }}</li>
+      {{ /entries:listing }}
+    </ul>
   </div>
   <div class="small-4 columns">
     <p>I am in the footer</p>

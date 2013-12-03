@@ -1,0 +1,430 @@
+FATAL|Tue, 03 Dec 2013 16:40:58 -0500|Lex|Parser|/blog/highlights-from-modux-2013|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:40:59 -0500|Lex|Parser|/blog/%7B%7B%20theme:css%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:41:00 -0500|Lex|Parser|/blog/%7B%7B%20theme:js%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:41:00 -0500|Lex|Parser|/blog/%7B%7B%20theme:asset%20src='bower_components/jquery/jquery.min.js'%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:24 -0500|Lex|Parser|/blog/highlights-from-modux-2013|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:24 -0500|Lex|Parser|/blog/%7B%7B%20theme:js%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:24 -0500|Lex|Parser|/blog/%7B%7B%20theme:css%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:24 -0500|Lex|Parser|/blog/%7B%7B%20theme:asset%20src='bower_components/jquery/jquery.min.js'%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else: 
+        {{ theme:partial src="nav" }}
+      endif; 
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:25 -0500|Lex|Parser|/blog/highlights-from-modux-2013|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+<!--       if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else:  -->
+        {{ theme:partial src="nav" }}
+      <!-- endif;  -->
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:26 -0500|Lex|Parser|/blog/%7B%7B%20theme:css%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+<!--       if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else:  -->
+        {{ theme:partial src="nav" }}
+      <!-- endif;  -->
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:26 -0500|Lex|Parser|/blog/%7B%7B%20theme:asset%20src='bower_components/jquery/jquery.min.js'%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+<!--       if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else:  -->
+        {{ theme:partial src="nav" }}
+      <!-- endif;  -->
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:43:27 -0500|Lex|Parser|/blog/%7B%7B%20theme:js%20%7D%7D|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ _site_name }} | {{ title }}</title>
+  <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="{{ theme:css }}">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+<!--       if (): 
+        {{ theme:partial src="nav" solid-nav="true" }}
+      else:  -->
+        {{ theme:partial src="nav" }}
+      <!-- endif;  -->
+    </header>
+    <div id="main" role="main">
+      {{ username }}
+      {{ layout_content }}
+    </div>
+    <footer>
+      {{ theme:partial src="footer" }}
+    </footer>
+  </div>
+  
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
+  <script src="{{ theme:js }}"></script>
+  {{ highlight:head }}
+
+</body>
+</html> on line 1313.
+FATAL|Tue, 03 Dec 2013 16:46:38 -0500|Lex|Parser|/|127.0.0.1|dev|You have a syntax error in your Lex tags. The offending code: if (null): 
+  <div class="hero slim-hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <h1>{{ hero-title }}</h1>
+            if ('Modus helps companies execute on their product goals.'): 
+              <p>{{ hero-tagline }}</p>
+            looped_tags_30ea3741036a33f7c975a3ef0628842c on line 1313.

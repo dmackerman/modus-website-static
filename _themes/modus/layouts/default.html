@@ -6,6 +6,7 @@
   <script type="text/javascript" src="//use.typekit.net/lmf2kig.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link rel="stylesheet" href="{{ theme:css }}">
+
 </head>
 <body>
 
@@ -13,17 +14,17 @@
     <header>
       {{ theme:partial src="nav" }}
     </header>
-    {{ layout_content }}
+    <div id="main" role="main">
+      {{ layout_content }}
+    </div>
     <footer>
       {{ theme:partial src="footer" }}
     </footer>
   </div>
   
-  
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="{{ theme:asset src='bower_components/jquery/jquery.min.js' }}"></script>
   <script src="{{ theme:js }}"></script>
   {{ highlight:head }}
-  {{ location:start_maps }}
 
 </body>
 </html>

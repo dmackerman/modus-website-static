@@ -4,19 +4,137 @@
 @import "normalize";
 @import "foundation";
 
+.no-margin {
+  margin: 0;
+}
+
+$baseBlue: rgba(78, 177, 203, 1);
+$baseRed: rgba(207, 92, 96, 1);
+$basePurple: rgba(113, 126, 205, 1);
+$baseGreen: rgba(74, 180, 113, 1);
+$baseOrange: rgba(243, 174, 78, 1);
+$basePink: rgba(217, 99, 131, 1);
+
 nav {
-  font-size: 20px;
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  position: relative;
+  top: 4px;
+  li {
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 2em;
+  }
+  a {
+    padding: 0 10px;
+    border: 2px solid;
+    border-color: transparent;
+    color: rgba(255,255,255, 0.85);
+    &:hover {
+      color: rgba(255,255,255, 1);
+    }
+  }
+  .inline-list {
+    margin: 0;
+  }
 }
 
 header {
-  background: #eee;
-  padding: 70px 0;
+  background: rgba(255, 255, 255, .095);
+  border-bottom: 1px solid rgba(255, 255, 255, .065);
+  padding: 20px 0;
+  width: 100%;
+  z-index: 200;
   color: white;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer {
-  background: #eee;
+  background: #313437;
   padding: 70px 0;
   color: white;
+}
+
+/* all code blocks have the same bot margin as paragraphs */
+pre {
+  margin-bottom: $paragraph-margin-bottom;
+  background: linear-gradient(to top, black, white);
+  code {
+    background: #eee;
+    padding: 1.25em;
+    line-height: $paragraph-line-height;
+  }
+}
+
+.hero {
+  padding-top: 76px; /* height of the navbar */
+  margin-bottom: 30px;
+  height: 600px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  p { font-family: $header-font-family; }
+
+  /* the slim hero, standard */
+  &.slim-hero {
+    background: 
+      linear-gradient(45deg, rgba(0, 0, 0, 0.85) 12%, rgba(10, 10, 10, 0.95) 72%);
+    height: 300px;
+  }
+  
+  /* individual page heroes */
+  &.home-hero {
+    background-attachment: fixed;
+    background: 
+      linear-gradient(45deg, rgba(154,35,35, 0.85) 12%, rgba(36,43,75, 0.95) 72%),
+      url('../img/modus-home.jpg');
+    p {
+      color: #C5B0B3;      
+    }
+  }
+
+  &.about-hero {
+    background-attachment: fixed;
+    background: 
+      linear-gradient(45deg, rgba(46, 204, 113, 0.55) 12%, rgba(39, 174, 96, 0.65) 72%),
+      url('../img/modus-about.jpg');
+    p { color: #eee; }
+  }
+
+  &.contact-hero {
+    background-attachment: fixed;
+    background: 
+      linear-gradient(rgba(52,73,94,0.65) 12%, rgba(44,62,80,0.65) 72%), 
+      url('../img/modus-contact.jpg');
+    p { color: #e1ebff; }
+  }
+
+  &.blog-hero {
+   background-attachment: fixed;
+   background-position: center top;
+   background:
+     linear-gradient(rgba(0, 0, 0, 0.35) 12%, rgba(0, 0, 0, 0.25) 72%),
+     url('../img/modus-blog.jpg');
+   p { color: #eee; } 
+  }
+
+  .hero-container {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .hero-content {
+    display: table-cell;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+  }
+  h1 {
+    font-weight: 500;
+    color: white;
+  }
 }

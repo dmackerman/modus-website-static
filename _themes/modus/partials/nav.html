@@ -1,14 +1,19 @@
 <div class="row">
-  <nav>
-    <div class="small-12 columns">
-      <ul class="inline-list">
+  <div class="small-3 columns">
+    <a href="/">
+      <img src="{{ theme:asset src='img/modus-mark.svg' }}" alt="" />
+    </a>
+  </div>
+  <div class="small-9 columns">
+    <nav class="text-right">
+      <ul class="no-margin">
         <li {{ if !segment_1 }} class="active"{{ endif }}><a href="{{ homepage }}">Home</a></li>
         {{# include our nav here, but exclude some things. #}}
-        {{ nav from="/" max_depth="2" exclude="services|capabilities|publications|careers|staff|events" }}
+        {{ nav from="/" max_depth="1" exclude="home|blog|services|capabilities|publications|careers|staff|events|labs" }}
           <li {{ if is_current || is_parent }} class="active"{{ endif }}><a href="{{ url }}">{{ title }}</a>
         </li>
         {{ /nav }}
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>

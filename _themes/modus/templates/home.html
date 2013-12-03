@@ -1,8 +1,6 @@
+{{ theme:partial src="hero" hero-title="Innovate The Open Web" hero-tagline="Modus helps companies execute on their product goals."}}
 <div class="row">
-  <div class="col-md-8">
-    {{ content }}
-  </div>
-  <div class="col-md-4">
+  <div class="small-6 columns">
     <div class="panel">
       <h3>Upcoming Events</h3>
       <ul>
@@ -11,14 +9,19 @@
         {{ /entries:listing }}
       </ul>
     </div>
+  </div>
+  <div class="small-6 columns">
     <div class="panel">
       <h3>Latest Blog Posts</h3>
       <ul>
-      {{ entries:listing folder="blog" limit="10" }}
+      {{ entries:listing folder="blog" limit="5" }}
         <li><a href="{{ url }}">{{ title }}</a></li>
       {{ /entries:listing }}
       </ul>
     </div>
   </div>
 </div>
-
+<div class="row">
+  <h3>I am filling space.</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nemo alias similique omnis nam nostrum quisquam sit aperiam. Recusandae, sint, voluptatibus nam quo hic nesciunt officiis ullam magnam laboriosam vel.</p>
+</div>

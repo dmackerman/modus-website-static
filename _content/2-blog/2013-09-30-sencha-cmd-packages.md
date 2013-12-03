@@ -5,7 +5,7 @@ comments: true
 
 
 title: Sencha Cmd Packages
-
+picture: http://funlava.com/wp-content/uploads/2013/08/sunset.jpg
 categories:
   - Development
   - Packages

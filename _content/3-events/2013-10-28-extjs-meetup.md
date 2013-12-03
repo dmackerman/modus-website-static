@@ -4,7 +4,7 @@ date: 2013-10-09
 startTime: 08:00 PM
 endTime: 09:00 PM
 location:
-  name: Modus HQ
+  name: Modus
   latitude: "38.95049"
   longitude: "-77.37297"
 speaker: John Johnson

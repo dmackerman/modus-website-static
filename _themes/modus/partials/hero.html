@@ -1,0 +1,31 @@
+{{ if hero-slim }}
+  <div class="hero slim-hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <h1>{{ hero-title }}</h1>
+            {{ if hero-tagline }}
+              <p>{{ hero-tagline }}</p>
+            {{ endif }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ else }}
+  <div class="hero {{ title|lower|slugify }}-hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <h1>{{ hero-title }}</h1>
+            {{ if hero-tagline }}
+              <p>{{ hero-tagline }}</p>
+            {{ endif }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ endif }}
