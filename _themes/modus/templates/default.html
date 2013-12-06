@@ -1,11 +1,8 @@
-{{ entries:listing folder="blog" limit="10" }}
- <div class="block entry">
-    <header>
-      <h2><a href="{{ url }}">{{ title }}</a></h2>
-      <date>{{ datestamp format="F jS, Y" }}</date>
-    </header>
-
-    {{ content }}
-
+{{ theme:partial src="hero" hero-title="Let's Talk" hero-tagline="We love getting to know potential clients! <br />The first step is for us to understand your needs. Let's setup a time to chat and get the conversation started." }}
+{{# default page template}}
+<div class="row">
+  <div class="small-12 columns">
+    <h1>{{ title }}</h1>
+    <p>{{ content }}</p>
   </div>
-{{ /entries:listing }}
+</div>

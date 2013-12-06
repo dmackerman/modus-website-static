@@ -1,0 +1,36 @@
+header {
+  background: rgba(255, 255, 255, .095);
+  border-bottom: 1px solid rgba(255, 255, 255, .065);
+  padding: 20px 0;
+  width: 100%;
+  z-index: 200;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  position: relative;
+  top: 4px;
+  li {
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 2em;
+  }
+  a {
+    padding: 0 10px;
+    border: 2px solid;
+    border-color: transparent;
+    color: rgba(255,255,255, 0.85);
+    &:hover {
+      color: rgba(255,255,255, 1);
+    }
+  }
+  .inline-list {
+    margin: 0;
+  }
+}

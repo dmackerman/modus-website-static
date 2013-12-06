@@ -15,47 +15,34 @@ $baseGreen: rgba(74, 180, 113, 1);
 $baseOrange: rgba(243, 174, 78, 1);
 $basePink: rgba(217, 99, 131, 1);
 
-nav {
-  font-family: $header-font-family;
-  text-transform: uppercase;
-  position: relative;
-  top: 4px;
-  li {
-    font-size: 1rem;
-    font-weight: 500;
-    display: inline-block;
-    margin-left: 2em;
-  }
-  a {
-    padding: 0 10px;
-    border: 2px solid;
-    border-color: transparent;
-    color: rgba(255,255,255, 0.85);
-    &:hover {
-      color: rgba(255,255,255, 1);
-    }
-  }
-  .inline-list {
-    margin: 0;
-  }
-}
-
-header {
-  background: rgba(255, 255, 255, .095);
-  border-bottom: 1px solid rgba(255, 255, 255, .065);
-  padding: 20px 0;
-  width: 100%;
-  z-index: 200;
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+@import 'header';
 
 footer {
   background: #313437;
   padding: 70px 0;
   color: white;
+  font-family: $header-font-family;
+  h4 {
+    color: #a3a3a3;
+    text-transform: uppercase;
+  }
+  ul {
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: #fefefe;
+  }
+}
+
+/* for intro paragraphs, etc */
+.larger {
+  color: #888;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: $header-font-family;
 }
 
 /* all code blocks have the same bot margin as paragraphs */

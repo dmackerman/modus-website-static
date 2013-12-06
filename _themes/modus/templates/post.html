@@ -1,4 +1,4 @@
-{{ theme:partial src="hero" hero-title="Blog" hero-tagline="Stuff about things." hero-slim="true" }}
+{{ theme:partial src="hero" hero-title="Blog" hero-tagline="Stuff about things." hero-slim="true" hero-background="{{ image }}"}}
 {{ if picture }}
 <div class="image" style="background-image: url({{ picture }});">
   hey
@@ -7,7 +7,11 @@
 <div class="row">
   <div class="small-12 large-8 large-centered columns">
 
-    <h2 class="entry-title">{{ title }}</h2>
+    <h1>{{ title }}</h2>
+    {{ if intro }}
+      <p class="larger">{{ intro }}</p>
+    {{ endif}}
+    <p class="entry-author">{{ author }}</p>
     <p class="entry-date"> {{ datestamp format="F jS, Y" }}</p>    
     {{ content }}
 

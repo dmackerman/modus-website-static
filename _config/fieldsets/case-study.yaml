@@ -1,0 +1,27 @@
+title: Case Study
+
+fields:
+  meta_section:
+    type: section
+    display: Case Study Details
+    instructions: Add details about the case study.
+  overview:
+    type: text
+    display: Overview Text
+    instructions: A sentence or two about the overall project. Get's displayed in the intro.
+  picture:
+    display: Picture
+    instructions: Ideal size is 600x600 and we'll resize it. 
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img/case-studies/
+  technology:
+    display: Technology
+    instructions: Tag the case study to particular technologies. Multiples allowed.
+    type: tags
+  content:
+    type: redactor
+    display: Case Study Content
+
+# hides it from new page options
+hide: true

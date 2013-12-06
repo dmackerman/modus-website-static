@@ -2,19 +2,21 @@
   <div class="small-4 columns">
     <h4>Connect</h4>
     <ul>
-      <li>Twitter</li>
-      <li>GitHub</li>
+      <li><a href="http://www.twitter.com/moduscreate"></a>Twitter</li>
+      <li><a href="http://www.github.com/moduscreateorg"></a>GitHub</li>
+      <li><a href="/blog">Blog</a></li>
     </ul>
   </div>
   <div class="small-4 columns">
     <h4>Case Studies</h4>
     <ul>
       {{ entries:listing folder="case-studies" limit="5" }}
-        <li>{{ title }}</li>
+        <li><a href="{{ url }}">{{ title }}</a></li>
       {{ /entries:listing }}
     </ul>
   </div>
   <div class="small-4 columns">
-    <p>I am in the footer</p>
+    <h4>Let's Talk</h4>
+    <p>Give us a call: {{ phone_number }}</p>
   </div>
 </div>

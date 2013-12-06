@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         },
         /* need to use the theme name as the css file for statamic includes */
         files: {
-          'css/build/modus.css': 'scss/app.scss'
+          'css/modus.css': 'scss/app.scss'
         }
       }
     },
@@ -23,10 +23,6 @@ module.exports = function(grunt) {
       sass: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
-      },
-      css: {
-        files: ['css/build/modus.css'],
-        tasks: ['autoprefixer']
       },
       livereload: {
         options: {
@@ -41,21 +37,21 @@ module.exports = function(grunt) {
       }
     },
 
-    autoprefixer: {
-      // just prefix the specified file
-      single_file: {
-        src: 'css/build/modus.css',
-        dest: 'css/modus.css'
-      }
-    }
+    // autoprefixer: {
+    //   // just prefix the specified file
+    //   single_file: {
+    //     src: 'css/build/modus.css',
+    //     dest: 'css/modus.css'
+    //   }
+    // }
 
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-autoprefixer');
+  // grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', ['sass', 'autoprefixer']);
+  grunt.registerTask('build', ['sass']);
   grunt.registerTask('default', ['build','watch']);
 }

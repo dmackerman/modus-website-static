@@ -1,12 +1,17 @@
 fields:
-  authors:
-    display: Authors
+  author:
+    display: Author
+    required: true
     type: users
+  intro:
+    display: Intro text typically used to lead off a post. Optional.
+    required: false
+    type: text
   categories:
     display: Categories
     required: false
     type: tags
-  picture:
+  image:
     display: Featured Image
     instructions: Ideal size is large we'll resize it. This will span all the way across the top of the post.
     type: file

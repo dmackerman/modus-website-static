@@ -28,9 +28,6 @@ buttons:
  - link
  - horizontalrule
  - '|'
- - fontcolor
- - backcolor
- - '|'
  - alignleft
  - aligncenter
  - alignright
@@ -71,7 +68,7 @@ plugins:
   - fullscreen
 
 # Set a minimum height (in pixels)
-minHeight: 250
+minHeight: 450
 
 # Turn on/off paragraph formatting
 paragraphy: true

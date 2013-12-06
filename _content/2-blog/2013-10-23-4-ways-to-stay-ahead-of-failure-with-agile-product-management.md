@@ -1,17 +1,15 @@
 ---
-authors:
-  - steve
-  - jay
 comments: true
 title: >
   4 Ways to Stay Ahead of Failure with
   Agile Product Management
 categories:
   - Industry
-picture: ""
+image: /assets/img/blog/IMG-0957.JPG
+intro: 'Any type of software development methodology such as Agile or LEAN is just that: a methodology. Implementing that into an effective process for a development team in the real world can often be challenging. '
+author: admin
 ---
-
-Any type of software development methodology such as **Agile** or **LEAN** is just that: a methodology. Implementing that into an effective process for a development team in the real world can often be challenging. This article explores four real world challenges that frequently prevent teams from being effective with Agile:
+This article explores four real world challenges that frequently prevent teams from being effective with Agile:
 1.  Manage the dependencies between the front-end and the backend.
 2.  UX 
 3.  Details Still Matter
