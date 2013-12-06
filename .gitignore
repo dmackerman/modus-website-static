@@ -3,4 +3,5 @@ node_modules
 website.sublime-project
 website.sublime-workspace
 .elasticbeanstalk/
-_wp-data
+_wp-data/
+_cache/
