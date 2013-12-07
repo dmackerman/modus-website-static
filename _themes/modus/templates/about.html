@@ -4,12 +4,19 @@
     {{ content }}
   </div>
   <div class="small-4 columns">
-    <p>Let's pull in the staff here:</p>
-    {{ entries:listing folder="staff" limit="10" }}
-      <p><img src="{{ transform src="{ picture }" width="150" flip="h" }}" alt=""></p>
-      <p>{{ title }}</p>
-      <p>{{ position }}</p>
-      <p><a href="http://www.twitter.com/{{ twitter }}">{{ twitter }}</a></p>
-    {{ /entries:listing }}    
+    <h4>Our Team</h4>
+    <ul class="large-block-grid-3">
+      {{ entries:listing folder="staff" limit="10" }}
+      <li>
+        <img class="rounded" src="{{ transform src="{ picture }" width="100" }}" alt="">        
+      </li>
+      {{ /entries:listing }}    
+    </ul>
+    
+
+      <!-- <p>{{ title }}</p>
+      <p>{{ position }}</p> -->
+      <!-- <p><a href="http://www.twitter.com/{{ twitter }}">{{ twitter }}</a></p> -->
+    
   </div>
 </div>

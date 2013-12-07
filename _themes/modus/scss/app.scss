@@ -45,6 +45,15 @@ footer {
   font-family: $header-font-family;
 }
 
+.panel {
+  // background: none;
+  // border: 1px solid #5B6267;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
 /* all code blocks have the same bot margin as paragraphs */
 pre {
   margin-bottom: $paragraph-margin-bottom;

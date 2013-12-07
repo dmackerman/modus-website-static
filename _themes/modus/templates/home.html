@@ -1,24 +1,20 @@
 {{ theme:partial src="hero" hero-title="Innovate The Open Web" hero-tagline="Modus helps companies execute on their product goals."}}
 <div class="row">
-  <div class="small-6 columns">
-    <div class="panel">
-      <h3>Upcoming Events</h3>
-      <ul>
-        {{ entries:listing folder="events" limit="10" }}
-          <li><a href="{{ url }}">{{ title }}</a></li>
-        {{ /entries:listing }}
-      </ul>
-    </div>
-  </div>
-  <div class="small-6 columns">
-    <div class="panel">
-      <h3>Latest Blog Posts</h3>
-      <ul>
-      {{ entries:listing folder="blog" limit="5" }}
+  <div class="large-6 columns">
+    <h3>Upcoming Events</h3>
+    <ul>
+      {{ entries:listing folder="events" limit="10" }}
         <li><a href="{{ url }}">{{ title }}</a></li>
       {{ /entries:listing }}
-      </ul>
-    </div>
+    </ul>
+  </div>
+  <div class="large-6 columns">
+    <h3>Latest Blog Posts</h3>
+    <ul>
+    {{ entries:listing folder="blog" limit="5" }}
+      <li><a href="{{ url }}">{{ title }}</a></li>
+    {{ /entries:listing }}
+    </ul>
   </div>
 </div>
 <div class="row">
