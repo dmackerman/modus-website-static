@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="small-4 columns">
+  <div class="large-3 columns">
     <h4>Connect</h4>
     <ul>
       <li><a href="http://www.twitter.com/moduscreate"></a>Twitter</li>
@@ -7,7 +7,7 @@
       <li><a href="/blog">Blog</a></li>
     </ul>
   </div>
-  <div class="small-4 columns">
+  <div class="large-3 columns">
     <h4>Case Studies</h4>
     <ul>
       {{ entries:listing folder="case-studies" limit="5" }}
@@ -15,8 +15,21 @@
       {{ /entries:listing }}
     </ul>
   </div>
-  <div class="small-4 columns">
+  <div class="large-3 columns">
+    <h4>Company</h4>
+    <ul>
+      {{ nav from="/" max_depth="1" exclude="home|blog|case-studies|capabilities|publications|careers|staff|events" }}
+        <li><a href="{{ url }}">{{ title }}</a>
+      </li>
+      {{ /nav }}
+    </ul>
+  </div>
+  <div class="large-3 columns">
     <h4>Let's Talk</h4>
-    <p>Give us a call: {{ phone_number }}</p>
+    <p>Give us a call: <br />{{ phone_number }}</p>
+    <ul>
+      <li><a href="mailto:contact@moduscreate.com">contact@moduscreate.com</a></li>
+      <li><a href="mailto:jobs@moduscreate.com">Job Openings</a></li>
+    </ul>
   </div>
 </div>

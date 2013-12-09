@@ -1,0 +1,26 @@
+/* make fonts a bit smaller in the footer */
+$footer-font-size: 1.1rem;
+footer {
+  background: #313437;
+  padding: 70px 0;
+  color: white;
+  font-family: $header-font-family;
+  h4 {
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-size: $footer-font-size;
+  }
+  ul {
+    margin: 0;
+  }
+  li {
+    list-style: none;
+    font-size: $footer-font-size;
+  }
+  p {
+    font-size: $footer-font-size;
+  }
+  a {
+    color: #fefefe;
+  }
+}

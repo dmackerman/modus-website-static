@@ -8,15 +8,9 @@
     <ul class="large-block-grid-3">
       {{ entries:listing folder="staff" limit="10" }}
       <li>
-        <img class="rounded" src="{{ transform src="{ picture }" width="100" }}" alt="">        
+        <img class="rounded" data-name="{ title }" data-position="{ position }" data-twitter="{ twitter }" src="{{ transform src="{ picture }" width="100" }}" alt="{{ title }} - {{ position }}" />
       </li>
       {{ /entries:listing }}    
     </ul>
-    
-
-      <!-- <p>{{ title }}</p>
-      <p>{{ position }}</p> -->
-      <!-- <p><a href="http://www.twitter.com/{{ twitter }}">{{ twitter }}</a></p> -->
-    
   </div>
 </div>

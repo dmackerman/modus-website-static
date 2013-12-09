@@ -16,26 +16,7 @@ $baseOrange: rgba(243, 174, 78, 1);
 $basePink: rgba(217, 99, 131, 1);
 
 @import 'header';
-
-footer {
-  background: #313437;
-  padding: 70px 0;
-  color: white;
-  font-family: $header-font-family;
-  h4 {
-    color: #a3a3a3;
-    text-transform: uppercase;
-  }
-  ul {
-    margin: 0;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    color: #fefefe;
-  }
-}
+@import 'footer';
 
 /* for intro paragraphs, etc */
 .larger {
@@ -68,7 +49,7 @@ pre {
 .hero {
   padding-top: 76px; /* height of the navbar */
   margin-bottom: 30px;
-  height: 600px;
+  height: 450px;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -83,6 +64,7 @@ pre {
   
   /* individual page heroes */
   &.home-hero {
+    height: 600px;
     background-attachment: fixed;
     background: 
       linear-gradient(45deg, rgba(154,35,35, 0.85) 12%, rgba(36,43,75, 0.95) 72%),

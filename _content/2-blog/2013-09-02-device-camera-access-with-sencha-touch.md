@@ -22,9 +22,9 @@ Let’s start by creating our rails application:
 
 
     
-    <code>$ rails new users 
+    $ rails new users 
     $ cd users
-    </code>
+    
 
 
 
@@ -36,9 +36,9 @@ Now let’s create a `mobile` folder, for our Sencha Touch development code, at 
 
 
     
-    <code>$ mkdir mobile 
+    $ mkdir mobile 
     $ cd mobile
-    </code>
+    
 
 
 
@@ -50,7 +50,7 @@ In this folder we will create our Sencha Touch app. We are going to have our dev
 
 
 
-######### Creating the Sencha App
+### Creating the Sencha App
 
 
 
@@ -58,12 +58,9 @@ In this folder we will create our Sencha Touch app. We are going to have our dev
 
 Let’s create our Sencha application executing the following command inside of our mobile folder.
 
-
-
-
-    
-    <code>$ sencha -sdk /path/to/your/touch-2.2.1/ generate app Users .
-    </code>
+```
+$ sencha -sdk /path/to/your/touch-2.2.1/ generate app Users .
+``` 
 
 
 
@@ -75,8 +72,8 @@ Sencha Command 4.0.0 comes with a webserver included, and we can use this server
 
 
     
-    <code>$ sencha fs web -port 8000 start -map .
-    </code>
+    $ sencha fs web -port 8000 start -map .
+    
 
 
 
@@ -100,8 +97,8 @@ Let’s create the User model. We will use it for the list and for the form. Ins
 
 
     
-    <code>$ sencha generate model User --fields=name:string,email:string,image:string
-    </code>
+    $ sencha generate model User --fields=name:string,email:string,image:string
+    
 
 
 
@@ -112,17 +109,18 @@ We will see a new file under app/model folder. If we open this file we will see 
 
 
 
+~~~ javascript
+Ext.define('Users.model.User', { extend: 'Ext.data.Model',
+    config: {
+        fields: [
+            { name: 'name', type: 'string' },
+            { name: 'email', type: 'string' },
+            { name: 'image', type: 'string' }
+        ]
+    }
+});
+~~~
     
-    <code>Ext.define('Users.model.User', { extend: 'Ext.data.Model',
-        config: {
-            fields: [
-                { name: 'name', type: 'string' },
-                { name: 'email', type: 'string' },
-                { name: 'image', type: 'string' }
-            ]
-        }
-    });
-    </code>
 
 
 
@@ -133,25 +131,26 @@ Now we need to create a store collection with an ajax proxy to get the data from
 
 
 
-    
-    <code>Ext.define('Users.store.Users', { 
-        extend: 'Ext.data.Store', 
-        alias: 'store.users', 
-        requires: [ 'Users.model.User' ],
-    
-        config: {
-            model: 'Users.model.User',
-            proxy: {
-                type: 'ajax',
-                url: '/api/users',
-                reader: {
-                    type: 'json',
-                    rootProperty: 'users'
-                }
+~~~ javascript
+Ext.define('Users.store.Users', { 
+    extend: 'Ext.data.Store', 
+    alias: 'store.users', 
+    requires: [ 'Users.model.User' ],
+
+    config: {
+        model: 'Users.model.User',
+        proxy: {
+            type: 'ajax',
+            url: '/api/users',
+            reader: {
+                type: 'json',
+                rootProperty: 'users'
             }
         }
-    });
-    </code>
+    }
+});
+~~~
+    
 
 
 
@@ -168,23 +167,24 @@ Once we have our store we need to create the view where we will show our users, 
 
 
 
-    
-    <code>Ext.define('Users.view.UsersList', {
-        extend: 'Ext.dataview.List',
-        xtype: 'userslist',
-        requires: [
-            'Users.store.Users'
-        ],
-        config: {
-            cls: 'user-list',
-            itemTpl: '<img src="{image}" /> {name}<br><small>{email}</small></p>',
-            store: {
-                type: 'users',
-                autoLoad: true
-            }
+~~~ javascript
+Ext.define('Users.view.UsersList', {
+    extend: 'Ext.dataview.List',
+    xtype: 'userslist',
+    requires: [
+        'Users.store.Users'
+    ],
+    config: {
+        cls: 'user-list',
+        itemTpl: '<img src="{image}" /> {name}<br><small>{email}</small></p>',
+        store: {
+            type: 'users',
+            autoLoad: true
         }
-    });
-    </code>
+    }
+});
+~~~
+    
 
 
 
@@ -195,52 +195,49 @@ We also need to create the form to add new users, let’s create a new file unde
 
 
 
-    
-    <code>Ext.define('Users.view.UserForm', {
-        extend: 'Ext.form.Panel',
-        xtype: 'userform',
-        requires: [
-            'Users.view.CapturePicture',
-            'Ext.field.Email'
-        ],
-    
-        config: {
-            cls: 'user-form',
-            items: [{
-                xtype: 'capturepicture'
-            }, {
-                xtype: 'textfield',
-                name: 'name',
-                label: 'Name', 
-        margin: '0 20'
-            }, {
-                xtype: 'emailfield',
-                name: 'email',
-                label: 'email',
-                margin: '0 20'
-            }, {
-                xtype: 'button',
-                action: 'save',
-                text: 'Save',
-                margin: '10 20'
-            }]
-        },
-    
-        reset: function() {
-            this.callParent(arguments);
-            this.down('capturepicture').reset();
-        }
-    });
-    </code>
+~~~ javascript
+Ext.define('Users.view.UserForm', {
+    extend: 'Ext.form.Panel',
+    xtype: 'userform',
+    requires: [
+        'Users.view.CapturePicture',
+        'Ext.field.Email'
+    ],
+
+    config: {
+        cls: 'user-form',
+        items: [{
+            xtype: 'capturepicture'
+        }, {
+            xtype: 'textfield',
+            name: 'name',
+            label: 'Name', 
+    margin: '0 20'
+        }, {
+            xtype: 'emailfield',
+            name: 'email',
+            label: 'email',
+            margin: '0 20'
+        }, {
+            xtype: 'button',
+            action: 'save',
+            text: 'Save',
+            margin: '10 20'
+        }]
+    },
+
+    reset: function() {
+        this.callParent(arguments);
+        this.down('capturepicture').reset();
+    }
+});
+~~~
 
 
 
 
 
-######### Accessing the camera to take a picture
-
-
-
+### Accessing the camera to take a picture
 
 
 As you can see there’s a custom class to capture the image, this is the one really interesting. In this class we will allow the user to use the phone camera to take a picture and then process that image to send it to the server. Let’s create a new JS file under the `views` folder with the following code.
@@ -248,82 +245,75 @@ As you can see there’s a custom class to capture the image, this is the one re
 
 
 
-    
-    <code>Ext.define('Users.view.CapturePicture', {
-        extend: 'Ext.Component',
-        xtype: 'capturepicture',
-    
-        config: {
-            captured: false,
-            width: 140,
-            height: 100,
-            cls: 'picture-capture',
-            html: [
-                '<div class="icon"><i class="icon-camera"></i> Make a pic</div>',
-                '<img class="image-tns" />',
-                '<input type="file" capture="camera" accept="image/*" />' //Step 1
-            ].join('')
-        },
-    
-        initialize: function() {
-            this.callParent(arguments);
-    
-            this.file = this.element.down('input[type=file]');
-            this.img = this.element.down('img');
-    
-            this.file.on('change', this.setPicture, this); //Step 2
-    
-            //FIX for webkit
-            window.URL = window.URL || window.webkitURL; //Step 3
-        },
-    
-        setPicture: function(event) {
-            var files = event.target.files;
-            if (files.length === 1 && files[0].type.indexOf("image/") === 0) {
-                this.img.setStyle('display', 'block');
-                this.img.set({
-                    src: URL.createObjectURL(files[0]) //Step 4
-                });
-                this.setCaptured(true);
-            }
-        },
-    
-        reset: function() {
-            this.img.setStyle('display', 'none');
+~~~ javascript
+Ext.define('Users.view.CapturePicture', {
+    extend: 'Ext.Component',
+    xtype: 'capturepicture',
+
+    config: {
+        captured: false,
+        width: 140,
+        height: 100,
+        cls: 'picture-capture',
+        html: [
+            '<div class="icon"><i class="icon-camera"></i> Make a pic</div>',
+            '<img class="image-tns" />',
+            '<input type="file" capture="camera" accept="image/*" />' //Step 1
+        ].join('')
+    },
+
+    initialize: function() {
+        this.callParent(arguments);
+
+        this.file = this.element.down('input[type=file]');
+        this.img = this.element.down('img');
+
+        this.file.on('change', this.setPicture, this); //Step 2
+
+        //FIX for webkit
+        window.URL = window.URL || window.webkitURL; //Step 3
+    },
+
+    setPicture: function(event) {
+        var files = event.target.files;
+        if (files.length === 1 && files[0].type.indexOf("image/") === 0) {
+            this.img.setStyle('display', 'block');
             this.img.set({
-                src: ''
+                src: URL.createObjectURL(files[0]) //Step 4
             });
-            this.setCaptured(false);
-        },
-    
-        getImageDataUrl: function() { //Step 6
-            var img = this.img.dom,
-                imgCanvas = document.createElement("canvas"),
-                imgContext = imgCanvas.getContext("2d");
-    
-            if (this.getCaptured()) {
-                // Make sure canvas is as big as the picture
-                imgCanvas.width = img.width;
-                imgCanvas.height = img.height;
-    
-                // Draw image into canvas element
-                imgContext.drawImage(img, 0, 0, img.width, img.height);
-    
-                // Return the image as a data URL
-                return imgCanvas.toDataURL("image/png");
-            }
+            this.setCaptured(true);
         }
-    });
-    </code>
+    },
 
+    reset: function() {
+        this.img.setStyle('display', 'none');
+        this.img.set({
+            src: ''
+        });
+        this.setCaptured(false);
+    },
 
+    getImageDataUrl: function() { //Step 6
+        var img = this.img.dom,
+            imgCanvas = document.createElement("canvas"),
+            imgContext = imgCanvas.getContext("2d");
 
+        if (this.getCaptured()) {
+            // Make sure canvas is as big as the picture
+            imgCanvas.width = img.width;
+            imgCanvas.height = img.height;
 
+            // Draw image into canvas element
+            imgContext.drawImage(img, 0, 0, img.width, img.height);
+
+            // Return the image as a data URL
+            return imgCanvas.toDataURL("image/png");
+        }
+    }
+});
+~~~ 
 
 There’s a HTML5 API to access the camera through JavaScript, and as you can see in the first step we have defined the input file. This step is very important because we are also defining the property `capture=camera`, this property allows the user to capture the image from their device! We also define the accept property to specify the type of content this input will handle, in this case an image.
-
-
-
 
 
 We are able to capture images from the camera or from the user’s library. Now we need to process this image in order to send it to the server, but before we do that we will display the selected image in the `img` tag that we have defined in the html property.
@@ -367,44 +357,43 @@ We are almost done with the views; the only thing that is missing is to add all 
 
 
 
-    
-    <code>Ext.define('Users.view.Main', {
-        extend: 'Ext.Container',
-        xtype: 'main',
-        requires: [
-            'Ext.TitleBar',
-            'Users.view.UserForm',
-            'Users.view.UsersList'
-        ],
-        config: {
-            fullscreen: true,
-            
+~~~ javascript
+Ext.define('Users.view.Main', {
+    extend: 'Ext.Container',
+    xtype: 'main',
+    requires: [
+        'Ext.TitleBar',
+        'Users.view.UserForm',
+        'Users.view.UsersList'
+    ],
+    config: {
+        fullscreen: true,
+        
+        items: [{
+            xtype: 'toolbar',
+            docked: 'top',
+            title: 'Users',
             items: [{
-                xtype: 'toolbar',
-                docked: 'top',
-                title: 'Users',
-                items: [{
-                    xtype: 'button',
-                    text: 'Back',
-                    action: 'back',
-                    ui: 'back',
-                    hidden: true
-                }, {
-                    xtype: 'spacer'
-                }, {
-                    xtype: 'button',
-                    text: 'New User',
-                    action: 'newuser'
-                }]
+                xtype: 'button',
+                text: 'Back',
+                action: 'back',
+                ui: 'back',
+                hidden: true
             }, {
-                xtype: 'userslist'
+                xtype: 'spacer'
             }, {
-                xtype: 'userform'
+                xtype: 'button',
+                text: 'New User',
+                action: 'newuser'
             }]
-        }
-    });
-    </code>
-
+        }, {
+            xtype: 'userslist'
+        }, {
+            xtype: 'userform'
+        }]
+    }
+});
+~~~
 
 
 
@@ -427,7 +416,7 @@ As you can see there’s an error while getting the users, this is happening bec
 
 
 
-######### Adding actions with the controller
+### Adding actions with the controller
 
 
 
@@ -439,8 +428,8 @@ So far we can only see the title and a button that doesn’t do anything. Let’
 
 
     
-    <code>$ sencha generate controller Main
-    </code>
+    $ sencha generate controller Main
+    
 
 
 
@@ -451,43 +440,42 @@ The previous command creates a new file under the `app/controller` folder, let�
 
 
 
-    
-    <code>Ext.define('Users.controller.Main', {
-        extend: 'Ext.app.Controller',
-    
-        config: {
-            refs: {
-                main: 'main',
-                backBtn: 'main > toolbar button[action=back]'
-            },
-            control: {
-                'main > toolbar button[action=newuser]': {
-                    tap: 'showUserForm'
-                },
-                'main > toolbar button[action=back]': {
-                    tap: 'showMainView'
-                }
-            }
-        },
-    
-        showUserForm: function() {
-            this.getMain().animateActiveItem(this.getMain().down('userform'), {
-                type: 'slide',
-                direction: 'left'
-            });
-            this.getBackBtn().show();
-        },
-    
-        showMainView: function() {
-            this.getMain().animateActiveItem(this.getMain().down('userslist'), {
-                type: 'slide',
-                direction: 'right'
-            });
-            this.getBackBtn().hide();
-        }
-    });
-    </code>
+~~~ javascript
+Ext.define('Users.controller.Main', {
+    extend: 'Ext.app.Controller',
 
+    config: {
+        refs: {
+            main: 'main',
+            backBtn: 'main > toolbar button[action=back]'
+        },
+        control: {
+            'main > toolbar button[action=newuser]': {
+                tap: 'showUserForm'
+            },
+            'main > toolbar button[action=back]': {
+                tap: 'showMainView'
+            }
+        }
+    },
+
+    showUserForm: function() {
+        this.getMain().animateActiveItem(this.getMain().down('userform'), {
+            type: 'slide',
+            direction: 'left'
+        });
+        this.getBackBtn().show();
+    },
+
+    showMainView: function() {
+        this.getMain().animateActiveItem(this.getMain().down('userslist'), {
+            type: 'slide',
+            direction: 'right'
+        });
+        this.getBackBtn().hide();
+    }
+});
+~~~
 
 
 
@@ -516,7 +504,7 @@ If we refresh our application in the browser we will be able to see the form, wi
 
 
 
-######### Styling our application with SASS
+### Styling our application with SASS
 
 
 
@@ -527,9 +515,9 @@ Unfortunately, it's not looking good at all, so we need to define some styles in
 
 
 
-    
-    <code>$ sencha app watch
-    </code>
+~~~ bash    
+    $ sencha app watch
+    ~~~
 
 
 
@@ -552,14 +540,14 @@ Here’s my app.scss file
 
 
 
-    
-    <code>@import 'sencha-touch/default';
-    @import 'sencha-touch/default/all';
-    
-    @import 'includes/list';
-    @import 'includes/capturepicture';
-    @import 'includes/icons';
-    </code>
+~~~ sass
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+@import 'includes/list';
+@import 'includes/capturepicture';
+@import 'includes/icons';
+~~~
 
 
 
@@ -576,21 +564,21 @@ Here’s the list.scss file.
 
 
 
-    
-    <code>.user-list{
-        .x-list-item{
-            overflow:auto;
-            img{
-                float:left;
-                width:65px
-                margin-right:10px;
-            }
-            small{
-                color:###666;
-            }
+~~~ sass
+.user-list{
+    .x-list-item{
+        overflow:auto;
+        img{
+            float:left;
+            width:65px
+            margin-right:10px;
+        }
+        small{
+            color:###666;
         }
     }
-    </code>
+}
+~~~
 
 
 
@@ -601,50 +589,51 @@ Here’s the capturepicture.scss code.
 
 
 
-    
-    <code>.picture-capture{
-        @include background-image(linear-gradient(###1676b9,###10598d));
+~~~ sass
+.picture-capture{
+    @include background-image(linear-gradient(###1676b9,###10598d));
+    @include border-radius(3px);
+    @include box-shadow(inset 0px 1px 1px ###1a86d2);
+    border:1px solid ###000000;
+    border-width:1px;
+    overflow: hidden;
+    margin:20px auto;
+
+    input{
+        border: 0;
+        position: absolute;
+        cursor: pointer;
+        top: -2px;
+        right: -2px;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        font-size: 1000px;
+    }
+
+    img{
+        position: absolute;
         @include border-radius(3px);
-        @include box-shadow(inset 0px 1px 1px ###1a86d2);
-        border:1px solid ###000000;
-        border-width:1px;
-        overflow: hidden;
-        margin:20px auto;
-    
-        input{
-            border: 0;
-            position: absolute;
-            cursor: pointer;
-            top: -2px;
-            right: -2px;
-            filter: alpha(opacity=0);
-            opacity: 0;
-            font-size: 1000px;
-        }
-    
-        img{
-            position: absolute;
-            @include border-radius(3px);
-            width: 100%;
-            height: 100%;
-            display:none;
-        }
-    
-        .icon{
-            position: absolute;
-            width: 100%;
-            height: 100%;
+        width: 100%;
+        height: 100%;
+        display:none;
+    }
+
+    .icon{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color:###fff;
+        text-align: center;
+        font-size: 0.8em;
+        i{
+            display:block;
+            font-size: 3.5em;;
             color:###fff;
-            text-align: center;
-            font-size: 0.8em;
-            i{
-                display:block;
-                font-size: 3.5em;;
-                color:###fff;
-            }
         }
     }
-    </code>
+}
+~~~
+    
 
 
 
@@ -655,32 +644,32 @@ And here’s the icons.scss code.
 
 
 
-    
-    <code>@mixin custom-icon($name, $font-family: false) {
-        .icon-###{$name}{
-            $character: icon-character-for-name($name);
-    
-            &:before {
-                font-style: normal;
-                text-align: center;
-    
-                @if $font-family {
-                    font-family: $font-family;
-                } @else{
-                    font-family: 'Pictos';
-                }
-    
-                @if $character {
-                    content: "###{$character}";
-                } @else {
-                    content: "###{$name}";
-                }
+~~~ sass    
+@mixin custom-icon($name, $font-family: false) {
+    .icon-###{$name}{
+        $character: icon-character-for-name($name);
+
+        &:before {
+            font-style: normal;
+            text-align: center;
+
+            @if $font-family {
+                font-family: $font-family;
+            } @else{
+                font-family: 'Pictos';
+            }
+
+            @if $character {
+                content: "###{$character}";
+            } @else {
+                content: "###{$name}";
             }
         }
     }
-    
-    @include custom-icon('camera');
-    </code>
+}
+
+@include custom-icon('camera');
+~~~
 
 
 
@@ -704,7 +693,7 @@ If you open the app in your iPhone or iPad, you will be able to take a picture a
 
 
 
-######### Sending the image to the server
+### Sending the image to the server
 
 
 
@@ -722,7 +711,7 @@ In the main controller, we will add the new listener as follows:
 
 
     
-    <code>Ext.define('Users.controller.Main', {
+    Ext.define('Users.controller.Main', {
         extend: 'Ext.app.Controller',
     
         config: {
@@ -770,7 +759,7 @@ In the main controller, we will add the new listener as follows:
         ...
     
     });
-    </code>
+    
 
 
 
@@ -806,9 +795,9 @@ Make sure you are in the root folder of the rails application and run the follow
 
 
     
-    <code>$ rails g model User name:string email:string image:text 
+    $ rails g model User name:string email:string image:text 
     $ rake db:migrate
-    </code>
+    
 
 
 
@@ -820,10 +809,10 @@ Now let’s create our routes, open the `config/routes.rb` file and add the foll
 
 
     
-    <code>namespace :api do
+    namespace :api do
         resources :users, :only=>[:index,:create]
     end
-    </code>
+    
 
 
 
@@ -835,7 +824,7 @@ Now we need to create the controller inside of the `app/controllers/api` folder 
 
 
     
-    <code>class Api::UsersController < ActionController::Base
+    class Api::UsersController < ActionController::Base
     protect_from_forgery
     
     def index
@@ -854,7 +843,7 @@ Now we need to create the controller inside of the `app/controllers/api` folder 
         end
     end
     end
-    </code>
+    
 
 
 
@@ -866,14 +855,14 @@ This controller is very simple, there are many things to improve but it’s enou
 
 
     
-    <code>$ rails s
-    </code>
+    $ rails s
+    
 
 
 
 
 
-######### Deploying the Sencha Touch to Production
+### Deploying the Sencha Touch to Production
 
 
 
@@ -891,7 +880,7 @@ In order to do that we need to edit the `build-impl.xml` under `mobile/.sencha/a
 
 
     
-    <code><target name="-to-public" description="Copy the build to the public folder">
+    <target name="-to-public" description="Copy the build to the public folder">
             <echo>Copying files to ${app.dir}/../public</echo>
             <copy todir="${app.dir}/../public">
                 <fileset dir="${app.build.dir}/production">
@@ -901,7 +890,7 @@ In order to do that we need to edit the `build-impl.xml` under `mobile/.sencha/a
                 </fileset>
             </copy>
     </target>
-    </code>
+    
 
 
 
@@ -919,8 +908,8 @@ Save the file, and run the following command to build our production version.
 
 
     
-    <code>$ sencha app build production
-    </code>
+    $ sencha app build production
+    
 
 
 
@@ -950,7 +939,7 @@ Here’s a demo of our [final application](http://fierce-mountain-8070.herokuapp
 
 
 
-######### Browser support
+### Browser support
 
 
 
@@ -968,7 +957,7 @@ You can get the completed [code from GitHub](https://github.com/crysfel/accessin
 
 
 
-######### Your turn
+### Your turn
 
 
 
